@@ -1,0 +1,422 @@
+Altium Designer Pick and Place Locations
+C:\Git\Fairwaves\xtrx-hardware\XTRX\rev5\Altium_Proj\Project Outputs\Pick Place\Pick Place for XTRXr5(Var 3_3V_I).txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       29.04.19
+Time:       21:30
+Revision:   1fa29ee30f46513f9401cd992d1cc54bd914b894
+Variant:    Var 3_3V_I
+Units used: mm
+
+Designator Description                   Comment                              Layer       Footprint                  Center-X(mm) Center-Y(mm) Rotation Height(mm) 
+U30        "IC dual SPDT bi-dir switch"  FSA2257L10X                          BottomLayer MICROPAK-10(2.1X1.6P0.5)   5.3750       12.9500      180      0.5500     
+L74        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-Phillips          9.1250       16.7250      270      0.5000     
+C220       Capacitor                     0.1uF                                BottomLayer C0402-cirq                 5.3750       10.8750      90       0.5000     
+C219       Capacitor                     1uF                                  BottomLayer C0402-cirq                 22.9000      27.6500      90       0.5000     
+C9         Capacitor                     0.1uF                                BottomLayer C0402-cirq                 21.3344      25.8214      360      0.5000     
+X13        "Connector FFC/FPC"           502598-1593                          BottomLayer Molex_502598-1593          48.3805      20.3753      270      1.1500     
+L73        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-Phillips          30.6000      24.1000      360      0.5000     
+U29        "IC ideal diode switch"       MAX40200ANS+                         BottomLayer BGA_WLP4_(0.7x0.7/0.35)    11.3169      18.6250      90       0.6600     
+U28        "IC ideal diode switch"       MAX40200ANS+                         BottomLayer BGA_WLP4_(0.7x0.7/0.35)    10.9750      21.7000      270      0.6600     
+R85        Resistor                      4k7                                  BottomLayer R0402-Phillips             22.4750      19.5500      270      0.5000     
+R84        Resistor                      100                                  BottomLayer R0402-Phillips             45.1750      12.2750      180      0.5000     
+R82        Resistor                      100                                  BottomLayer R0402-Phillips             45.1750      14.4500      180      0.5000     
+R81        Resistor                      100                                  BottomLayer R0402-Phillips             45.1750      15.8500      360      0.5000     
+X8         "Connector FFC/FPC"           502598-1593                          BottomLayer Molex_502598-1593          48.3925      13.5500      270      1.1500     
+U4'        "IC NOR FLASH"                MT25QL256ABA8E14                     BottomLayer BGA_T-BGA24_(6X8/1.0)      33.2250      3.6500       90       1.0000     
+R60        Resistor                      100k                                 BottomLayer R0402-Phillips             9.9750       20.0000      270      0.5000     
+U4         "IC NOR FLASH"                MT25QL256ABA8E12                     BottomLayer BGA_T-BGA25_(6X8/1.0)      33.2250      3.6500       90       1.4000     
+U20        "IC 4xDC/DC"                  LP8758A1E0YFFR                       BottomLayer BGA_WLCSP35                23.1750      4.2000       90       0.6200     
+R74        Resistor                      1k2                                  BottomLayer R0402-Phillips             39.8500      0.8000       360      0.5000     
+R73        Resistor                      680                                  BottomLayer R0402-Phillips             38.4000      1.3000       90       0.5000     
+R72        Resistor                      1k6                                  BottomLayer R0402-Phillips             40.1250      6.8250       360      0.5000     
+R71        Resistor                      1k2                                  BottomLayer R0402-Phillips             38.3000      6.3500       180      0.5000     
+C71        Capacitor                     47uF                                 BottomLayer C0603_TALL                 27.5380      3.5500       360      1.0000     
+C70        Capacitor                     47uF                                 BottomLayer C0603_TALL                 27.5380      4.8500       360      1.0000     
+C53        Capacitor                     10uF                                 BottomLayer C0603-Phillips             20.9250      2.9000       270      0.8000     
+C52        Capacitor                     10uF                                 BottomLayer C0603-Phillips             20.9250      5.5500       90       0.8000     
+C61        Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 41.6500      0.8000       360      0.5000     
+C45        Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 42.2000      6.8250       180      0.5000     
+C59        Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 23.0000      2.6500       180      0.5000     
+C58        Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 12.5250      2.0500       180      0.5000     
+C65        Capacitor                     4.7uF                                BottomLayer C0402-CIRQ                 37.9500      3.1000       270      0.5000     
+C64        Capacitor                     4.7uF                                BottomLayer C0402-CIRQ                 37.9500      4.9250       90       0.5000     
+U19        "IC 4xDC/DC"                  LP8758A1E0YFFR                       BottomLayer BGA_WLCSP35                12.6250      3.7250       90       0.6200     
+U22        "IC dual LDO extra low noise" TPS7A8801RTJT                        BottomLayer QFN-20(4X4/0.5)TI          41.0000      3.8000       180      0.8000     
+R50        Resistor                      4k7                                  BottomLayer R0402-Phillips             44.1500      27.0500      270      0.5000     
+R47        Resistor                      1k                                   BottomLayer R0402-Phillips             27.5500      25.7000      360      0.5000     
+U5         "IC serial DAC"               PDAC80501MDQFT                       BottomLayer PWSON8_no_PAD              21.3750      27.6000      90       0.8000     
+U3         "IC USB 2.0 FHY"              USB3333E-GL                          BottomLayer BGA_WLCSP25                9.3000       10.3000      360      0.6200     
+R16        Resistor                      15                                   BottomLayer R0402-Phillips             11.3750      9.4500       360      0.5000     
+R9         Resistor                      8k06                                 BottomLayer R0402-Phillips             7.6000       9.1000       270      0.5000     
+U24        "IC RF Switch"                SKY13330-397LF                       BottomLayer QFN12(2X2/0.5)             29.2250      27.5500      180      0.5500     
+U23        "IC RF Switch"                SKY13330-397LF                       BottomLayer QFN12(2X2/0.5)             42.3750      26.0500      360      0.5500     
+L55        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          42.3750      24.0750      180      0.5000     
+C170       Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 27.4250      27.9250      90       0.5000     
+C169       Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 44.1500      25.0500      270      0.5000     
+U11        "IC SIM Card buffer"          NCN4555MNR2G                         BottomLayer QFN16(3x3/0/5mm)-Case485AE 7.4000       22.7750      180      1.0000     
+C29        Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 6.8250       20.2750      180      0.5000     
+C27        Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 8.6750       20.2750      180      0.5000     
+C21        Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 9.9250       21.8000      90       0.5000     
+U2         "FPRF MIMO Transceiver IC"    LMS7002M                             BottomLayer AQFN260(11.5X11.5MM)       31.9250      14.8000      180      1.0000     
+C176       Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 41.6500      19.9250      180      0.5000     
+C210       Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 40.7542      10.0292      360      0.5000     
+C209       Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 40.7502      10.8252      360      0.5000     
+C204       Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 41.4228      7.9603       360      0.5000     
+C203       Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 41.4228      8.7603       360      0.5000     
+R14        Resistor                      4k7                                  BottomLayer R0402-Phillips             23.0500      7.7250       180      0.5000     
+L28        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          28.6000      22.9000      270      0.5000     
+C90        Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 29.4000      21.9000      270      0.5000     
+C66        Capacitor                     47uF                                 BottomLayer C0603_TALL                 17.0130      4.4250       180      1.0000     
+C68        Capacitor                     47uF                                 BottomLayer C0603_TALL                 8.2370       4.4250       360      1.0000     
+L54        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          9.8750       18.1500      360      0.5000     
+R15        Resistor                      47                                   BottomLayer R0402-Phillips             28.8000      24.6000      180      0.5000     
+L1         "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          19.4750      23.3250      180      0.5000     
+R34        Resistor                      3k3                                  BottomLayer R0402-Phillips             19.0750      24.9250      180      0.5000     
+U1         "Artix-7 FPGA"                XC7A35T-2CPG236I                     BottomLayer CPG236                     16.3640      14.8000      315      1.3800     
+C150       Capacitor                     0.47uF                               BottomLayer C0402-CIRQ                 14.3036      21.7965      135      0.5000     
+C155       Capacitor                     0.47uF                               BottomLayer C0402-CIRQ                 12.4750      20.0750      90       0.5000     
+C158       Capacitor                     0.47uF                               BottomLayer C0402-CIRQ                 11.6750      20.0750      90       0.5000     
+C148       Capacitor                     4.7uF                                BottomLayer C0402-CIRQ                 13.7465      21.2286      135      0.5000     
+C154       Capacitor                     4.7uF                                BottomLayer C0402-CIRQ                 10.8000      20.3000      270      0.5000     
+R22        Resistor                      15                                   BottomLayer R0402-Phillips             12.8500      23.4000      270      0.5000     
+R20        Resistor                      15                                   BottomLayer R0402-Phillips             14.5000      25.7250      270      0.5000     
+R23        Resistor                      15                                   BottomLayer R0402-Phillips             10.3250      25.2000      180      0.5000     
+R21        Resistor                      15                                   BottomLayer R0402-Phillips             14.5000      28.1000      270      0.5000     
+R24        Resistor                      10k                                  BottomLayer R0402-Phillips             12.1000      21.8500      90       0.5000     
+R27        Resistor                      10k                                  BottomLayer R0402-Phillips             10.3250      24.4000      360      0.5000     
+R33        Resistor                      10k                                  BottomLayer R0402-Phillips             11.5500      23.6000      180      0.5000     
+R25        Resistor                      4k7                                  BottomLayer R0402-Phillips             21.3344      24.9714      180      0.5000     
+C171       Capacitor                     2pF                                  BottomLayer C0402-CIRQ                 38.6500      26.0250      180      0.5000     
+C69        Capacitor                     47uF                                 BottomLayer C0603_TALL                 8.2370       3.0250       180      1.0000     
+L12        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          44.1000      1.4000       90       0.5000     
+R8         Resistor                      10k                                  BottomLayer R0402-Phillips             7.8250       11.8750      360      0.5000     
+R59        Resistor                      47k                                  BottomLayer R0402-Phillips             8.6750       19.3500      360      0.5000     
+C23        Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 18.9750      27.7250      180      0.5000     
+ESD1       "ESD diod unidirectional"     SESD0402S-005-054                    BottomLayer SESD0402-Phillips          26.1000      26.6000      360      4.0000     
+C18        Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 23.9500      23.0000      90       0.5000     
+C11        Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 19.9750      22.5000      180      0.5000     
+C26        Capacitor                     1000pF                               BottomLayer C0402-CIRQ                 23.9500      25.0750      90       0.5000     
+C49        Capacitor                     10uF                                 BottomLayer C0603-Phillips             10.3500      2.4000       270      0.8000     
+C50        Capacitor                     10uF                                 BottomLayer C0603-Phillips             25.4250      5.5000       90       0.8000     
+C51        Capacitor                     10uF                                 BottomLayer C0603-Phillips             25.4250      2.9000       270      0.8000     
+C46        Capacitor                     10uF                                 BottomLayer C0603-Phillips             14.9000      5.0500       90       0.8000     
+C48        Capacitor                     10uF                                 BottomLayer C0603-Phillips             10.3500      5.0750       90       0.8000     
+C47        Capacitor                     10uF                                 BottomLayer C0603-Phillips             14.9000      2.4000       270      0.8000     
+R10        Resistor                      15                                   BottomLayer R0402-Phillips             18.3750      7.8500       180      0.5000     
+R17        Resistor                      15                                   BottomLayer R0402-Phillips             25.1750      8.1750       360      0.5000     
+R18        Resistor                      15                                   BottomLayer R0402-Phillips             23.0750      6.9250       360      0.5000     
+R12        Resistor                      4k7                                  BottomLayer R0402-Phillips             21.2000      8.2500       360      0.5000     
+C74        Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 41.2250      14.2750      180      0.5000     
+C76        Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 39.2000      17.3500      180      0.5000     
+C84        Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 39.2000      16.5250      180      0.5000     
+C99        Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 32.1000      21.9250      90       0.5000     
+C100       Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 31.3000      21.9250      90       0.5000     
+C105       Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 29.6000      7.7000       270      0.5000     
+C107       Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 30.5000      7.7000       270      0.5000     
+C108       Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 32.2000      7.7000       270      0.5000     
+C110       Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 28.2250      8.2000       180      0.5000     
+C115       Capacitor                     1uF                                  BottomLayer C0402-CIRQ                 39.1000      12.0500      360      0.5000     
+L35        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          39.3750      15.5500      180      0.5000     
+L36        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          41.2250      16.0500      180      0.5000     
+L43        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          31.9000      24.5750      90       0.5000     
+L45        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          30.5000      21.9250      90       0.5000     
+R75        Resistor                      10                                   BottomLayer R0402-Phillips             41.2250      15.1000      180      0.5000     
+C10        Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 26.8500      23.5000      360      0.5000     
+C178       Capacitor                     470pF                                BottomLayer C0402-CIRQ                 39.0500      24.6750      90       0.5000     
+C179       Capacitor                     470pF                                BottomLayer C0402-CIRQ                 38.2500      24.6750      90       0.5000     
+C189       Capacitor                     100pF                                BottomLayer C0402-CIRQ                 40.9500      22.5250      360      0.5000     
+C190       Capacitor                     100pF                                BottomLayer C0402-CIRQ                 33.5500      23.6000      180      0.5000     
+C183       Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 40.1500      24.6750      90       0.5000     
+C184       Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 34.3750      25.9750      180      0.5000     
+L59        "Coil wire wound"             100nH                                BottomLayer COIL0402-Phillips          39.1500      22.5250      180      0.5000     
+L60        "Coil wire wound"             100nH                                BottomLayer COIL0402-Phillips          33.4250      22.0000      180      0.5000     
+L61        "Coil wire wound"             100nH                                BottomLayer COIL0402-Phillips          39.6500      23.3250      180      0.5000     
+L62        "Coil wire wound"             100nH                                BottomLayer COIL0402-Phillips          33.4250      22.8000      180      0.5000     
+R2         Resistor                      15                                   BottomLayer R0402-Phillips             19.8000      9.4500       360      0.5000     
+R3         Resistor                      15                                   BottomLayer R0402-Phillips             20.0250      20.2500      180      0.5000     
+R4         Resistor                      100                                  BottomLayer R0402-Phillips             17.7750      22.2000      270      0.5000     
+R5         Resistor                      100                                  BottomLayer R0402-Phillips             21.3960      21.9960      90       0.5000     
+R61        Resistor                      3k3                                  BottomLayer R0402-Phillips             16.3500      23.4750      180      0.5000     
+R65        Resistor                      3k3                                  BottomLayer R0402-Phillips             16.3500      22.6750      180      0.5000     
+L63        "Coil wire wound"             10nH                                 BottomLayer COIL0402-PHILLIPS          40.3000      19.9250      270      0.5000     
+L64        "Coil wire wound"             10nH                                 BottomLayer COIL0402-PHILLIPS          35.9000      24.3000      360      0.5000     
+C177       Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 41.6500      19.1250      180      0.5000     
+C191       Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 41.3500      21.6750      360      0.5000     
+C193       Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 41.6000      20.8750      180      0.5000     
+C192       Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 34.1000      24.4250      180      0.5000     
+C194       Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 34.3830      25.1750      360      0.5000     
+C180       Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 35.7500      25.6000      270      0.5000     
+C181       Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 36.5500      25.6000      270      0.5000     
+L65        "Coil wire wound"             10nH                                 BottomLayer COIL0402-PHILLIPS          39.5000      20.4250      270      0.5000     
+L66        "Coil wire wound"             10nH                                 BottomLayer COIL0402-PHILLIPS          35.3500      23.4500      360      0.5000     
+T1         "Balun bal-unbal"             3600BL14M050                         BottomLayer Balun_1.6x0.8x0.6mm        43.5750      21.6500      90       0.6000     
+T3         "Balun bal-unbal"             3600BL14M050                         BottomLayer Balun_1.6x0.8x0.6mm        34.8500      28.3750      180      0.6000     
+T6         "Balun bal-unbal"             3600BL14M050                         BottomLayer Balun_1.6x0.8x0.6mm        44.2728      8.3603       360      0.6000     
+T9         "Balun bal-unbal"             3600BL14M050                         BottomLayer Balun_1.6x0.8x0.6mm        43.6002      10.4126      360      0.6000     
+C25        Capacitor                     10pF                                 BottomLayer C0402-CIRQ                 19.0750      25.7250      180      0.5000     
+L72        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          49.0000      9.2250       270      0.5000     
+U6         "IC Thermosensor"             TMP108AIYFF                          BottomLayer BGA_WCSP6                  26.1750      22.3000      180      0.6250     
+L46        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          31.6000      23.2250      360      0.5000     
+L49        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          31.4000      7.7000       270      0.5000     
+L53        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          39.1000      12.9000      360      0.5000     
+C56        Capacitor                     4.7uF                                BottomLayer C0402-CIRQ                 44.1000      5.1000       270      0.5000     
+C57        Capacitor                     4.7uF                                BottomLayer C0402-CIRQ                 44.1000      3.2000       270      0.5000     
+L33        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          38.9250      14.7250      360      0.5000     
+L3         "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          19.0750      24.1250      360      0.5000     
+L34        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          39.2000      18.2000      180      0.5000     
+L42        "Ferrite bead EMIFIL"         220                                  BottomLayer BEAD0402-PHILLIPS          32.7500      24.9000      90       0.5000     
+C36        Capacitor                     0.1uF                                BottomLayer C0402-CIRQ                 6.1250       18.2750      270      0.5000     
+L13        Coil                          0.47uH                               BottomLayer L-VLS201610HBX             16.6250      6.0500       360      1.0000     
+L14        Coil                          0.47uH                               BottomLayer L-VLS201610HBX             16.6250      2.4000       360      1.0000     
+L15        Coil                          0.47uH                               BottomLayer L-VLS201610HBX             8.6250       6.0500       180      1.0000     
+L16        Coil                          0.47uH                               BottomLayer L-VLS201610HBX             8.6250       1.4000       180      1.0000     
+L17        Coil                          0.47uH                               BottomLayer L-VLS201610HBX             27.2000      6.4750       360      1.0000     
+L18        Coil                          0.47uH                               BottomLayer L-VLS201610HBX             27.1750      1.9750       360      1.0000     
+L19        Coil                          0.47uH                               BottomLayer L-VLS201610HBX             19.4750      6.0250       90       1.0000     
+L20        Coil                          0.47uH                               BottomLayer L-VLS201610HBX             19.4250      3.0250       90       1.0000     
+R63        Resistor                      47k                                  BottomLayer R0402-Phillips             13.4500      5.8000       180      0.5000     
+U16        "IC ideal diode switch"       MAX40200ANS+                         BottomLayer BGA_WLP4_(0.7x0.7/0.35)    6.3000       16.8750      270      0.6600     
+U17        "IC ideal diode switch"       MAX40200ANS+                         BottomLayer BGA_WLP4_(0.7x0.7/0.35)    7.4000       16.8750      270      0.6600     
+C218       Capacitor                     100pF                                BottomLayer C0402-CIRQ                 49.0000      7.4250       270      0.5000     
+X12        "Connector FFC/FPC"           503480-0800                          BottomLayer MOLEX_503480-0800          8.3800       27.4750      360      1.0000     
+R32        Resistor                      4k7                                  BottomLayer R0402-Phillips             22.7000      22.8250      270      0.5000     
+U27        "IC ideal diode switch"       MAX40200ANS+                         TopLayer    BGA_WLP4_(0.7x0.7/0.35)    19.4500      21.1000      360      0.6600     
+R83        Resistor                      100                                  TopLayer    R0402-Phillips             47.1000      12.0000      0        0.5000     
+U15        "IC ideal diode switch"       MAX40200ANS+                         TopLayer    BGA_WLP4_(0.7x0.7/0.35)    6.3500       6.3500       180      0.6600     
+R80        Resistor                      47                                   TopLayer    R0402-Phillips             4.5250       25.5750      90       0.5000     
+L50        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          27.8000      10.6250      180      0.5000     
+R66        Resistor                      3k3                                  TopLayer    R0402-Phillips             23.2500      6.5250       270      0.5000     
+R62        Resistor                      3k3                                  TopLayer    R0402-Phillips             22.4500      6.5250       270      0.5000     
+R64        Resistor                      3k3                                  TopLayer    R0402-Phillips             24.0500      6.5250       270      0.5000     
+R70        Resistor                      1k2                                  TopLayer    R0402-Phillips             30.5500      1.1500       180      0.5000     
+R69        Resistor                      3k3                                  TopLayer    R0402-Phillips             32.3500      1.1500       360      0.5000     
+R68        Resistor                      1k2                                  TopLayer    R0402-Phillips             30.1000      7.2500       180      0.5000     
+L9         "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          26.0000      6.5250       180      0.5000     
+L11        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          38.7750      5.5000       360      0.5000     
+L10        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          26.5250      1.6000       180      0.5000     
+C73        Capacitor                     47uF                                 TopLayer    C0603_TALL                 19.9620      3.4750       180      1.0000     
+C72        Capacitor                     47uF                                 TopLayer    C0603_TALL                 20.8750      5.7880       90       1.0000     
+C60        Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 28.7500      1.1500       180      0.5000     
+C44        Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 28.3000      7.2500       180      0.5000     
+C63        Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 32.1250      3.3000       270      0.5000     
+C62        Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 32.1250      5.1000       90       0.5000     
+U26        "IC RF SP4T Switch"           SKY13414-485LF                       TopLayer    QFN14(2x2/0.4-0.45)        46.2750      9.6000       180      0.5500     
+U25        "IC RF SP4T Switch"           SKY13414-485LF                       TopLayer    QFN14(2x2/0.4-0.45)        43.1000      13.5500      180      0.5500     
+R49        Resistor                      4k7                                  TopLayer    R0402-Phillips             43.6000      20.9000      360      0.5000     
+R48        Resistor                      4k7                                  TopLayer    R0402-Phillips             43.1000      19.6000      270      0.5000     
+R46        Resistor                      1k                                   TopLayer    R0402-Phillips             43.0500      21.7000      360      0.5000     
+R45        Resistor                      1k                                   TopLayer    R0402-Phillips             43.9000      19.6000      270      0.5000     
+R42        Resistor                      100k                                 TopLayer    R0402-Phillips             21.6500      22.7500      180      0.5000     
+C28        Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 25.6500      24.8000      360      0.5000     
+C17        Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 20.3500      21.3500      270      0.5000     
+C12        Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 14.2250      10.1000      90       0.5000     
+C5         Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 8.3250       8.7500       180      0.5000     
+C4         Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 8.3250       9.5500       360      0.5000     
+C3         Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 8.9000       12.4750      270      0.5000     
+C2         Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 8.7750       10.3750      180      0.5000     
+U10        "IC Triple Buffer"            NC7NP34L8X                           TopLayer    Micro_pak_8_(1.6x1.6/0.5)  23.9500      23.0750      180      0.5500     
+R41        Resistor                      100k                                 TopLayer    R0402-Phillips             21.6500      21.8500      360      0.5000     
+L23        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          18.6750      7.2500       90       0.5000     
+R31        Resistor                      4k7                                  TopLayer    R0402-Phillips             21.2750      17.6000      90       0.5000     
+L56        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          27.4250      24.3250      270      0.5000     
+T8         "Balun bal-unbal"             ATB2012E-50011M-T01                  TopLayer    Balun_1.2x2x1mm            43.0750      10.9250      180      1.0000     
+C208       Capacitor                     470pF                                TopLayer    C0402-CIRQ                 39.7250      11.3000      180      0.5000     
+C207       Capacitor                     470pF                                TopLayer    C0402-CIRQ                 39.7250      10.5000      180      0.5000     
+T5         "Balun bal-unbal"             ATB2012E-50011M-T01                  TopLayer    BALUN_1.2X2X1MM            39.5250      8.3000       180      1.0000     
+C202       Capacitor                     470pF                                TopLayer    C0402-CIRQ                 36.1250      7.9000       180      0.5000     
+C201       Capacitor                     470pF                                TopLayer    C0402-CIRQ                 36.1250      8.7000       180      0.5000     
+R13        Resistor                      4k7                                  TopLayer    R0402-Phillips             33.7250      5.5500       180      0.5000     
+R77        Resistor                      0                                    TopLayer    R0402-Phillips             27.6750      20.3750      270      0.5000     
+R76        Resistor                      0                                    TopLayer    R0402-Phillips             26.1250      12.4750      360      0.5000     
+C81        Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 29.2000      12.4000      180      0.5000     
+C80        Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 29.2000      13.6000      180      0.5000     
+C79        Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 29.2000      16.0000      180      0.5000     
+C78        Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 28.8000      16.8000      180      0.5000     
+C89        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 29.4000      20.0000      270      0.5000     
+L24        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          10.5250      7.4750       90       0.5000     
+L8         Coil                          0.47uH                               TopLayer    L-VLS201610HBX             6.8500       17.1750      90       1.0000     
+L21        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          12.8250      10.4250      360      0.5000     
+C159       Capacitor                     47uF                                 TopLayer    C0603_TALL                 12.4870      17.1250      180      1.0000     
+LED2       "LED GREEN"                   LTST-C190KGKT                        TopLayer    LED-0603GR                 5.4250       12.4250      360      0.8000     
+L5         "Coil wire wound"             47nH                                 TopLayer    COIL0402-PHILLIPS          18.3500      26.1500      90       0.5000     
+R39        Resistor                      1k                                   TopLayer    R0402-Phillips             21.7750      24.1500      270      0.5000     
+R40        Resistor                      1k                                   TopLayer    R0402-Phillips             19.9500      23.4500      90       0.5000     
+C14        Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 25.8500      23.8000      360      0.5000     
+C24        Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 6.9250       23.8750      360      0.5000     
+C19        Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 21.4500      20.5500      90       0.5000     
+C13        Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 24.6250      14.7750      90       0.5000     
+C8         Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 20.8500      24.1500      270      0.5000     
+C15        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 23.0250      14.7750      90       0.5000     
+L26        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          12.6500      7.4750       90       0.5000     
+L4         "Coil wire wound"             47nH                                 TopLayer    COIL0402-PHILLIPS          8.3250       24.3750      90       0.5000     
+L22        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          10.5250      11.3750      90       0.5000     
+C6         Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 33.5250      4.5500       360      0.5000     
+C34        Capacitor                     0.22uF                               TopLayer    C0402-CIRQ                 5.5000       10.6000      360      0.5000     
+C35        Capacitor                     0.22uF                               TopLayer    C0402-CIRQ                 5.5000       11.4000      360      0.5000     
+C32        Capacitor                     0.22uF                               TopLayer    C0402-CIRQ                 5.5000       4.2000       360      0.5000     
+C33        Capacitor                     0.22uF                               TopLayer    C0402-CIRQ                 5.5000       5.0000       360      0.5000     
+C40        Capacitor                     0.22uF                               TopLayer    C0402-CIRQ                 5.5000       13.8000      180      0.5000     
+C41        Capacitor                     0.22uF                               TopLayer    C0402-CIRQ                 5.5000       14.6247      180      0.5000     
+C38        Capacitor                     0.22uF                               TopLayer    C0402-CIRQ                 5.5000       7.4000       180      0.5000     
+C39        Capacitor                     0.22uF                               TopLayer    C0402-CIRQ                 5.5000       8.2000       180      0.5000     
+C166       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 13.4000      14.9000      180      0.5000     
+L25        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          11.6000      7.4750       90       0.5000     
+R26        Resistor                      0                                    TopLayer    R0402-Phillips             20.4750      17.6000      270      0.5000     
+X3         "Connector (UMCC)"            ""                                   TopLayer    U_FL                       35.5000      3.0000       270      0.9000     
+X4         "Connector (UMCC)"            ""                                   TopLayer    U_FL                       42.7000      3.0000       270      0.9000     
+X5         "Connector (UMCC)"            ""                                   TopLayer    U_FL                       6.5000       27.2000      90       0.9000     
+X6         "Connector (UMCC)"            ""                                   TopLayer    U_FL                       21.0000      27.2000      90       0.9000     
+X1         "Connector (UMCC)"            ""                                   TopLayer    U_FL                       42.2000      27.0000      360      0.9000     
+X2         "Connector (UMCC)"            ""                                   TopLayer    U_FL                       33.7000      27.0000      360      0.9000     
+C130       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 9.9750       15.7750      360      0.5000     
+C131       Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 14.8000      13.6000      270      0.5000     
+C132       Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 12.1000      15.1500      270      0.5000     
+C167       Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 10.3000      14.9750      180      0.5000     
+C168       Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 11.3000      13.8500      180      0.5000     
+C125       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 15.8000      13.6000      270      0.5000     
+C126       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 16.6000      14.1000      270      0.5000     
+C127       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 15.3000      14.9000      180      0.5000     
+C128       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 17.9000      16.5000      360      0.5000     
+C129       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 16.1000      15.7000      180      0.5000     
+C165       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 17.9000      14.9000      360      0.5000     
+C149       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 16.6000      17.0000      90       0.5000     
+C163       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 14.1250      11.4250      180      0.5000     
+C162       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 15.0250      10.1000      270      0.5000     
+C151       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 20.0000      14.8000      270      0.5000     
+C161       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 17.9000      13.0250      360      0.5000     
+C152       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 19.9000      19.8750      360      0.5000     
+C134       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 19.9000      19.0750      360      0.5000     
+C135       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 17.9000      13.9000      360      0.5000     
+C156       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 15.0000      17.0000      90       0.5000     
+C140       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 16.7500      9.9000       90       0.5000     
+C157       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 12.4750      18.1750      180      0.5000     
+C141       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 17.0000      8.1000       270      0.5000     
+C147       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 15.8000      17.0000      270      0.5000     
+C136       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 16.0000      12.2250      180      0.5000     
+C137       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 18.2000      11.1750      360      0.5000     
+C153       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 14.2000      15.7000      180      0.5000     
+C138       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 20.3750      12.3750      270      0.5000     
+C139       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 19.5000      12.1000      270      0.5000     
+C142       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 21.4000      14.0000      360      0.5000     
+C143       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 17.8000      8.1000       270      0.5000     
+C144       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 18.2000      12.2000      360      0.5000     
+C145       Capacitor                     0.47uF                               TopLayer    C0402-CIRQ                 16.0000      11.4250      180      0.5000     
+C67        Capacitor                     47uF                                 TopLayer    C0603_TALL                 16.8120      2.1250       360      1.0000     
+C164       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 17.9000      15.7000      360      0.5000     
+C160       Capacitor                     47uF                                 TopLayer    C0603_TALL                 12.9120      12.5750      180      1.0000     
+C43        Capacitor                     47uF                                 TopLayer    C0603_TALL                 9.4620       17.7750      360      1.0000     
+R58        Resistor                      100                                  TopLayer    R0402-Phillips             13.4000      14.1000      360      0.5000     
+R30        Resistor                      4k7                                  TopLayer    R0402-Phillips             23.5250      13.1750      360      0.5000     
+R29        Resistor                      4k7                                  TopLayer    R0402-Phillips             17.9000      17.4000      360      0.5000     
+R28        Resistor                      330                                  TopLayer    R0402-Phillips             19.2000      13.9000      90       0.5000     
+R35        Resistor                      330                                  TopLayer    R0402-Phillips             19.2000      16.2000      90       0.5000     
+C133       Capacitor                     47uF                                 TopLayer    C0603_TALL                 21.7000      11.8000      90       1.0000     
+C146       Capacitor                     47uF                                 TopLayer    C0603_TALL                 18.6500      10.0000      360      1.0000     
+R1         Resistor                      "10k 1%"                             TopLayer    R0402-Phillips             32.0000      17.8250      270      0.5000     
+L27        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          26.8250      20.3750      90       0.5000     
+R78        Resistor                      0                                    TopLayer    R0402-Phillips             23.5250      12.3250      180      0.5000     
+C30        Capacitor                     0.01uF                               TopLayer    C0402-CIRQ                 5.1000       21.1000      270      0.5000     
+C31        Capacitor                     0.01uF                               TopLayer    C0402-CIRQ                 5.9000       21.1000      270      0.5000     
+C7         Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 25.3000      10.3000      180      0.5000     
+C20        Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 14.2250      19.6000      360      0.5000     
+C22        Capacitor                     100pF                                TopLayer    C0402-CIRQ                 12.4250      19.6000      360      0.5000     
+L6         "Coil wire wound"             47nH                                 TopLayer    COIL0402-PHILLIPS          18.3500      28.1000      90       0.5000     
+L70        "Coil wire wound"             10nH                                 TopLayer    COIL0402-PHILLIPS          47.0500      17.2000      180      0.5000     
+R43        Resistor                      330                                  TopLayer    R0402-Phillips             7.0750       10.8500      90       0.5000     
+R54        Resistor                      330                                  TopLayer    R0402-Phillips             4.5250       23.7250      90       0.5000     
+R38        Resistor                      1k                                   TopLayer    R0402-Phillips             8.0500       14.2750      270      0.5000     
+R36        Resistor                      3k                                   TopLayer    R0402-Phillips             8.5000       16.0750      90       0.5000     
+C37        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 5.1000       16.3750      90       0.5000     
+C42        Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 6.5750       19.0250      360      0.5000     
+R44        Resistor                      330                                  TopLayer    R0402-Phillips             18.4250      20.6750      270      0.5000     
+R11        Resistor                      15                                   TopLayer    R0402-Phillips             35.5250      5.5500       360      0.5000     
+X7         "Connector (UMCC)"            ""                                   TopLayer    U_FL                       25.5000      27.2000      90       0.9000     
+C118       Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 28.1250      17.8500      180      0.5000     
+C119       Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 26.5000      14.1000      90       0.5000     
+C120       Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 27.8000      11.4500      180      0.5000     
+C121       Capacitor                     1000pF                               TopLayer    C0402-CIRQ                 27.9000      18.6500      180      0.5000     
+C77        Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 29.2000      14.8000      180      0.5000     
+C117       Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 25.7000      14.5000      270      0.5000     
+C91        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 29.5500      18.1000      90       0.5000     
+C92        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 31.0000      11.2000      270      0.5000     
+C93        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 35.3000      16.4000      360      0.5000     
+C94        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 35.0000      18.1750      360      0.5000     
+C95        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 37.4000      18.2000      180      0.5000     
+C75        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 35.0000      17.3250      360      0.5000     
+C88        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 37.1500      17.4000      180      0.5000     
+C83        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 36.7500      19.5000      270      0.5000     
+C85        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 36.8000      11.3500      90       0.5000     
+C86        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 35.3750      12.8750      360      0.5000     
+C87        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 35.5000      11.2000      360      0.5000     
+C82        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 36.3250      14.2000      90       0.5000     
+C116       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 35.4500      19.0000      180      0.5000     
+C96        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 32.8000      17.8750      270      0.5000     
+C97        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 32.6000      19.9750      90       0.5000     
+C98        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 31.0000      20.6500      90       0.5000     
+C101       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 31.8000      19.9750      90       0.5000     
+C102       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 31.2000      17.9000      270      0.5000     
+C103       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 30.2000      20.5250      90       0.5000     
+C104       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 32.1000      9.6500       360      0.5000     
+C106       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 31.9000      11.2000      90       0.5000     
+C109       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 29.1000      11.1000      90       0.5000     
+C111       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 28.6750      9.8000       180      0.5000     
+C122       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 27.3500      9.3000       90       0.5000     
+C112       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 30.0000      11.1000      90       0.5000     
+C113       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 35.2000      12.0750      180      0.5000     
+C114       Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 37.8000      12.6500      360      0.5000     
+L29        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          28.5000      20.0750      270      0.5000     
+L30        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          30.7595      9.3000       90       0.5000     
+L31        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          37.4500      16.4000      180      0.5000     
+L32        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          37.6000      19.5750      270      0.5000     
+L37        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          32.6000      8.3500       90       0.5000     
+L41        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          35.4500      20.1500      180      0.5000     
+L44        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          37.1000      21.8250      360      0.5000     
+L47        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          31.6000      8.3500       270      0.5000     
+L39        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          28.6500      9.0000       180      0.5000     
+L40        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          29.9739      9.3000       270      0.5000     
+R79        Resistor                      10                                   TopLayer    R0402-Phillips             28.6500      8.1000       360      0.5000     
+C172       Capacitor                     2pF                                  TopLayer    C0402-CIRQ                 30.0500      23.6500      360      0.5000     
+C175       Capacitor                     470pF                                TopLayer    C0402-CIRQ                 31.3000      22.7500      180      0.5000     
+C182       Capacitor                     470pF                                TopLayer    C0402-CIRQ                 31.3000      21.9500      180      0.5000     
+C205       Capacitor                     100pF                                TopLayer    C0402-CIRQ                 39.9750      14.5750      90       0.5000     
+C206       Capacitor                     100pF                                TopLayer    C0402-CIRQ                 40.7750      14.5750      90       0.5000     
+C212       Capacitor                     100pF                                TopLayer    C0402-CIRQ                 46.6000      15.7000      90       0.5000     
+C211       Capacitor                     100pF                                TopLayer    C0402-CIRQ                 47.4750      15.7000      90       0.5000     
+L68        "Coil wire wound"             10nH                                 TopLayer    COIL0402-PHILLIPS          40.4000      15.9250      360      0.5000     
+L57        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          39.3500      21.8250      360      0.5000     
+L58        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          36.6000      24.3000      180      0.5000     
+T10        Balun                         JA4220-AL                            TopLayer    JA4220-AL                  47.0500      19.9000      180      3.0000     
+T7         Balun                         JA4220-AL                            TopLayer    JA4220-AL                  40.3750      18.5750      180      3.0000     
+C215       Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 45.2000      14.9000      180      0.5000     
+C216       Capacitor                     0.1uF                                TopLayer    C0402-CIRQ                 48.4500      9.8750       90       0.5000     
+T4         Balun                         JA4220-AL                            TopLayer    JA4220-AL                  30.0500      26.3750      180      3.0000     
+T2         Balun                         JA4220-AL                            TopLayer    JA4220-AL                  38.6500      27.1500      180      3.0000     
+LED1       "LED GREEN"                   LTST-C190KGKT                        TopLayer    LED-0603GR                 18.7250      22.9250      270      0.8000     
+U13        "Module GPS resceiver"        M10578-A2                            TopLayer    GPS_M10578-Ax              13.3250      24.6000      90       1.8000     
+L71        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          45.0000      16.2750      90       0.5000     
+C124       Capacitor                     47uF                                 TopLayer    C0603_TALL                 15.3750      7.7880       90       1.0000     
+C123       Capacitor                     47uF                                 TopLayer    C0603_TALL                 14.0000      7.8000       90       1.0000     
+R37        Resistor                      47k                                  TopLayer    R0402-Phillips             23.8250      14.7750      270      0.5000     
+U7         TCVCXO                        TCD4029-26.0M                        TopLayer    TCXO5X3.2                  23.9250      18.4750      90       1.5000     
+U12        "IC SPDT switch"              74LVC1G3157FZ4                       TopLayer    X2-DFN1410-6(1.4x1/0.5mm)  23.9000      24.7875      270      0.4000     
+C16        Capacitor                     1uF                                  TopLayer    C0402-CIRQ                 6.1000       22.8500      360      0.5000     
+Shield1    "Screening shield frame"      "Screening shield frame BMI-S-202-F" TopLayer    BMI-S-202-F                41.8500      14.8500      0        3.6000     
+L48        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          26.4500      8.8250       90       0.5000     
+L51        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          38.2750      14.2500      360      0.5000     
+L52        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          38.5000      13.4500      360      0.5000     
+C54        Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 26.0250      5.1000       90       0.5000     
+C55        Capacitor                     4.7uF                                TopLayer    C0402-CIRQ                 26.0250      3.3000       270      0.5000     
+L38        "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          37.6250      15.2250      180      0.5000     
+R67        Resistor                      1k6                                  TopLayer    R0402-Phillips             32.0250      6.4000       360      0.5000     
+U21        "IC dual LDO extra low noise" TPS7A8801RTJT                        TopLayer    QFN-20(4X4/0.5)TI          29.0500      4.2000       360      0.8000     
+L7         "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          8.2000       6.1000       180      0.5000     
+L2         "Ferrite bead EMIFIL"         220                                  TopLayer    BEAD0402-PHILLIPS          7.7250       21.3000      180      0.5000     
+R6         Resistor                      0                                    TopLayer    R0402-Phillips             9.0000       11.1750      180      0.5000     
+R7         Resistor                      20k                                  TopLayer    R0402-Phillips             8.0500       12.4750      270      0.5000     
+X11        "Connector microUSB-B"        USB-microB                           TopLayer    USB-microB                 10.0000      3.2750       360      2.8000     
+C217       Capacitor                     100pF                                TopLayer    C0402-CIRQ                 44.2000      16.2750      270      0.5000     
+C1         Capacitor                     1uF                                  TopLayer    C0402-cirq                 16.7250      18.8750      360      0.5000     
+U9         IC                            LP5900TLX-3.0/NOPB                   TopLayer    BGA_DSBGA-4                7.6500       22.7750      90       0.6000     

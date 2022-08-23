@@ -1,0 +1,17 @@
+Fixed in XTRXr5:
+
++) LMS7 pin VDD_CP_CGEN (F20) connected to supply voltage +1.4_VALMS through choke L73.
++) C15 and C37 changed to 1uF due to MAX40200 min load capacity requirements.
++) VCTCXO supplied through switch MAX40200 (U27) controlled by EN_TCXO signal but LDO of +3VA_CLK now always enabled.
+
+Changed in XTRXrev5:
+
++) Removed both by-pass chips FPF2280BUCX_F130 (U18, U19) as never used.
++) FPGA bank 35 supplyed from +1.8/3.3VCCIO or +3.3V through switches MAX40200 (U28, U29), selecting by VCC_SEL (FPGA pin V19).
++) R48, R49, R50 increased to 4k7 so that RF switch would work at FPGA bank 35 supply voltage down to +1.8V.
++) X8 (RxADC) changed to 15pin (Molex 502598-1593) and added GPIO13 (FPGA pin T17, was EN_BPVIO) for the connected XTRX'es identification.
+
+What's new in XTRXr5:
+
++) Added one more 15pin connector for 4 diff pairs TxDAC outputs from the LMS7 and also GPIO13 for the XTRX'es identification.
++) Added a switch chip FSA2257L10X (U30) controlled by EN_GPIO (FPGA pin D17, was Boot_Safe) for MHz output and GPIO8 to avoid conflicts with mPCIe SMBUS pins.

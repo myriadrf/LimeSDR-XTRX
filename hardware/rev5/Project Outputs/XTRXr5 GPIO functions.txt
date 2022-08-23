@@ -1,0 +1,17 @@
+mPCIe 	NAME			GPIO#	Diff P/N	Predefined 		Type		Note
+Pin#					Pairs		Function		I/O		
+3	1PPSI_GPIO1(1N)		GPIO1	GPIO1N		External 1PPS input	I		CMOS 3.3V
+5	1PPSO_GPIO2(1P)		GPIO2	GPIO1P		GPS 1PPS output		O		CMOS 3.3V
+20	TDD_GPIO3_P		GPIO3	GPIO3P		-			I/O		CMOS 3.3V
+17	TDD_GPIO3_N		GPIO4	GPIO3N	 	TDD TX Enable output	O		CMOS 3.3V
+42	LED_WWAN#_GPIO5		GPIO5	-		Output for LED WWAN# 	O		CMOS 3.3V (Negative) require series resistor for LED
+44	LED_WLAN#_GPIO6		GPIO6	-		Output for LED WLAN# 	O		CMOS 3.3V (Negative) require series resistor for LED
+46	LED_WPAN#_GPIO7		GPIO7	-		Output for LED WPAN#	O		CMOS 3.3V (Negative) require series resistor for LED
+32	GPIO8			GPIO8	-		-			I/O		CMOS 3.3V through jumper connected by default
+
+FPC/FCC	NAME			GPIO#	Diff P/N	Type	Predefined 	Note	
+Pin#					Pairs		I/O	Function	 	
+2	GPIO9_P			GPIO9	GPIO9P		I/O	-		CMOS 3.3V
+2	GPIO9_N			GPIO10	GPIO9N		I/O	-		CMOS 3.3V
+2	GPIO9_P			GPIO11	GPIO10P		I/O	-		CMOS 3.3V
+2	GPIO9_P			GPIO12	GPIO10N		I/O	-		CMOS 3.3V
