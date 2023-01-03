@@ -58,7 +58,7 @@ html_last_updated_fmt = '%b %d, %Y'
 html_context = {
     'display_github': True,
     'github_user': 'myriadrf',
-    'github_repo': 'LimeSDR-PCIe-5G',
+    'github_repo': 'LimeSDR-XTRX',
     'github_version': 'master/' 
 }
 
