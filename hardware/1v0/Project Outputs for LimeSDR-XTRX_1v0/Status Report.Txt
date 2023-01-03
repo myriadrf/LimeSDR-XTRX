@@ -1,0 +1,15 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 14:02:38 On 2022-12-29
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [LimeSDR-XTRX_1v0.PcbDoc]
+   Generated File[Pick Place for LimeSDR-XTRX_1v0.txt]
+   Generated File[Pick Place for LimeSDR-XTRX_1v0.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 14:02:48 On 2022-12-29
