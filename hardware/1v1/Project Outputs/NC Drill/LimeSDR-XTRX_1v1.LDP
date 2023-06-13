@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: E:\Saniok\Lime Micro\Lime PCBs\LimeSDR-XTRX\LimeSDR-XTRX_1v1\Altium Designer design files\PCB\LimeSDR-XTRX_1v1.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=limesdr-xtrx_1v1.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,gbl
+LayersSetName=L5_Bot_Blind_Vias|DrillFile=limesdr-xtrx_1v1.tx1|DrillLayers=g4,g5,g6,gbl
+LayersSetName=L7_Bot_Blind_Vias|DrillFile=limesdr-xtrx_1v1.tx4|DrillLayers=g6,gbl
