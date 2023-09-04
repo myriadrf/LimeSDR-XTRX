@@ -429,40 +429,6 @@ GenerateClassCluster=0
 DocumentUniqueId=COIIMVQC
 
 [Document24]
-DocumentPath=Libraries\LimeMicroAltiumLib_pcbLib_r05.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EFCUBDNR
-
-[Document25]
-DocumentPath=Libraries\LimeMicroAltiumLib_schLib_r05.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XNCKCINT
-
-[Document26]
 DocumentPath=LimeSDR-XTRX_1v1.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -478,138 +444,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\NC Drill\LimeSDR-XTRX_1v1.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.G1
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.G2
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.G3
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.G4
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.G5
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.G6
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GM6
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GM14
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\DRC\LimeSDR-XTRX_1v1.html
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\ERC\LimeSDR-XTRX_1v1.html
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\NC Drill\LimeSDR-XTRX_1v1.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Gerber\LimeSDR-XTRX_1v1.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\NC Drill\LimeSDR-XTRX_1v1.TX1
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\NC Drill\LimeSDR-XTRX_1v1.TX4
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\NC Drill\LimeSDR-XTRX_1v1.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\BOM\LimeSDR-XTRX_1v1_BOMr0.xls
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Pick Place\Pick Place for LimeSDR-XTRX_1v1.csv
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for LimeSDR-XTRX_1v1\Pick Place\Pick Place for LimeSDR-XTRX_1v1.txt
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -663,7 +497,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP Color LaserJet Pro MFP M477 PCL 6
+TargetPrinter=HP LaserJet 1018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -769,7 +603,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP Color LaserJet Pro MFP M477 PCL 6
+TargetPrinter=HP LaserJet 1018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -851,7 +685,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP Color LaserJet Pro MFP M477 PCL 6
+TargetPrinter=HP LaserJet 1018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -873,7 +707,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP Color LaserJet Pro MFP M477 PCL 6
+TargetPrinter=HP LaserJet 1018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -945,7 +779,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP Color LaserJet Pro MFP M477 PCL 6
+TargetPrinter=HP LaserJet 1018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -994,7 +828,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP Color LaserJet Pro MFP M477 PCL 6
+TargetPrinter=HP LaserJet 1018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1174,7 +1008,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP Color LaserJet Pro MFP M477 PCL 6
+TargetPrinter=HP LaserJet 1018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Configuration compliance
 OutputName1=Environment configuration compliance check
@@ -1218,7 +1052,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP Color LaserJet Pro MFP M477 PCL 6
+TargetPrinter=HP LaserJet 1018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1279,7 +1113,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP Color LaserJet Pro MFP M477 PCL 6
+TargetPrinter=HP LaserJet 1018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
