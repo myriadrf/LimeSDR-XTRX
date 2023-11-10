@@ -189,15 +189,15 @@ Configuration11_Name1=OutputConfigurationParameter1
 Configuration11_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 
 [PublishSettings]
-OutputFilePath2=E:\Saniok\Lime Micro\Lime PCBs\LimeSDR-XTRX\LimeSDR-XTRX_1v1\Altium Designer design files\Project Outputs for LimeSDR-XTRX_1v1\LimeSDR-XTRX_1v0_Schematic_r2.PDF
+OutputFilePath2=d:\LimePCBs\LimeSDR-XTRX\GIT\hardware\1v2\Project Outputs for LimeSDR-XTRX_1v2\LimeSDR-XTRX_1v1_Schematic_r0.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for LimeSDR-XTRX_1v1
+OutputBasePath2=Project Outputs for LimeSDR-XTRX_1v2
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=LimeSDR-XTRX_1v1_Schematic_r0.PDF
+OutputFileName2=LimeSDR-XTRX_1v2_Schematic_r0.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
@@ -218,7 +218,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for LimeSDR-XTRX_1v1
+OutputBasePath3=Project Outputs for LimeSDR-XTRX_1v2
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -231,7 +231,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for LimeSDR-XTRX_1v1
+OutputBasePath4=Project Outputs for LimeSDR-XTRX_1v2
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -268,7 +268,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=E:\Saniok\Lime Micro\Lime PCBs\LimeSDR-XTRX\LimeSDR-XTRX_1v1\Altium Designer design files\Project Outputs for LimeSDR-XTRX_1v1\LimeSDR-XTRX_1v0_Schematic_r2.PDF
+RelativeOutputPath2=d:\LimePCBs\LimeSDR-XTRX\GIT\hardware\1v2\Project Outputs for LimeSDR-XTRX_1v2\LimeSDR-XTRX_1v1_Schematic_r0.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
