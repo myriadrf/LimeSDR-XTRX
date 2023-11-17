@@ -49,7 +49,7 @@ Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9
 
 [PublishSettings]
-OutputFilePath2=d:\LimePCBs\LimeSDR-XTRX\GIT\hardware\1v2\Project Outputs for LimeSDR-XTRX_1v2\LimeSDR-XTRX_1v1_PCB3Dr0.PDF
+OutputFilePath2=d:\LimePCBs\LimeSDR-XTRX\GIT\hardware\1v2\Project Outputs for LimeSDR-XTRX_1v2\LimeSDR-XTRX_1v1_PCB3D_r0.PDF
 ReleaseManaged2=1
 OutputBasePath2=Project Outputs for LimeSDR-XTRX_1v2
 OutputPathMedia2=
@@ -57,7 +57,7 @@ OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=LimeSDR-XTRX_1v1_PCB3D_r0.PDF
+OutputFileName2=LimeSDR-XTRX_1v2_PCB3D_r0.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
@@ -128,7 +128,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=d:\LimePCBs\LimeSDR-XTRX\GIT\hardware\1v2\Project Outputs for LimeSDR-XTRX_1v2\LimeSDR-XTRX_1v1_PCB3Dr0.PDF
+RelativeOutputPath2=d:\LimePCBs\LimeSDR-XTRX\GIT\hardware\1v2\Project Outputs for LimeSDR-XTRX_1v2\LimeSDR-XTRX_1v1_PCB3D_r0.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1

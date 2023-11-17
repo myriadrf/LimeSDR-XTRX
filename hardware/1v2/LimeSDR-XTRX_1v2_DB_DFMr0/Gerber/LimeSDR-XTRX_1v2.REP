@@ -1,0 +1,809 @@
+*************************************************************
+FileName = LimeSDR-XTRX_1v2.GBR
+AutoAperture = True
+*************************************************************
+Generating : L6
+      File : LimeSDR-XTRX_1v2.G5
+
+    Adding Layer      : L6
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D11
+    D12
+    D14
+    D15
+    D125
+    D129
+    D130
+    D131
+    D136
+    D140
+    D141
+    D142
+*************************************************************
+
+*************************************************************
+Generating : L3
+      File : LimeSDR-XTRX_1v2.G2
+
+    Adding Layer      : L3
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D11
+    D12
+    D14
+    D15
+    D125
+    D129
+    D130
+    D136
+    D140
+    D141
+    D142
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : LimeSDR-XTRX_1v2.GPB
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D17
+    D18
+    D26
+    D36
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D55
+    D56
+    D57
+    D58
+    D62
+    D63
+    D64
+    D65
+    D67
+    D125
+    D127
+    D128
+    D139
+    D140
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
+    D168
+    D169
+    D170
+    D171
+    D172
+*************************************************************
+
+*************************************************************
+Generating : BottomSolder
+      File : LimeSDR-XTRX_1v2.GBS
+
+    Adding Layer      : BottomSolder
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D68
+    D69
+    D70
+    D78
+    D88
+    D89
+    D90
+    D93
+    D97
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D112
+    D113
+    D114
+    D115
+    D119
+    D120
+    D121
+    D122
+    D124
+    D125
+    D140
+    D173
+    D174
+    D175
+    D176
+    D177
+    D178
+    D179
+    D180
+    D181
+    D182
+    D183
+    D184
+    D185
+    D186
+    D187
+    D188
+    D189
+    D190
+    D191
+    D192
+    D193
+    D194
+    D195
+    D196
+    D197
+    D198
+    D199
+    D200
+    D201
+*************************************************************
+
+*************************************************************
+Generating : TopOverlay
+      File : LimeSDR-XTRX_1v2.GTO
+
+    Adding Layer      : TopOverlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : BottomOverlay
+      File : LimeSDR-XTRX_1v2.GBO
+
+    Adding Layer      : BottomOverlay
+
+
+Used DCodes :
+    D10
+    D12
+    D13
+    D14
+    D15
+    D16
+    D202
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : LimeSDR-XTRX_1v2.GPT
+
+    Adding Layer      : Top
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D125
+    D127
+    D128
+    D139
+*************************************************************
+
+*************************************************************
+Generating : Notes
+      File : LimeSDR-XTRX_1v2.GM6
+
+    Adding Layer      : Notes
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : BottomPaste
+      File : LimeSDR-XTRX_1v2.GBP
+
+    Adding Layer      : BottomPaste
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D17
+    D18
+    D26
+    D36
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D55
+    D56
+    D57
+    D58
+    D62
+    D63
+    D64
+    D65
+    D67
+    D140
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D168
+    D169
+    D170
+    D171
+    D172
+*************************************************************
+
+*************************************************************
+Generating : ASM TOP
+      File : LimeSDR-XTRX_1v2.GM15
+
+    Adding Layer      : ASM TOP
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D36
+    D129
+    D131
+    D142
+    D206
+    D207
+    D208
+*************************************************************
+
+*************************************************************
+Generating : L2
+      File : LimeSDR-XTRX_1v2.G1
+
+    Adding Layer      : L2
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D125
+    D140
+    D141
+    D142
+*************************************************************
+
+*************************************************************
+Generating : TopSolder
+      File : LimeSDR-XTRX_1v2.GTS
+
+    Adding Layer      : TopSolder
+
+    Adding Layer      : Top
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+*************************************************************
+
+*************************************************************
+Generating : ASM BOT
+      File : LimeSDR-XTRX_1v2.GM14
+
+    Adding Layer      : ASM BOT
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D15
+    D36
+    D129
+    D142
+    D206
+    D207
+    D208
+*************************************************************
+
+*************************************************************
+Generating : TopPaste
+      File : LimeSDR-XTRX_1v2.GTP
+
+    Adding Layer      : TopPaste
+
+    Adding Layer      : Top
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+*************************************************************
+
+*************************************************************
+Generating : L7
+      File : LimeSDR-XTRX_1v2.G6
+
+    Adding Layer      : L7
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D12
+    D13
+    D15
+    D90
+    D125
+    D140
+    D141
+    D142
+*************************************************************
+
+*************************************************************
+Generating : L4
+      File : LimeSDR-XTRX_1v2.G3
+
+    Adding Layer      : L4
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D11
+    D12
+    D15
+    D125
+    D129
+    D131
+    D132
+    D135
+    D136
+    D137
+    D140
+    D141
+    D142
+    D143
+*************************************************************
+
+*************************************************************
+Generating : Top
+      File : LimeSDR-XTRX_1v2.GTL
+
+    Adding Layer      : Top
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D125
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
+    D132
+    D133
+    D134
+    D135
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+*************************************************************
+
+*************************************************************
+Generating : Bottom
+      File : LimeSDR-XTRX_1v2.GBL
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D17
+    D18
+    D26
+    D36
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D55
+    D56
+    D57
+    D58
+    D62
+    D63
+    D64
+    D65
+    D67
+    D90
+    D125
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
+    D133
+    D134
+    D135
+    D136
+    D137
+    D139
+    D140
+    D141
+    D142
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
+    D168
+    D169
+    D170
+    D171
+    D172
+    D173
+*************************************************************
+
+*************************************************************
+Generating : Mechanical1
+      File : LimeSDR-XTRX_1v2.GM1
+
+    Adding Layer      : Mechanical1
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D129
+    D130
+    D131
+    D136
+    D138
+    D143
+    D203
+    D204
+    D205
+*************************************************************
+
+*************************************************************
+Generating : L5
+      File : LimeSDR-XTRX_1v2.G4
+
+    Adding Layer      : L5
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D125
+    D140
+    D141
+    D142
+*************************************************************
+

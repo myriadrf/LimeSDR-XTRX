@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for LimeSDR-XTRX_1v2
 LogFolderPath=
 ManagedProjectGUID=17CFFD15-2CD7-499C-B470-3216F8D0D3A4
 IncludeDesignInRelease=0
@@ -462,6 +462,138 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XNCKCINT
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\NC Drill\LimeSDR-XTRX_1v2.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.G1
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.G2
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.G3
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.G4
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.G5
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.G6
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\DRC\LimeSDR-XTRX_1v2.html
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\ERC\LimeSDR-XTRX_1v2.html
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\NC Drill\LimeSDR-XTRX_1v2.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Gerber\LimeSDR-XTRX_1v2.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Generate Files\LimeSDR-XTRX_1v2.step
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\NC Drill\LimeSDR-XTRX_1v2.TX1
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\NC Drill\LimeSDR-XTRX_1v2.TX4
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\NC Drill\LimeSDR-XTRX_1v2.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Pick Place\Pick Place for LimeSDR-XTRX_1v2.csv
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for LimeSDR-XTRX_1v2\Pick Place\Pick Place for LimeSDR-XTRX_1v2.txt
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -509,7 +641,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for LimeSDR-XTRX_1v2
 
 [OutputGroup1]
 Name=Netlist Outputs
