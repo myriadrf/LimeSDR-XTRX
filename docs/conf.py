@@ -18,7 +18,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'LimeSDR XTRX v1.0 Board'
+project = 'LimeSDR XTRX v1.2 Board'
 copyright = '2023, MyriadRF Contributors'
 author = 'Lime Microsystems'
 
