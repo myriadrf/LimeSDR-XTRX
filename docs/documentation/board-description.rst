@@ -114,7 +114,7 @@ RF network control signals
 
 LimeSDR XTRX RF network contains matching networks, RF switches, loopback variable attenuator and U.FL connectors (X1, X3 - TX and X2, X4 - RX) as shown in Figure 1.
 
-.. figure:: images/LimeSDR-XTRX_v1.0_diagrams_r0_RFFE.png
+.. figure:: images/LimeSDR-XTRX_v1.2_diagrams_RFFE.png
   :width: 600
   
   Figure 1. LimeSDR XTRX v1.0 RF diagram
@@ -231,7 +231,8 @@ LMS7002M RF transceiver (IC1)) baseband signals (RX ADC and TX DAC) can be acces
 USB 2.0 controller
 ------------------
 
-LimeSDR XTRX could be powered and programmed via USB 2.0 by connecting it to micro-B port or mini PCIe connector. USB 2.0 is implemented using Microchip USB3333E-GL transceiver [link]. The controller signals description are shown below:
+LimeSDR XTRX could be powered and programmed via USB 2.0 by connecting it to micro-B port or mini PCIe connector. USB 2.0 is implemented using Microchip USB3333E-GL transceiver 
+`[link] <https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/00001880A.pdf>`_. The controller signals description are shown below:
 
 * USB_D[7:0] – 8-bit data interface is connected to FPGA.
 * USB_NRST, USB_NXT, USB_DIR, USB_STP – interface control signals.
@@ -243,7 +244,7 @@ USB 2.0 controller pins, schematic signal names, FPGA interconnections and I/O s
 .. table:: Table 6. USB 2.0 controller interface
 
   +---------------------+---------------------------+---------------------------+--------------+------------------+
-  | **Chip pin (IC18)** | **Chip reference (IC18)** | **Schematic signal name** | **FPGA pin** | **I/O standard** |
+  | **Chip pin (IC19)** | **Chip reference (IC19)** | **Schematic signal name** | **FPGA pin** | **I/O standard** |
   +=====================+===========================+===========================+==============+==================+
   | C2                  | RESETB                    | USB_NRST                  | M18          | 3.3V             |
   +---------------------+---------------------------+---------------------------+--------------+------------------+
