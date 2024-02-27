@@ -14,20 +14,20 @@ LimeSDR XTRX Board Key Features
 
 LimeSDR XTRX is Small form factor mini PCIe expansion card Software Defined Radio (SDR) board. It provides a hardware platform for developing and prototyping high-performance and logic-intensive digital and RF designs based on Xilinx’s XC7A50T-2CPG236I FPGA and Lime Microsystems transceiver chipsets.
 
-LimeSDR XTRX is a building block for any Massive MIMO configuration from 2Tx2R to 32Tx32R for very high data rate applications. Hence, it could be used in conjunction with any digital processors (ASICs, GPPs and GPUs) of varying level of performance in terms of speed, power dissipation and cost to fit any air interface from narrowband to broadband signals. The board is  designed for maximum scalability in terms of the following parameters:
+LimeSDR XTRX is a building block for any Massive MIMO configuration from 2Tx2R to 32Tx32R for very high data rate applications. Hence, it could be used in conjunction with any digital processors (ASICs, GPPs and GPUs) of varying level of performance in terms of speed, power dissipation and cost to fit any air interface from narrowband to broadband signals. The board is designed for maximum scalability in terms of the following parameters:
 
 * Frequency and Bandwidth: The heard of the board is the Lime Transceiver RFIC (LMS7002) providing frequency flexibility up to 3.8GHz and bandwidths of over 100MHz.
 * Baseband Interface: A significant level of digital circuitry resides within the LMS7002 and accompanying Xilinx for the implementation of the key physical layer radio functions including filtering, decimation, interpolation and flexible interface such as PCIe and SerDes to name a few.
 
-.. figure:: documentation/images/LimeSDR-XTRX_v1.0_3D_top.png
+.. figure:: documentation/images/LimeSDR-XTRX_v1.2_3D_top.png
   :width: 600
   
-  Figure 1: LimeSDR XTRX v1.0 board top view
+  Figure 1: LimeSDR XTRX v1.2 board top view
 
-.. figure:: documentation/images/LimeSDR-XTRX_v1.0_3D_bot.png
+.. figure:: documentation/images/LimeSDR-XTRX_v1.2_3D_bot.png
   :width: 600
   
-  Figure 2: LimeSDR XTRX v1.0 board bottom view
+  Figure 2: LimeSDR XTRX v1.2 board bottom view
 
 LimeSDR XTRX board features:
 
@@ -78,9 +78,9 @@ LimeSDR XTRX board features:
 
 * Clock system:
 
-  * 26.00MHz (or 30.72MHz) on board VCTCXO
+  * 26.00MHz on board VCTCXO
   * VCTCXO may be tuned by on board DAC
-  * Reference clock input and output connector (U.FL)
+  * Reference clock input and output connectors (U.FL and mPCIe)
 
 * Board size: 50.8mm x 20.97mm (PCIe Mini card form factor)
 
@@ -97,25 +97,25 @@ Board Overview
 
 One of the key elements of LimeSDR XTRX board is the Xilinx Artix-7 (XC7A50T-2CPG236I) FPGA. It’s main function is to transfer digital data between LMS7002M RF transceiver and PC through a mini PCIe edge connector or Serial connection to another FPGA board. The block diagram for LimeSDR XTRX board is presented in the Figure 3.
 
-.. figure:: documentation/images/LimeSDR-XTRX_v1.0_diagrams_r0_BD.png
+.. figure:: documentation/images/LimeSDR-XTRX_v1.2_diagrams_r0_BD.png
   :width: 600
   
-  Figure 3: LimeSDR XTRX v1.0 board block diagram
+  Figure 3: LimeSDR XTRX v1.2 board block diagram
 
 This section contains component location description on the board. LimeSDR XTRX board picture with highlighted connectors and main components are presented in Figure 4 and Figure 5, respectively. 
 
 
-.. figure:: documentation/images/LimeSDR-XTRX_v1.0_components_top.png
+.. figure:: documentation/images/LimeSDR-XTRX_v1.2_components_top.png
   :width: 600
   
-  Figure 4: LimeSDR XTRX v1.0 board top connectors and main components
+  Figure 4: LimeSDR XTRX v1.2 board top connectors and main components
 
 .. _target1:
 
-.. figure:: documentation/images/LimeSDR-XTRX_v1.0_components_bot.png
+.. figure:: documentation/images/LimeSDR-XTRX_v1.2_components_bot.png
   :width: 600
   
-  Figure 5: LimeSDR XTRX v1.0 board bottom connectors and main components
+  Figure 5: LimeSDR XTRX v1.2 board bottom connectors and main components
 
 Description of board components is given in the Table 1.
 
@@ -130,15 +130,15 @@ Description of board components is given in the Table 1.
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
   | IC7                                          | FPGA                  | Xilinx Artix-7(XC7A50T-2CPG236I)                                               |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC18                                         | USB 3.0               | Microchip USB 2.0 to transceiver chip USB3333E-GL                              |
+  | IC19                                         | USB 3.0               | Microchip USB 2.0 to transceiver chip USB3333E-GL                              |
   |                                              |                       |                                                                                |
   |                                              | microcontroller       |                                                                                |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
   | **Miscellaneous devices**                    |                       |                                                                                |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC8                                          | IC                    | Temperature sensor TMP1075NDRLR                                                |
+  | IC9                                          | IC                    | Temperature sensor TMP1075NDRLR                                                |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC15                                         | IC                    | SIM Card Interface NVT4555UKZ                                                  |
+  | IC16                                         | IC                    | SIM Card Interface NVT4555UKZ                                                  |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
   | **Configuration, Status and Setup Elements** |                       |                                                                                |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
@@ -146,7 +146,7 @@ Description of board components is given in the Table 1.
   |                                              |                       |                                                                                |
   |                                              | connector             | (compatible with Molex 788641001 connector)                                    |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | LED1, LED2                                   | Red-green status LEDs | User defined FPGA indication LED.                                              |
+  | LED1, LED2                                   | Status LEDs           | User defined FPGA indication LEDs                                              |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
   | **General User Input/Output**                |                       |                                                                                |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
@@ -158,7 +158,7 @@ Description of board components is given in the Table 1.
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
   | IC13                                         | IC                    | I²C EEPROM Memory 128Kb (16K x 8), connected to FPGA I2C bus                   |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC17                                         | IC                    | SPI Flash Memory 256 Mb (32M x 8) connected to FPGA SPI                        |
+  | IC18                                         | IC                    | SPI Flash Memory 256 Mb (32M x 8) connected to FPGA SPI                        |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
   | **Communication Ports**                      |                       |                                                                                |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
@@ -170,15 +170,15 @@ Description of board components is given in the Table 1.
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
   | XO1                                          | VCTCXO                | 26.00 MHz Voltage Controlled Temperature Compensated Crystal Oscillator        |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC16                                         | IC                    | 16 bit DAC for VCTCXO (XO1) frequency tuning (default)                         |
+  | IC17                                         | IC                    | 16 bit DAC for VCTCXO (XO1) frequency tuning (default)                         |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC10                                         | IC                    | GNSS Receiver module                                                           |
+  | IC11                                         | IC                    | GNSS Receiver module                                                           |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC9, IC11, IC14                              | IC                    | Buffer                                                                         |
+  | IC8, IC10, IC12, IC14                        | IC                    | Logic level converters                                                         |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC12                                         | IC                    | Analogue switch                                                                |
+  | IC15                                         | IC                    | Analogue switch                                                                |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC19                                         | IC                    | Analogue switch                                                                |
+  | IC20                                         | IC                    | Analogue switch                                                                |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
   | X7                                           | U.FL connector        | Reference clock input/output (CLK)                                             |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
@@ -188,15 +188,15 @@ Description of board components is given in the Table 1.
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
   | **Power Supply**                             |                       |                                                                                |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC21                                         | IC                    | Four-output switching regulator LP8758A1E0YFFR                                 |
+  | IC22                                         | IC                    | Four-output switching regulator LP8758A1E0YFFR                                 |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC30                                         | IC                    | Four-output switching regulator LP8758A1E0YFFR                                 |
+  | IC31                                         | IC                    | Four-output switching regulator LP8758A1E0YFFR                                 |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC20                                         | IC                    | Linear regulator LD39100PUR                                                    |
+  | IC21                                         | IC                    | Linear regulator LD39100PUR                                                    |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC25                                         | IC                    | Linear regulator LD39100PUR                                                    |
+  | IC26                                         | IC                    | Linear regulator LD39100PUR                                                    |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC28                                         | IC                    | Linear regulator LD39100PUR                                                    |
+  | IC29                                         | IC                    | Linear regulator LD39100PUR                                                    |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
-  | IC31                                         | IC                    | Linear regulator LD39100PUR                                                    |
+  | IC32                                         | IC                    | Linear regulator LD39100PUR                                                    |
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
