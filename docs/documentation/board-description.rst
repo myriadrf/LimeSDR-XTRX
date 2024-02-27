@@ -339,7 +339,7 @@ FPGA_CFG_SPI pins, schematic signal names, FPGA interconnections and I/O standar
 
 FPGA_I2C1 (temperature sensor, EEPROM, CLK DAC, switching regulator) and FPGA_I2C2 (switching regulator) interface slave devices and related information are given in Table 10.
 
-.. table:: Table 10. FPGA_I2C1 and FPGA_I2C2 interface pins
+.. table:: Table 10. FPGA_I2C1 and FPGA_I2C2 interfaces pins
 
   +----------------------+---------------------+--------------+------------------+------------------+----------------+
   | **I2C slave device** | **Slave device**    | **Inteface** | **I2C address**  | **I/O standard** | **Comment**    |
@@ -407,14 +407,14 @@ Clock Distribution
 
 LimeSDR XTRX board clock distribution block diagram is as shown in Figure 3.
 
-.. figure:: images/LimeSDR-XTRX_v1.0_diagrams_r0_clock.png
+.. figure:: images/LimeSDR-XTRX_v1.2_diagrams_clock.png
   :width: 600
   
-  Figure 3. LimeSDR XTRX v1.0 board clock distribution block diagram
+  Figure 3. LimeSDR XTRX v1.2 board clock distribution block diagram
 
 LimeSDR XTRX board features an on board 26.00 MHz VCTCXO as the reference clock for LMS7002M RF transceiver and FPGA PLLs. 
 
-Rakon E6982LF 26.00 MHz voltage controlled temperature compensated crystal oscillator (VCTCXO) is the clock source for the board. VCTCXO frequency may be tuned by using 16 bit DAC (IC16). Main VCTCXO parameters are listed in Table 13.
+Rakon E6982LF 26.00 MHz voltage controlled temperature compensated crystal oscillator (VCTCXO) is the clock source for the board. VCTCXO frequency may be tuned by using 16 bit DAC (IC17). Main VCTCXO parameters are listed in Table 13.
 
 .. table:: Table 13. Rakon E6982LF VCTCXO main parameters
 
@@ -434,41 +434,48 @@ Rakon E6982LF 26.00 MHz voltage controlled temperature compensated crystal oscil
   | Slope                                 | +4 ppm/V                         |
   +---------------------------------------+----------------------------------+
 
-VCTCXO clock is connected to buffer IC9. Buffered VCTCXO clock is in turn connected to Analogue switch IC12 and U.FL connector X7 via 0R (unpopulated). Analogue switch gives option to select clock source from buffered VCTCXO clock XO1 (CLK_OUT), external U.FL X7 (CLK) or external mPCIe sources (CLK_IN). Analogue switch output signal is buffered through IC11 (FPGA_CLK) and connected to FPGA PLLs, similarly IC14 (LMS_TX_CLK) is connected to the LMS7002M RF transceiver. The board clock lines and other related signals/information are listed in Table 14.
+Analogue switch gives option to select clock source for RF transceiver and FPGA from buffered VCTCXO onboard clock XO1 (CLK_XO) and external U.FL (X7)/mPCIe (X10) sources (CLK_IN_BUFF). Buffered VCXO clock (CLK_OUT) can also be fed to other board using U.FL (X7)/mPCIe (X10)connectors.
+
+The board clock lines and other related signals/information are listed in Table 14. VCCIO_CLK voltage can be selected between 1.8V and 3.3V (default).
+
 
 .. table:: Table 14. LimeSDR XTRX main clock lines
 
-  +---------------------------+---------------------------+------------------+--------------+-----------------------------------+
-  | **Source**                | **Schematic signal name** | **I/O standard** | **FPGA pin** | **Description**                   |
-  +===========================+===========================+==================+==============+===================================+
-  | External                  | CLK_IN                    | 3.3V             |              | External reference clock input    |
-  +---------------------------+---------------------------+------------------+--------------+-----------------------------------+
-  | Clock buffer (IC9)        | CLK_OUT                   | 3.3V             |              | Reference clock output            |
-  +---------------------------+---------------------------+------------------+--------------+-----------------------------------+
-  | Clock buffer (IC11)       | FPGA_CLK                  | 3.3V             | A9           | Reference clock connected to FPGA |
-  +---------------------------+---------------------------+------------------+--------------+-----------------------------------+
-  | Clock buffer (IC14)       | LMS_TX_CLK                |                  |              | Reference clock connected to LMS  |
-  +---------------------------+---------------------------+------------------+--------------+-----------------------------------+
-  | RF transceiver (IC1)      | LMS_TX_CLK                | 3.3V             |              | Reference clock input             |
-  +                           +---------------------------+------------------+--------------+-----------------------------------+
-  |                           | LMS_TX_CLK                | 3.3V             |              | Reference clock input (0R)        |
-  +                           +---------------------------+------------------+--------------+-----------------------------------+
-  |                           | LMS_MCLK1                 | 3.3V             | L17          |                                   |
-  +                           +---------------------------+------------------+--------------+-----------------------------------+
-  |                           | LMS_FCLK1                 | 3.3V             | G19          |                                   |
-  +                           +---------------------------+------------------+--------------+-----------------------------------+
-  |                           | LMS_MCLK2                 | 3.3V             | W5           |                                   |
-  +                           +---------------------------+------------------+--------------+-----------------------------------+
-  |                           | LMS_FCLK2                 | 3.3V             | W6           |                                   |
-  +---------------------------+---------------------------+------------------+--------------+-----------------------------------+
-  | USB 2.0 controller (IC18) | USB_CLK                   | 3.3V             | C16          | Clock output from USB controller  |
-  +                           +---------------------------+------------------+--------------+-----------------------------------+
-  |                           | USB_26M                   | 3.3V             | E19          | Clock input for USB controller    |
-  +---------------------------+---------------------------+------------------+--------------+-----------------------------------+
-  | GNSS Receiver (IC10)      | GNSS_1PPS                 | 3.3V             | P3           | PPS output from GNSS receiver     |
-  +---------------------------+---------------------------+------------------+--------------+-----------------------------------+
-  | External                  | 1PPS_IN                   | 3.3V             | M3           | PPS input for FPGA                |
-  +---------------------------+---------------------------+------------------+--------------+-----------------------------------+
+  +---------------------------+---------------------------+------------------+--------------+---------------------------------------------+
+  | **Source**                | **Schematic signal name** | **I/O standard** | **FPGA pin** | **Description**                             |
+  +===========================+===========================+==================+==============+=============================================+
+  | External                  | CLK_IN                    | VCCIO_CLK        |              | External reference clock input              |
+  +---------------------------+---------------------------+------------------+--------------+---------------------------------------------+
+  | Clock buffer (IC10)       | CLK_OUT                   | VCCIO_CLK        |              | Reference clock output                      |
+  +---------------------------+---------------------------+------------------+--------------+---------------------------------------------+
+  | Clock buffer (IC14)       | FPGA_CLK                  | 3.3V             | A9           | Reference clock connected to FPGA           |
+  +---------------------------+---------------------------+------------------+--------------+---------------------------------- ----------+
+  | Analog mux (IC15)         | CLK_XO                    | 1.8V             |              | Reference clock connected to LMS            |
+  +---------------------------+---------------------------+------------------+--------------+---------------------------------------------+
+  | RF transceiver (IC1)      | LMS_TX_CLK                | 1.8V             |              | Reference clock input                       |
+  +                           +---------------------------+------------------+--------------+---------------------------------------------+
+  |                           | LMS_TX_CLK                | 1.8V             |              | Reference clock input (0R)                  |
+  +                           +---------------------------+------------------+--------------+---------------------------------------------+
+  |                           | LMS_MCLK1                 | 3.3V             | L17          |                                             |
+  +                           +---------------------------+------------------+--------------+---------------------------------------------+
+  |                           | LMS_FCLK1                 | 3.3V             | G19          |                                             |
+  +                           +---------------------------+------------------+--------------+---------------------------------------------+
+  |                           | LMS_MCLK2                 | 3.3V             | W5           |                                             |
+  +                           +---------------------------+------------------+--------------+---------------------------------------------+
+  |                           | LMS_FCLK2                 | 3.3V             | W6           |                                             |
+  +---------------------------+---------------------------+------------------+--------------+---------------------------------------------+
+  | USB 2.0 controller (IC19) | USB_CLK                   | 3.3V             | C16          | Clock output from USB controller            |
+  +                           +---------------------------+------------------+--------------+---------------------------------------------+
+  |                           | USB_26M                   | 3.3V             | E19          | Clock input for USB controller              |
+  +---------------------------+---------------------------+------------------+--------------+---------------------------------------------+
+  | GNSS Receiver (IC11)      | GNSS_1PPS                 | 3.3V             | P3           | PPS output from GNSS receiver to FPGA       |
+  +---------------------------+---------------------------+------------------+--------------+---------------------------------------------+
+  | FPGA (IC7)                | 1PPSI_GPIO1(1N)           | 3.3V             | M3           | FPGA PPS input                              |
+  +---------------------------+---------------------------+------------------+--------------+---------------------------------------------+
+  | FPGA (IC7)                | 1PPSO_GPIO2(1P)           | 3.3V             | L3           | PPS output from FPGA form X6 ND mPCIe pin 3 |
+  +---------------------------+---------------------------+------------------+--------------+---------------------------------------------+
+  | External                  | 1PPS_IN                   | 3.3V             | M3           | PPS input for FPGA                          |
+  +---------------------------+---------------------------+------------------+--------------+---------------------------------------------+
 
 Power Distribution
 ------------------
