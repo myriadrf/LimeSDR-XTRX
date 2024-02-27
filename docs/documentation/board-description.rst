@@ -280,7 +280,7 @@ Indication LEDs
 
 LimeSDR XTRX board comes with two green indicator LEDs. These LEDs are soldered on the top of the board near the USB Micro-B connector. 
 
-.. figure:: images/LimeSDR-XTRX_v1.0_components_LEDs.png
+.. figure:: images/LimeSDR-XTRX_v1.2_components_LEDs.png
   :width: 600
   
   Figure 2. LimeSDR XTRX indication LEDs (top)
@@ -326,7 +326,7 @@ FPGA_CFG_SPI pins, schematic signal names, FPGA interconnections and I/O standar
   +===========================+==============+==================+=====================================+
   | FPGA_CFG_CCLK             | C11          | 3.3V             | Serial Clock (FPGA output)          |
   +---------------------------+--------------+------------------+-------------------------------------+
-  | FPGA_CFG_CS               | K19          | 3.3V             | IC17 SPI slave select (FPGA output) |
+  | FPGA_CFG_CS               | K19          | 3.3V             | IC18 SPI slave select (FPGA output) |
   +---------------------------+--------------+------------------+-------------------------------------+
   | FPGA_CFG_D00              | D18          | 3.3V             |                                     |
   +---------------------------+--------------+------------------+-------------------------------------+
@@ -344,15 +344,15 @@ FPGA_I2C1 (temperature sensor, EEPROM, CLK DAC, switching regulator) and FPGA_I2
   +----------------------+---------------------+--------------+------------------+------------------+----------------+
   | **I2C slave device** | **Slave device**    | **Inteface** | **I2C address**  | **I/O standard** | **Comment**    |
   +======================+=====================+==============+==================+==================+================+
-  | IC8                  | Temperature sensor  | FPGA_I2C1    | 1 0 0 1 0 1 1 RW | 3.3V             | TMP1075NDRLR   |
-  +----------------------+---------------------+--------------+------------------+------------------+----------------+
+  | IC9                  | Temperature sensor  | FPGA_I2C1    | 1 0 0 1 0 1 1 RW | 3.3V             | TMP1075NDRLR   |
+  +----------------------+---------------------+              +------------------+------------------+----------------+
   | IC13                 | EEPROM              |              | 1 0 1 0 0 0 0 RW | 3.3V             | M24128         |
   +----------------------+---------------------+--------------+------------------+------------------+----------------+
-  | IC16                 | CLK DAC             |              | 1 0 0 1 1 0 0 RW | 3.3V             | AD5693RACPZ    |
+  | IC17                 | CLK DAC             |              | 1 0 0 1 1 0 0 RW | 3.3V             | AD5693RACPZ    |
   +----------------------+---------------------+--------------+------------------+------------------+----------------+
-  | IC21                 | Switching regulator |              | 1 1 0 0 0 0 0 RW | 3.3V             | LP8758A1E0YFFR |
+  | IC22                 | Switching regulator |              | 1 1 0 0 0 0 0 RW | 3.3V             | LP8758A1E0YFFR |
   +----------------------+---------------------+--------------+------------------+------------------+----------------+
-  | IC30                 | Switching regulator | FPGA_I2C2    | 1 1 0 0 0 0 0 RW | 3.3V             | LP8758A1E0YFFR |
+  | IC31                 | Switching regulator | FPGA_I2C2    | 1 1 0 0 0 0 0 RW | 3.3V             | LP8758A1E0YFFR |
   +----------------------+---------------------+--------------+------------------+------------------+----------------+
 
 To debug FPGA design, flash bitstream to FPGA and/or Flash memory JTAG X9 connector is used. It is located on the PCB bottom side (see :ref:`target1`) and is compatible with Molex 788641001 connector. JTAG connector pins, schematic signal names, FPGA interconnections and I/O standards are listed in Table 11. 
