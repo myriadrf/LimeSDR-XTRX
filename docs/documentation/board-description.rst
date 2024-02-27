@@ -117,7 +117,7 @@ LimeSDR XTRX RF network contains matching networks, RF switches, loopback variab
 .. figure:: images/LimeSDR-XTRX_v1.2_diagrams_RFFE.png
   :width: 600
   
-  Figure 1. LimeSDR XTRX v1.0 RF diagram
+  Figure 1. LimeSDR XTRX v1.2 RF diagram
 
 LMS7002M RF transceiver TX and RX ports has dedicated matching network which determines the working frequency range. More detailed information on LMS7002M RF transceiver ports and matching network frequency ranges is listed in the Table 2.
 
@@ -482,10 +482,10 @@ Power Distribution
 
 As indicated, LimeSDR XTRX board may be powered via USB port (5V) or mini PCIe edge connector (3.3V). LimeSDR XTRX board power delivery network consists of different power rails/voltages, filters and power sequences. LimeSDR XTRX board power distribution block diagram is presented in Figure 4.
 
-.. figure:: images/LimeSDR-XTRX_v1.0_diagrams_r0_power.png
+.. figure:: images/LimeSDR-XTRX_v1.2_diagrams_power.png
   :width: 600
   
-  Figure 4. LimeSDR XTRX v1.0 board power distribution block diagram
+  Figure 4. LimeSDR XTRX v1.2 board power distribution block diagram
 
 Mini PCIe edge connector
 ------------------------
@@ -587,7 +587,7 @@ LimeSDR XTRX board communicates with the host system via mPCIe connector. LimeSD
   +---------+--------------------------------+---------------------------+----------------------------------------------------------------+
   | 44      | LED_WLAN#                      | LED_WLAN#_GPIO6           | Jumper to GND. Connected by default                            |
   +---------+--------------------------------+---------------------------+----------------------------------------------------------------+
-  | 45      | Reserved                       | GND                       | Jumper to GND. Connected by default                            |
+  | 45      | Reserved                       | PCIE_RESERVED             | Connected to FPGA (V7)                                         |
   +---------+--------------------------------+---------------------------+----------------------------------------------------------------+
   | 46      | LED_WPAN#                      | LED_WPAN#_GPIO7           | Output for LED WPAN (Negative) or GPIO7 3.3 V                  |
   +---------+--------------------------------+---------------------------+----------------------------------------------------------------+
@@ -599,7 +599,7 @@ LimeSDR XTRX board communicates with the host system via mPCIe connector. LimeSD
   +---------+--------------------------------+---------------------------+----------------------------------------------------------------+
   | 50      | GND                            | GND                       | Ground                                                         |
   +---------+--------------------------------+---------------------------+----------------------------------------------------------------+
-  | 51      | Reserved                       | GND                       | Jumper to GND. Connected by default                            |
+  | 51      | Reserved                       | PCIE_W_DISABLE2#          | Connected to FPGA (W3)                                         |
   +---------+--------------------------------+---------------------------+----------------------------------------------------------------+
   | 52      | 3.3Vaux                        | VCC3P3_MPCIE              | Main power input 3.3V (VCC3P3_MPCIE)                           |
   +---------+--------------------------------+---------------------------+----------------------------------------------------------------+
