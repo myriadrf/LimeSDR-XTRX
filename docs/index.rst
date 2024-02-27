@@ -97,7 +97,7 @@ Board Overview
 
 One of the key elements of LimeSDR XTRX board is the Xilinx Artix-7 (XC7A50T-2CPG236I) FPGA. It’s main function is to transfer digital data between LMS7002M RF transceiver and PC through a mini PCIe edge connector or Serial connection to another FPGA board. The block diagram for LimeSDR XTRX board is presented in the Figure 3.
 
-.. figure:: documentation/images/LimeSDR-XTRX_v1.2_diagrams_r0_BD.png
+.. figure:: documentation/images/LimeSDR-XTRX_v1.2_diagrams_BD.png
   :width: 600
   
   Figure 3: LimeSDR XTRX v1.2 board block diagram
