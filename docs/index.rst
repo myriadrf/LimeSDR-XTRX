@@ -4,7 +4,7 @@
 
    Introduction <self>
    documentation/board-description
-   documentation/jtag-programming.rst
+   documentation/programming
 
 Introduction
 ============

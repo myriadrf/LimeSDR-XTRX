@@ -105,7 +105,7 @@ FLASH memory programming using Vivado or Vivado Lab Edition
 * An FPGA device should be detected. Right click on it and select "Add configuration memory device"
 * Select "mx25l25673g-spi-x1_x2_x4"
 * Right click on the newly added memory device and choose "Program configuration memory device"
-* Select configuration .bin file and click OK. Precompiled programming file for **LimeSDR-XTRX v1.2** version can be found `here <https://github.com/myriadrf/LimeSDR-XTRX_GW/blob/master/bitstream/flash_programming_file.bin>`__
+* Select configuration .bin file and click OK. Precompiled programming file for **LimeSDR-XTRX v1.2** version can be found `here <https://github.com/myriadrf/LimeSDR-XTRX_GW/blob/master/bitstream/combined_flash_programming_file.bin>`__
 * When programming is done LimeSDR-XTRX v1.2 has to be powered down to load new gateware from FLASH memory
 
 
