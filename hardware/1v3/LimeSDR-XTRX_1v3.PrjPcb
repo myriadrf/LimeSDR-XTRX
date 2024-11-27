@@ -479,6 +479,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XNCKCINT
 
+[Parameter1]
+Name=PROJECT_VERSION
+Value=v1.3
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
