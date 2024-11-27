@@ -480,6 +480,10 @@ GenerateClassCluster=0
 DocumentUniqueId=XNCKCINT
 
 [Parameter1]
+Name=SHEET_TOTAL
+Value=11
+
+[Parameter2]
 Name=PROJECT_VERSION
 Value=v1.3
 
