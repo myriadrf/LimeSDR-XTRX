@@ -484,7 +484,7 @@ UniqueID=5AE1C198-D408-42A4-B5FC-BD008E60CE0A
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=30
+VariationCount=52
 Variation1=Designator=MN9|UniqueId=\VRSHDKBJ|Kind=1|AlternatePart= 
 Variation2=Designator=MN7|UniqueId=\CYTXAKES|Kind=1|AlternatePart= 
 Variation3=Designator=MN31|UniqueId=\LJKPCPVN|Kind=1|AlternatePart= 
@@ -515,6 +515,28 @@ Variation27=Designator=R69|UniqueId=\WYGMVAUS|Kind=1|AlternatePart=
 Variation28=Designator=R73|UniqueId=\BEHZPBIT|Kind=1|AlternatePart= 
 Variation29=Designator=R70|UniqueId=\HJSCWPMV|Kind=1|AlternatePart= 
 Variation30=Designator=R67|UniqueId=\WUUKEOUW|Kind=1|AlternatePart= 
+Variation31=Designator=IC2|UniqueId=\QWXGKGKH|Kind=1|AlternatePart= 
+Variation32=Designator=MN23|UniqueId=\ROYXOKDN|Kind=1|AlternatePart= 
+Variation33=Designator=MN54|UniqueId=\AKSYOLEW|Kind=1|AlternatePart= 
+Variation34=Designator=X9|UniqueId=\USNWQOHM|Kind=1|AlternatePart= 
+Variation35=Designator=IC25|UniqueId=\GWTMANOK|Kind=1|AlternatePart= 
+Variation36=Designator=IC27|UniqueId=\RRCKJYBQ|Kind=1|AlternatePart= 
+Variation37=Designator=IC30|UniqueId=\WHKFUEHF|Kind=1|AlternatePart= 
+Variation38=Designator=R114|UniqueId=\NPXNHTKC|Kind=1|AlternatePart= 
+Variation39=Designator=R125|UniqueId=\LBYPLWRZ|Kind=1|AlternatePart= 
+Variation40=Designator=C228|UniqueId=\CYRWBYTA|Kind=1|AlternatePart= 
+Variation41=Designator=R198|UniqueId=\MOVYYHAF|Kind=1|AlternatePart= 
+Variation42=Designator=R199|UniqueId=\YYOEXNHG|Kind=1|AlternatePart= 
+Variation43=Designator=IC32|UniqueId=\ROFYLNDX|Kind=1|AlternatePart= 
+Variation44=Designator=R122|UniqueId=\FHENHGIR|Kind=1|AlternatePart= 
+Variation45=Designator=R123|UniqueId=\NKCJVDDC|Kind=1|AlternatePart= 
+Variation46=Designator=C223|UniqueId=\HDEUVCYF|Kind=1|AlternatePart= 
+Variation47=Designator=R115|UniqueId=\GHVBKBTN|Kind=1|AlternatePart= 
+Variation48=Designator=C214|UniqueId=\PUUKBLHA|Kind=1|AlternatePart= 
+Variation49=Designator=C208|UniqueId=\LWCNQHMS|Kind=1|AlternatePart= 
+Variation50=Designator=R108|UniqueId=\CNXPABSD|Kind=1|AlternatePart= 
+Variation51=Designator=C230|UniqueId=\JJJZKCJC|Kind=1|AlternatePart= 
+Variation52=Designator=R105|UniqueId=\OJJCGJST|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -1189,6 +1211,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
