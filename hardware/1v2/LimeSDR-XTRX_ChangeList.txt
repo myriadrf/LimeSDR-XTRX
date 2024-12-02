@@ -1,0 +1,8 @@
+Changes:
+LimeSDR-XTRX_1v2(_DB)_DFMr1:
+ - BOM_VER changed to 1 (R49 NF);
+ - R89 changed to 0R;
+ - R90 became NF;
+
+LimeSDR-XTRX_1v2(_DB)_DFMr0:
+ - Initial version
