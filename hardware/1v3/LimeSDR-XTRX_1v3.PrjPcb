@@ -479,13 +479,39 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XNCKCINT
 
-[Parameter1]
-Name=SHEET_TOTAL
-Value=11
+[ProjectVariant1]
+UniqueID=5AE1C198-D408-42A4-B5FC-BD008E60CE0A
+Description=Default
+AllowFabrication=0
+ParameterCount=0
+VariationCount=18
+Variation1=Designator=MN9|UniqueId=\VRSHDKBJ|Kind=1|AlternatePart= 
+Variation2=Designator=MN7|UniqueId=\CYTXAKES|Kind=1|AlternatePart= 
+Variation3=Designator=MN31|UniqueId=\LJKPCPVN|Kind=1|AlternatePart= 
+Variation4=Designator=MN33|UniqueId=\CJLOEVHT|Kind=1|AlternatePart= 
+Variation5=Designator=MN39|UniqueId=\VCISNYVZ|Kind=1|AlternatePart= 
+Variation6=Designator=MN41|UniqueId=\OSVQXQLJ|Kind=1|AlternatePart= 
+Variation7=Designator=ESD1|UniqueId=\HDHNCFEX|Kind=1|AlternatePart= 
+Variation8=Designator=ESD2|UniqueId=\XBQGMUYP|Kind=1|AlternatePart= 
+Variation9=Designator=MN53|UniqueId=\CZPCCTAX|Kind=1|AlternatePart= 
+Variation10=Designator=ESD3|UniqueId=\OGFBMTZF|Kind=1|AlternatePart= 
+Variation11=Designator=ESD4|UniqueId=\YYLXUNLB|Kind=1|AlternatePart= 
+Variation12=Designator=MN42|UniqueId=\KNCTCTLO|Kind=1|AlternatePart= 
+Variation13=Designator=MN40|UniqueId=\EQHTGGCG|Kind=1|AlternatePart= 
+Variation14=Designator=MN34|UniqueId=\CRHIUWDV|Kind=1|AlternatePart= 
+Variation15=Designator=MN32|UniqueId=\RSOEWOVV|Kind=1|AlternatePart= 
+Variation16=Designator=MN25|UniqueId=\CBYUOFDB|Kind=1|AlternatePart= 
+Variation17=Designator=MN10|UniqueId=\NHBULMIC|Kind=1|AlternatePart= 
+Variation18=Designator=MN8|UniqueId=\XUGSYBNM|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
-[Parameter2]
+[Parameter1]
 Name=PROJECT_VERSION
 Value=v1.3
+
+[Parameter2]
+Name=SHEET_TOTAL
+Value=11
 
 [Configuration1]
 Name=Default Configuration
