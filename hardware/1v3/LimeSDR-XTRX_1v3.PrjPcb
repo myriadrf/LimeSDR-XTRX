@@ -484,7 +484,7 @@ UniqueID=5AE1C198-D408-42A4-B5FC-BD008E60CE0A
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=21
+VariationCount=30
 Variation1=Designator=MN9|UniqueId=\VRSHDKBJ|Kind=1|AlternatePart= 
 Variation2=Designator=MN7|UniqueId=\CYTXAKES|Kind=1|AlternatePart= 
 Variation3=Designator=MN31|UniqueId=\LJKPCPVN|Kind=1|AlternatePart= 
@@ -506,6 +506,15 @@ Variation18=Designator=MN8|UniqueId=\XUGSYBNM|Kind=1|AlternatePart=
 Variation19=Designator=IC13|UniqueId=\WQYITVAG|Kind=1|AlternatePart= 
 Variation20=Designator=C174|UniqueId=\YKPWPQBG|Kind=1|AlternatePart= 
 Variation21=Designator=ESD5|UniqueId=\ROCDPQXU|Kind=1|AlternatePart= 
+Variation22=Designator=R152|UniqueId=\IEXRMMHF|Kind=1|AlternatePart= 
+Variation23=Designator=R148|UniqueId=\PUAIQLHR|Kind=1|AlternatePart= 
+Variation24=Designator=C185|UniqueId=\WQUBHEUW|Kind=1|AlternatePart= 
+Variation25=Designator=C157|UniqueId=\KMJXIMUM|Kind=1|AlternatePart= 
+Variation26=Designator=R156|UniqueId=\LQIBZTML|Kind=1|AlternatePart= 
+Variation27=Designator=R69|UniqueId=\WYGMVAUS|Kind=1|AlternatePart= 
+Variation28=Designator=R73|UniqueId=\BEHZPBIT|Kind=1|AlternatePart= 
+Variation29=Designator=R70|UniqueId=\HJSCWPMV|Kind=1|AlternatePart= 
+Variation30=Designator=R67|UniqueId=\WUUKEOUW|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
