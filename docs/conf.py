@@ -18,8 +18,8 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'LimeSDR XTRX v1.2 Board'
-copyright = '2023, MyriadRF Contributors'
+project = 'LimeSDR XTRX Boards'
+copyright = '2024, MyriadRF Contributors'
 author = 'Lime Microsystems'
 
 # The full version, including alpha/beta/rc tags
@@ -38,7 +38,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.mathjax',
     'sphinx-mathjax-offline',
-    'sphinx_rtd_theme'
+    'sphinx_rtd_theme',
+    'sphinx_tabs.tabs'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
