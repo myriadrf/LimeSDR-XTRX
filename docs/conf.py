@@ -39,7 +39,8 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx-mathjax-offline',
     'sphinx_rtd_theme',
-    'sphinx_tabs.tabs'
+    'sphinx_tabs.tabs',
+    'sphinx_inline_tabs'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
