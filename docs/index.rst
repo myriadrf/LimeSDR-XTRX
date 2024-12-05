@@ -18,7 +18,7 @@ LimeSDR XTRX is Small form factor mini PCIe expansion card Software Defined Radi
       .. figure:: v1.2/images/LimeSDR-XTRX_v1.2_3D_iso.png
          :width: 600
 
-         Figure 2: LimeSDR XTRX v1.2 board
+         Figure 1: LimeSDR XTRX v1.2 board
 
    .. tab:: LimeSDR XTRX v1.3
 
