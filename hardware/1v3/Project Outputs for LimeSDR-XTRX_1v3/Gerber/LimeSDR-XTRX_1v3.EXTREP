@@ -1,0 +1,29 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: LimeSDR-XTRX_1v3.GBR   2024-12-06  14:34:24
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                TopOverlay                              
+.GTP                TopPaste                                
+.GTS                TopSolder                               
+.GTL                Top                                     
+.G1                 L2                                      
+.G2                 L3                                      
+.G3                 L4                                      
+.G4                 L5                                      
+.G5                 L6                                      
+.G6                 L7                                      
+.GBL                Bottom                                  
+.GBS                BottomSolder                            
+.GBP                BottomPaste                             
+.GBO                BottomOverlay                           
+.GM1                Mechanical1                             
+.GM6                Notes                                   
+.GM14               ASM BOT                                 
+.GM15               ASM TOP                                 
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+------------------------------------------------------------------------------------------
