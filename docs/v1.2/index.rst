@@ -676,16 +676,6 @@ The board clock lines and other related signals/information are listed in Table 
   | External                  | 1PPS_IN                   | 3.3V             | M3           | PPS input for FPGA                          |
   +---------------------------+---------------------------+------------------+--------------+---------------------------------------------+
 
-Power Distribution
-------------------
-
-As indicated, LimeSDR XTRX board may be powered via USB port (5V) or mini PCIe edge connector (3.3V). LimeSDR XTRX board power delivery network consists of different power rails/voltages, filters and power sequences. LimeSDR XTRX board power distribution block diagram is presented in Figure 9.
-
-.. figure:: images/LimeSDR-XTRX_v1.2_diagrams_power.png
-  :width: 600
-  
-  Figure 9. LimeSDR XTRX v1.2 board power distribution block diagram
-
 Mini PCIe edge connector
 ------------------------
 
@@ -803,3 +793,12 @@ LimeSDR XTRX board communicates with the host system via mPCIe connector. LimeSD
   | 52      | 3.3Vaux                        | VCC3P3_MPCIE              | Main power input 3.3V (VCC3P3_MPCIE)                           |
   +---------+--------------------------------+---------------------------+----------------------------------------------------------------+
 
+Power Distribution
+------------------
+
+As indicated, LimeSDR XTRX board may be powered via USB port (5V) or mini PCIe edge connector (3.3V). LimeSDR XTRX board power delivery network consists of different power rails/voltages, filters and power sequences. LimeSDR XTRX board power distribution block diagram is presented in Figure 9.
+
+.. figure:: images/LimeSDR-XTRX_v1.2_diagrams_power.png
+  :width: 600
+  
+  Figure 9. LimeSDR XTRX v1.2 board power distribution block diagram
