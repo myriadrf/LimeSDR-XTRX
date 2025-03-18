@@ -257,7 +257,7 @@ Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 [PublishSettings]
 OutputFilePath2=
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for LimeSDR-XTRX_1v2
+OutputBasePath2=Project Outputs for LimeSDR-XTRX_1v3
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -284,7 +284,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=E:\Saniok\Lime Micro\Lime PCBs\uLimeSDR_1v1\AltiumDesigner Design Files\Project Outputs for uLimeSDR_1v0\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for LimeSDR-XTRX_1v2
+OutputBasePath3=Project Outputs for LimeSDR-XTRX_1v3
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -297,7 +297,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for LimeSDR-XTRX_1v2
+OutputBasePath4=Project Outputs for LimeSDR-XTRX_1v3
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
