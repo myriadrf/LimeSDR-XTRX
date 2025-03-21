@@ -1,0 +1,7 @@
+Changes:
+LimeSDR-XTRX_1v3(_DB)_DFMr1:
+ - BOM and schematic refreshed because of IC17 comment update
+ - Other files (including DFM) left unchanged
+
+LimeSDR-XTRX_1v3(_DB)_DFMr0:
+ - Initial version
