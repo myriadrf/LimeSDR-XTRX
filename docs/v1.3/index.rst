@@ -878,7 +878,7 @@ The new clock buffer is LMK00105. It generates clock signals in 1.8V and 3.3V lo
 
 Changed XO DAC from AD5693RACPZ-1RL7 (A grade, INL +-8LSB, internal reference, VLOGIC) to AD5693BCPZ-RL7 (B grade, INL +-3LSB, no internal reference, LDAC). Also removed R69, and populated R68 to tie LDAC pin low. This change make so DAC updates when new data is written to the input register. XO DAC schematic changes are shown in Figure 16.
 
-.. figure::images/LimeSDR-XTRX_v1.3_dac_changes.png
+.. figure:: images/LimeSDR-XTRX_v1.3_dac_changes.png
   :width: 600
   
   Figure 16. XO DAC schematics changes
