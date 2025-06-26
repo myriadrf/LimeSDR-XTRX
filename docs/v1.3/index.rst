@@ -808,7 +808,7 @@ As indicated, LimeSDR XTRX board may be powered via USB port (5V) or mini PCIe e
   Figure 9. LimeSDR XTRX v1.3 board power distribution block diagram
 
 
-Changes
+Differencies from LimeSDR XTRX v1.2
 =======
 
 Changes introduction
