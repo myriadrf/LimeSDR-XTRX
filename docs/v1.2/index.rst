@@ -840,7 +840,7 @@ For PCIE_PERST# line 0R NF resistor was added. This allows to properly reset PCI
 BOM Version (BOM_VER) value increment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Increase BOM version (BOM_VER) number to 1. This change helps identity fixed boards. From the BOM perspective, the R49 resistor will become no fit, i.e. should be removed as shown in Figure 11.
+Increased BOM version (BOM_VER) number to 1. This change helps identity fixed boards. From the BOM perspective, the R49 resistor will become no fit, i.e. should be removed as shown in Figure 11.
 
 .. figure:: images/LimeSDR-XTRX_v1.2_BOM1_VER.png
   :width: 600
