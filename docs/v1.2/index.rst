@@ -807,14 +807,14 @@ As indicated, LimeSDR XTRX board may be powered via USB port (5V) or mini PCIe e
 BOM Variants
 ============
 
-LimeSDR XTRX v1.2 was designed without Bill of material (BOM) variants. Any changes done to BOM are marked as new versions (BOM_VER).
+LimeSDR XTRX v1.2 project was designed without Bill of material (BOM) variants. Any changes done to BOM are marked as new versions (BOM_VER).
+
+Known issue with LimeSDR XTRX v1.2 not appearing in the operating system. Fixed in BOM version 1.
 
 BOM Version 0 (BOM_VER=0)
 -------------------------
 
-Default board state. No changes in schematics or PCB.
-
-Known issue with LimeSDR XTRX v1.2 not appearing in the operating system. Fixed in BOM version 1.
+Initial board state. No changes in schematics or PCB.
 
 BOM Version 1 (BOM_VER=1)
 -------------------------
@@ -837,25 +837,29 @@ In original Fairwaves XTRXr5 schematic voltage divider (47k in series + 100k to 
 
 For PCIE_PERST# line 0R NF resistor was added. This allows to properly reset PCIE core in FPGA (soft reset, not hard reset), PCIE_PERST# is also connected to FPGA pin. This also allows to properly debug FPGA via JTAG because boar power is not interrupted when PCIE_PERST# line state changes. 0R NF can be replaced with 0R if needed (backward compatible change). In original Fairwaves XTRXr5 schematic PCIE_PERST# was directly connected to first switching regulator EN1, EN2 and NRST.
 
-BOM version 1 implementation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BOM Version (BOM_VER) value increment
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Although the components are very small (resistors in 0201 package), it is fairly easy to implement the changes described above manually.
-
-To disable PERST# voltage divider remove R90 and change R89 to 0R (or just short it) as shown in Figure 11. 
-
-
-.. figure:: images/LimeSDR-XTRX_v1.2_BOM1_BOT.png
-  :width: 600
-  
-  Figure 11. PERST# divider changes (PCB bottom side)
-
-Also increase BOM version (BOM_VER) number to 1 as shown in Figure 12. This change helps identity fixed boards. 
+Increase BOM version (BOM_VER) number to 1. This change helps identity fixed boards. From the BOM perspective, the R49 resistor will become no fit, i.e. should be removed as shown in Figure 11.
 
 .. figure:: images/LimeSDR-XTRX_v1.2_BOM1_VER.png
   :width: 600
   
-  Figure 12. BOM_VER value increment (BOM_VER=1)
+  Figure 11. BOM_VER value increment (BOM_VER=1)
+
+BOM Version 1 (BOM_VER=1) implementation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Although the components are very small (resistors in 0201 package), it is fairly easy to implement the changes described above manually.
+
+To disable PERST# voltage divider remove R90 and change R89 to 0R (or just short it) as shown in Figure 12. 
+
+.. figure:: images/LimeSDR-XTRX_v1.2_BOM1_BOT.png
+  :width: 600
+  
+  Figure 12. PERST# divider changes (PCB bottom side)
+
+
 
 To increase BOM_VER value remove R49 which is located on the top side of the board near TX_B U.FL connector as shown in Figure 13.
 
