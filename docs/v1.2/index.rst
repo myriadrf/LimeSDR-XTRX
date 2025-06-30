@@ -803,3 +803,63 @@ As indicated, LimeSDR XTRX board may be powered via USB port (5V) or mini PCIe e
   :width: 600
   
   Figure 9. LimeSDR XTRX v1.2 board power distribution block diagram
+
+BOM Variants
+============
+
+LimeSDR XTRX v1.2 was designed without Bill of material (BOM) variants. Any changes done to BOM are marked as new versions (BOM_VER).
+
+BOM Version 0 (BOM_VER=0)
+-------------------------
+
+Default board state. No changes in schematics or PCB.
+
+Known issue with LimeSDR XTRX v1.2 not appearing in the operating system. Fixed in BOM version 1.
+
+BOM Version 1 (BOM_VER=1)
+-------------------------
+
+There were several reports of the LimeSDR XTRX v1.2 not appearing in the operating system. After debugging, a problem was identified: the #PERST reset signal from the host is supplied via a voltage divider, which produced an incorrect voltage level. Our experiments show that after applying the fix described below, the board works properly.
+
+This chapter describes PERST# line divider fix and BOM_VER value increment modification.
+
+PERST# line divider fix
+^^^^^^^^^^^^^^^^^^^^^^^
+
+PERST# line divider resistors values must be changed (R89 0R, R90 NF) as shown in Figure 10 to eliminate division because FPGA do not properly detected PCI_PERST# states and that caused improper PCI core operation.
+
+.. figure:: images/LimeSDR-XTRX_v1.2_BOM1_PERST.png
+  :width: 600
+  
+  Figure 10. PERST# voltage divider
+
+In original Fairwaves XTRXr5 schematic voltage divider (47k in series + 100k to GND) with 3.3V input voltage resulted only 2.245V which does not reach FPGA VIHmin requirement. In Fairwaves schematic this does not caused problem because there PCIE_PERST# directly controlled switching regulator. 
+
+For PCIE_PERST# line 0R NF resistor was added. This allows to properly reset PCIE core in FPGA (soft reset, not hard reset), PCIE_PERST# is also connected to FPGA pin. This also allows to properly debug FPGA via JTAG because boar power is not interrupted when PCIE_PERST# line state changes. 0R NF can be replaced with 0R if needed (backward compatible change). In original Fairwaves XTRXr5 schematic PCIE_PERST# was directly connected to first switching regulator EN1, EN2 and NRST.
+
+BOM version 1 implementation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Although the components are very small (resistors in 0201 package), it is fairly easy to implement the changes described above manually.
+
+To disable PERST# voltage divider remove R90 and change R89 to 0R (or just short it) as shown in Figure 11. 
+
+
+.. figure:: images/LimeSDR-XTRX_v1.2_BOM1_BOT.png
+  :width: 600
+  
+  Figure 11. PERST# divider changes (PCB bottom side)
+
+Also increase BOM version (BOM_VER) number to 1 as shown in Figure 12. This change helps identity fixed boards. 
+
+.. figure:: images/LimeSDR-XTRX_v1.2_BOM1_VER.png
+  :width: 600
+  
+  Figure 12. BOM_VER value increment (BOM_VER=1)
+
+To increase BOM_VER value remove R49 which is located on the top side of the board near TX_B U.FL connector as shown in Figure 13.
+
+.. figure:: images/LimeSDR-XTRX_v1.2_BOM1_TOP.png
+  :width: 600
+  
+  Figure 13. BOM_VER changes (PCB top side)
