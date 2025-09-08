@@ -78,7 +78,7 @@ LimeSDR XTRX board features:
   * VCTCXO may be tuned by on board DAC
   * Reference clock input and output connectors (U.FL and mPCIe)
 
-* Board size: 50.8mm x 20.97mm (PCIe Mini card form factor)
+* Board size: 50.8mm x 29.7mm (PCIe Mini card form factor)
 
 * Board power sources: USB connector (5V) or mini PCIe (3.3V)
 
