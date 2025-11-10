@@ -1,7 +1,17 @@
-docs/_build/
-docs/venv/
+# Python, Node.js and general
 
-# For Altium Designer files
+_build
+venv/
+__pycache__
+node_modules/
+*.DS_Store
+Thumbs.db
+*.swp
+~*
+*~
+package-lock.json
+
+# Altium Designer 
 History/
 Schematics/__Previews
 __Previews

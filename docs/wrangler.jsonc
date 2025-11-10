@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "limesdr-xtrx",
+  "pages_build_output_dir": "docs/_build/html",
+  "vars": {
+    "PYTHON_VERSION": "3.13.9"
+  },
+  "build": {
+    "command": "cd docs && pip install -r requirements.txt && make html"
+  }
+}
