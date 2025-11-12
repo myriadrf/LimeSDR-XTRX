@@ -16,6 +16,8 @@ The FPGA gateware is located in the [LimeSDR-XTRX_GW repo](https://github.com/my
 
 ## Documentation
 
+The documentation sources for this project have been moved to the *docs* branch.
+
 * [Hardware](https://limesdr-xtrx.myriadrf.org/)
 * [Drivers](https://wiki.myriadrf.org/Lime_Suite) (Lime Suite)
 
