@@ -7,9 +7,10 @@ release = 'v1.3'
 
 # These are used for the "Edit on GitHub" links.
 # github_repo_path should be set to the branch + path to the docs.
+# E.g. 'master/docs/', 'main/docs/' or 'docs/docs/' etc.
 
 github_repo = 'LimeSDR-XTRX'
-github_repo_path= 'master/docs/'
+github_repo_path= 'docs/docs/'
 
 # The default language for syntax highlighting in code blocks.
 # This can be overridden using the ".. code-block::" directive.
