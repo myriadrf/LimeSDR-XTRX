@@ -1,6 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 #
-# MyriadRF conf.py v1.1.0
+# MyriadRF conf.py v1.1.1
 
 import sys
 import sphinx_rtd_theme
@@ -62,7 +62,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['venv', '_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['node_modules', 'venv', '_build', 'Thumbs.db', '.DS_Store']
 
 # -- Project config and MyriadRF styling -------------------------------------
 
