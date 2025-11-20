@@ -12,17 +12,17 @@ LimeSDR XTRX is Small form factor mini PCIe expansion card Software Defined Radi
 
 LimeSDR XTRX is a building block for any Massive MIMO configuration from 2Tx2R to 32Tx32R for very high data rate applications. Hence, it could be used in conjunction with any digital processors (ASICs, GPPs and GPUs) of varying level of performance in terms of speed, power dissipation and cost to fit any air interface from narrowband to broadband signals. The board is designed for maximum scalability in terms of the following parameters:
 
-* Frequency and Bandwidth: The heard of the board is the Lime Transceiver RFIC (LMS7002) providing frequency flexibility up to 3.8GHz and bandwidths of over 100MHz.
+* Frequency and Bandwidth: The heart of the board is the Lime Transceiver RFIC (LMS7002) providing frequency flexibility up to 3.8GHz and bandwidths of over 100MHz.
 * Baseband Interface: A significant level of digital circuitry resides within the LMS7002 and accompanying Xilinx for the implementation of the key physical layer radio functions including filtering, decimation, interpolation and flexible interface such as PCIe and SerDes to name a few.
 
 .. figure:: images/LimeSDR-XTRX_v1.2_3D_top.png
   :width: 600
-  
+
   Figure 1: LimeSDR XTRX v1.2 board top view
 
 .. figure:: images/LimeSDR-XTRX_v1.2_3D_bot.png
   :width: 600
-  
+
   Figure 2: LimeSDR XTRX v1.2 board bottom view
 
 LimeSDR XTRX board features:
@@ -89,28 +89,28 @@ For more information on the following topics, refer to the respective documents:
 * `Lime Microsystems LMS7002M transceiver resources <https://limemicro.com/technology/lms7002m/>`_
 
 Board Overview
--------------- 
+--------------
 
 One of the key elements of LimeSDR XTRX board is the Xilinx Artix-7 (XC7A50T-2CPG236I) FPGA. It’s main function is to transfer digital data between LMS7002M RF transceiver and PC through a mini PCIe edge connector or Serial connection to another FPGA board. The block diagram for LimeSDR XTRX board is presented in the Figure 3.
 
 .. figure:: images/LimeSDR-XTRX_v1.2_diagrams_BD.png
   :width: 600
-  
+
   Figure 3: LimeSDR XTRX v1.2 board block diagram
 
-This section contains component location description on the board. LimeSDR XTRX board picture with highlighted connectors and main components are presented in Figure 4 and Figure 5, respectively. 
+This section contains component location description on the board. LimeSDR XTRX board picture with highlighted connectors and main components are presented in Figure 4 and Figure 5, respectively.
 
 
 .. figure:: images/LimeSDR-XTRX_v1.2_components_top.png
   :width: 600
-  
+
   Figure 4: LimeSDR XTRX v1.2 board top connectors and main components
 
 .. _target1:
 
 .. figure:: images/LimeSDR-XTRX_v1.2_components_bot.png
   :width: 600
-  
+
   Figure 5: LimeSDR XTRX v1.2 board bottom connectors and main components
 
 Description of board components is given in the Table 1.
@@ -315,7 +315,7 @@ LimeSDR XTRX RF network contains matching networks, RF switches, loopback variab
 
 .. figure:: images/LimeSDR-XTRX_v1.2_diagrams_RFFE.png
   :width: 600
-  
+
   Figure 6. LimeSDR XTRX v1.2 RF diagram
 
 LMS7002M RF transceiver TX and RX ports has dedicated matching network which determines the working frequency range. More detailed information on LMS7002M RF transceiver ports and matching network frequency ranges is listed in the Table 3.
@@ -477,11 +477,11 @@ USB 2.0 controller pins, schematic signal names, FPGA interconnections and I/O s
 Indication LEDs
 ---------------
 
-LimeSDR XTRX board comes with two green indicator LEDs. These LEDs are soldered on the top of the board near the USB Micro-B connector. 
+LimeSDR XTRX board comes with two green indicator LEDs. These LEDs are soldered on the top of the board near the USB Micro-B connector.
 
 .. figure:: images/LimeSDR-XTRX_v1.2_components_LEDs.png
   :width: 600
-  
+
   Figure 7. LimeSDR XTRX indication LEDs (top)
 
 LEDs are connected to FPGA hence their function may be programmed according to the user requirements. Default LEDs configuration and description are shown in Table 8.
@@ -540,19 +540,19 @@ FPGA_I2C1 (temperature sensor, EEPROM, CLK DAC, switching regulator) and FPGA_I2
 
 .. table:: Table 11. FPGA_I2C1 and FPGA_I2C2 interfaces pins
 
-  +----------------------+---------------------+--------------+------------------+------------------+----------------+
-  | **I2C slave device** | **Slave device**    | **Inteface** | **I2C address**  | **I/O standard** | **Comment**    |
-  +======================+=====================+==============+==================+==================+================+
-  | IC9                  | Temperature sensor  | FPGA_I2C1    | 1 0 0 1 0 1 1 RW | 3.3V             | TMP1075NDRLR   |
-  +----------------------+---------------------+              +------------------+------------------+----------------+
-  | IC13                 | EEPROM              |              | 1 0 1 0 0 0 0 RW | 3.3V             | M24128         |
-  +----------------------+---------------------+              +------------------+------------------+----------------+
-  | IC17                 | CLK DAC             |              | 1 0 0 1 1 0 0 RW | 3.3V             | AD5693RACPZ    |
-  +----------------------+---------------------+              +------------------+------------------+----------------+
-  | IC22                 | Switching regulator |              | 1 1 0 0 0 0 0 RW | 3.3V             | LP8758A1E0YFFR |
-  +----------------------+---------------------+--------------+------------------+------------------+----------------+
-  | IC31                 | Switching regulator | FPGA_I2C2    | 1 1 0 0 0 0 0 RW | 3.3V             | LP8758A1E0YFFR |
-  +----------------------+---------------------+--------------+------------------+------------------+----------------+
+  +----------------------+---------------------+---------------+------------------+------------------+----------------+
+  | **I2C slave device** | **Slave device**    | **Interface** | **I2C address**  | **I/O standard** | **Comment**    |
+  +======================+=====================+===============+==================+==================+================+
+  | IC9                  | Temperature sensor  | FPGA_I2C1     | 1 0 0 1 0 1 1 RW | 3.3V             | TMP1075NDRLR   |
+  +----------------------+---------------------+               +------------------+------------------+----------------+
+  | IC13                 | EEPROM              |               | 1 0 1 0 0 0 0 RW | 3.3V             | M24128         |
+  +----------------------+---------------------+               +------------------+------------------+----------------+
+  | IC17                 | CLK DAC             |               | 1 0 0 1 1 0 0 RW | 3.3V             | AD5693RACPZ    |
+  +----------------------+---------------------+               +------------------+------------------+----------------+
+  | IC22                 | Switching regulator |               | 1 1 0 0 0 0 0 RW | 3.3V             | LP8758A1E0YFFR |
+  +----------------------+---------------------+---------------+------------------+------------------+----------------+
+  | IC31                 | Switching regulator | FPGA_I2C2     | 1 1 0 0 0 0 0 RW | 3.3V             | LP8758A1E0YFFR |
+  +----------------------+---------------------+---------------+------------------+------------------+----------------+
 
 To debug FPGA design, flash bitstream to FPGA and/or Flash memory JTAG X9 connector is used. It is located on the PCB bottom side (see :ref:`target1`) and is compatible with Molex 788641001 connector. JTAG connector pins, schematic signal names, FPGA interconnections and I/O standards are listed in Table 12. 
 
@@ -608,10 +608,10 @@ LimeSDR XTRX board clock distribution block diagram is as shown in Figure 8.
 
 .. figure:: images/LimeSDR-XTRX_v1.2_diagrams_clock.png
   :width: 600
-  
+
   Figure 8. LimeSDR XTRX v1.2 board clock distribution block diagram
 
-LimeSDR XTRX board features an on board 26.00 MHz VCTCXO as the reference clock for LMS7002M RF transceiver and FPGA PLLs. 
+LimeSDR XTRX board features an on board 26.00 MHz VCTCXO as the reference clock for LMS7002M RF transceiver and FPGA PLLs.
 
 Rakon E6982LF 26.00 MHz voltage controlled temperature compensated crystal oscillator (VCTCXO) is the clock source for the board. VCTCXO frequency may be tuned by using 16 bit DAC (IC17). Main VCTCXO parameters are listed in Table 14.
 
@@ -682,7 +682,7 @@ Mini PCIe edge connector
 
 LimeSDR XTRX board communicates with the host system via mPCIe connector. LimeSDR XTRX mini PCIe connector pinout and signals according to the specification is given in Table 16.
 
-.. table:: Table 16. Mini PCIe x1 edge connector pinout 
+.. table:: Table 16. Mini PCIe x1 edge connector pinout
 
   +---------+--------------------------------+---------------------------+----------------------------------------------------------------+
   | **Pin** | **Mini PCIe x1 Specification** | **LimeSDR XTRX**          | **Description**                                                |
@@ -801,7 +801,7 @@ As indicated, LimeSDR XTRX board may be powered via USB port (5V) or mini PCIe e
 
 .. figure:: images/LimeSDR-XTRX_v1.2_diagrams_power.png
   :width: 600
-  
+
   Figure 9. LimeSDR XTRX v1.2 board power distribution block diagram
 
 BOM Variants
@@ -826,25 +826,25 @@ This chapter describes PERST# line divider fix and BOM_VER value increment modif
 PERST# line divider fix
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-PERST# line divider resistors values must be changed (R89 0R, R90 NF) as shown in Figure 10 to eliminate division because FPGA do not properly detected PCI_PERST# states and that caused improper PCI core operation.
+PERST# line divider resistors values must be changed (R89 0R, R90 NF) as shown in Figure 10 to eliminate division because FPGA do not properly detect PCI_PERST# states and that caused improper PCI core operation.
 
 .. figure:: images/LimeSDR-XTRX_v1.2_BOM1_PERST.png
   :width: 600
-  
+
   Figure 10. PERST# voltage divider
 
-In original Fairwaves XTRXr5 schematic voltage divider (47k in series + 100k to GND) with 3.3V input voltage resulted only 2.245V which does not reach FPGA VIHmin requirement. In Fairwaves schematic this does not caused problem because there PCIE_PERST# directly controlled switching regulator. 
+In original Fairwaves XTRXr5 schematic voltage divider (47k in series + 100k to GND) with 3.3V input voltage resulted only 2.245V which does not reach FPGA VIHmin requirement. In Fairwaves schematic this does not cause problem because there PCIE_PERST# directly controlled switching regulator.
 
-For PCIE_PERST# line 0R NF resistor was added. This allows to properly reset PCIE core in FPGA (soft reset, not hard reset), PCIE_PERST# is also connected to FPGA pin. This also allows to properly debug FPGA via JTAG because boar power is not interrupted when PCIE_PERST# line state changes. 0R NF can be replaced with 0R if needed (backward compatible change). In original Fairwaves XTRXr5 schematic PCIE_PERST# was directly connected to first switching regulator EN1, EN2 and NRST.
+For PCIE_PERST# line 0R NF resistor was added. This allows to properly reset PCIE core in FPGA (soft reset, not hard reset), PCIE_PERST# is also connected to FPGA pin. This also allows to properly debug FPGA via JTAG because board power is not interrupted when PCIE_PERST# line state changes. 0R NF can be replaced with 0R if needed (backward compatible change). In original Fairwaves XTRXr5 schematic PCIE_PERST# was directly connected to first switching regulator EN1, EN2 and NRST.
 
 BOM Version (BOM_VER) value increment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Increased BOM version (BOM_VER) number to 1. This change helps identity fixed boards. From the BOM perspective, the R49 resistor will become no fit, i.e. should be removed as shown in Figure 11.
+Increased BOM version (BOM_VER) number to 1. This change helps identify fixed boards. From the BOM perspective, the R49 resistor will become no fit, i.e. should be removed as shown in Figure 11.
 
 .. figure:: images/LimeSDR-XTRX_v1.2_BOM1_VER.png
   :width: 600
-  
+
   Figure 11. BOM_VER value increment (BOM_VER=1)
 
 BOM Version 1 (BOM_VER=1) implementation
@@ -852,11 +852,11 @@ BOM Version 1 (BOM_VER=1) implementation
 
 Although the components are very small (resistors in 0201 package), it is fairly easy to implement the changes described above manually.
 
-To disable PERST# voltage divider remove R90 and change R89 to 0R (or just short it) as shown in Figure 12. 
+To disable PERST# voltage divider remove R90 and change R89 to 0R (or just short it) as shown in Figure 12.
 
 .. figure:: images/LimeSDR-XTRX_v1.2_BOM1_BOT.png
   :width: 600
-  
+
   Figure 12. PERST# divider changes (PCB bottom side)
 
 
@@ -865,5 +865,5 @@ To increase BOM_VER value remove R49 which is located on the top side of the boa
 
 .. figure:: images/LimeSDR-XTRX_v1.2_BOM1_TOP.png
   :width: 600
-  
+
   Figure 13. BOM_VER changes (PCB top side)
