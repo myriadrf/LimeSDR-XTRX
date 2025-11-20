@@ -12,17 +12,17 @@ LimeSDR XTRX is Small form factor mini PCIe expansion card Software Defined Radi
 
 LimeSDR XTRX is a building block for any Massive MIMO configuration from 2Tx2R to 32Tx32R for very high data rate applications. Hence, it could be used in conjunction with any digital processors (ASICs, GPPs and GPUs) of varying level of performance in terms of speed, power dissipation and cost to fit any air interface from narrowband to broadband signals. The board is designed for maximum scalability in terms of the following parameters:
 
-* Frequency and Bandwidth: The heard of the board is the Lime Transceiver RFIC (LMS7002) providing frequency flexibility up to 3.8GHz and bandwidths of over 100MHz.
+* Frequency and Bandwidth: The heart of the board is the Lime Transceiver RFIC (LMS7002) providing frequency flexibility up to 3.8GHz and bandwidths of over 100MHz.
 * Baseband Interface: A significant level of digital circuitry resides within the LMS7002 and accompanying Xilinx for the implementation of the key physical layer radio functions including filtering, decimation, interpolation and flexible interface such as PCIe and SerDes to name a few.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_3D_top.png
   :width: 600
-  
+
   Figure 1: LimeSDR XTRX v1.3 board top view
 
 .. figure:: images/LimeSDR-XTRX_v1.3_3D_bot.png
   :width: 600
-  
+
   Figure 2: LimeSDR XTRX v1.3 board bottom view
 
 LimeSDR XTRX board features:
@@ -89,28 +89,28 @@ For more information on the following topics, refer to the respective documents:
 * `Lime Microsystems LMS7002M transceiver resources <https://limemicro.com/technology/lms7002m/>`_
 
 Board Overview
--------------- 
+--------------
 
 One of the key elements of LimeSDR XTRX board is the Xilinx Artix-7 (XC7A50T-2CPG236I) FPGA. It’s main function is to transfer digital data between LMS7002M RF transceiver and PC through a mini PCIe edge connector or Serial connection to another FPGA board. The block diagram for LimeSDR XTRX board is presented in the Figure 3.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_diagrams_BD.png
   :width: 600
-  
+
   Figure 3: LimeSDR XTRX v1.3 board block diagram
 
-This section contains component location description on the board. LimeSDR XTRX board picture with highlighted connectors and main components are presented in Figure 4 and Figure 5, respectively. 
+This section contains component location description on the board. LimeSDR XTRX board picture with highlighted connectors and main components are presented in Figure 4 and Figure 5, respectively.
 
 
 .. figure:: images/LimeSDR-XTRX_v1.3_components_top.png
   :width: 600
-  
+
   Figure 4: LimeSDR XTRX v1.3 board top connectors and main components
 
 .. _target1:
 
 .. figure:: images/LimeSDR-XTRX_v1.3_components_bot.png
   :width: 600
-  
+
   Figure 5: LimeSDR XTRX v1.3 board bottom connectors and main components
 
 Description of board components is given in the Table 1.
@@ -315,7 +315,7 @@ LimeSDR XTRX RF network contains matching networks, RF switches, loopback variab
 
 .. figure:: images/LimeSDR-XTRX_v1.3_diagrams_RFFE.png
   :width: 600
-  
+
   Figure 6. LimeSDR XTRX v1.3 RF diagram
 
 LMS7002M RF transceiver TX and RX ports has dedicated matching network which determines the working frequency range. More detailed information on LMS7002M RF transceiver ports and matching network frequency ranges is listed in the Table 3.
@@ -477,11 +477,11 @@ USB 2.0 controller pins, schematic signal names, FPGA interconnections and I/O s
 Indication LEDs
 ---------------
 
-LimeSDR XTRX board comes with two green indicator LEDs. These LEDs are soldered on the top of the board near the USB Micro-B connector. 
+LimeSDR XTRX board comes with two green indicator LEDs. These LEDs are soldered on the top of the board near the USB Micro-B connector.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_components_LEDs.png
   :width: 600
-  
+
   Figure 7. LimeSDR XTRX indication LEDs (top)
 
 LEDs are connected to FPGA hence their function may be programmed according to the user requirements. Default LEDs configuration and description are shown in Table 8.
@@ -554,7 +554,7 @@ FPGA_I2C1 (temperature sensor, EEPROM, CLK DAC, switching regulator) and FPGA_I2
   | IC31                 | Switching regulator | FPGA_I2C2    | 1 1 0 0 0 0 0 RW | 3.3V             | LP8758A1E0YFFR |
   +----------------------+---------------------+--------------+------------------+------------------+----------------+
 
-To debug FPGA design, flash bitstream to FPGA and/or Flash memory JTAG X9 connector is used. It is located on the PCB bottom side (see :ref:`target1`) and is compatible with Molex 788641001 connector. JTAG connector pins, schematic signal names, FPGA interconnections and I/O standards are listed in Table 12. 
+To debug FPGA design, flash bitstream to FPGA and/or Flash memory JTAG X9 connector is used. It is located on the PCB bottom side (see :ref:`target1`) and is compatible with Molex 788641001 connector. JTAG connector pins, schematic signal names, FPGA interconnections and I/O standards are listed in Table 12.
 
 .. table:: Table 12. JTAG connector X9 pins
 
@@ -608,10 +608,10 @@ LimeSDR XTRX board clock distribution block diagram is as shown in Figure 8.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_diagrams_clock.png
   :width: 600
-  
+
   Figure 8. LimeSDR XTRX v1.3 board clock distribution block diagram
 
-LimeSDR XTRX board features an on board 26.00 MHz VCTCXO as the reference clock for LMS7002M RF transceiver and FPGA PLLs. 
+LimeSDR XTRX board features an on board 26.00 MHz VCTCXO as the reference clock for LMS7002M RF transceiver and FPGA PLLs.
 
 Rakon E6982LF 26.00 MHz voltage controlled temperature compensated crystal oscillator (VCTCXO) is the clock source for the board. VCTCXO frequency may be tuned by using 16 bit DAC (IC17). Main VCTCXO parameters are listed in Table 14.
 
@@ -685,7 +685,7 @@ Mini PCIe edge connector
 
 LimeSDR XTRX board communicates with the host system via mPCIe connector. LimeSDR XTRX mini PCIe connector pinout and signals according to the specification is given in Table 16.
 
-.. table:: Table 16. Mini PCIe x1 edge connector pinout 
+.. table:: Table 16. Mini PCIe x1 edge connector pinout
 
   +---------+--------------------------------+---------------------------+----------------------------------------------------------------+
   | **Pin** | **Mini PCIe x1 Specification** | **LimeSDR XTRX**          | **Description**                                                |
@@ -804,17 +804,17 @@ As indicated, LimeSDR XTRX board may be powered via USB port (5V) or mini PCIe e
 
 .. figure:: images/LimeSDR-XTRX_v1.3_diagrams_power.png
   :width: 600
-  
+
   Figure 9. LimeSDR XTRX v1.3 board power distribution block diagram
 
 
-Differencies from LimeSDR XTRX v1.2
+Differences from LimeSDR XTRX v1.2
 =======
 
 Changes introduction
 --------------------
 
-LimeSDR XTRX v1.3 board is designed using LimeSDR XTRX v1.2 (r1) project as base. 
+LimeSDR XTRX v1.3 board is designed using LimeSDR XTRX v1.2 (r1) project as base.
 The reference clock structure has been changed, replacing the separate general-purpose buffers with one dedicated clock buffer. This should improve clock parameters such as phase jitter. Added the ability to supply an external 3.3V voltage to the lines of that voltage, bypassing the switching regulators and thus avoiding the voltage drop.
 Also, in this project we started using Altium Variants function to more conveniently manage components assembly info, alternatives and to more easily generate manufacturing information such as BOM and PCB views.
 
@@ -825,23 +825,23 @@ To improve LMS7002M RF parameters a single clock signal (LMS_CLK) for both TX an
 
 .. figure:: images/LimeSDR-XTRX_v1.3_RF_changes.png
   :width: 300
-  
+
   Figure 10. Separated LMS7002M RX and TX PLLs clocks schematics
 
 FPGA changes
 ------------
 
 Since this is new version of the board hardware version (HW_VER) was increased from 2 to 3. This change allows software to automatically distinguish between older and newer board versions. Also bill of materials version (BOM_VER) was reverted back from 1 to 0 (populated R49) to indicate that this is original LimeSDR XTRX v1.3 state. New BOM_VER and HW_VER schematics are given in Figure 11.
-  
+
 .. figure:: images/LimeSDR-XTRX_v1.3_BOM_changes.png
   :width: 600
-  
+
   Figure 11. FPGA BOM_VER and HW_VER schematics changes
 
 Miscellaneous changes
 ---------------------
 
-To make schematic signal naming more consistent added PCIE_CLK_IN signal name was addedd to mPCIe connectors (X10) pin 19. Also CLK_OUT signal name was changed to LMK_CLKOUT4, due to changes in clock network described in clock changes below.
+To make schematic signal naming more consistent added PCIE_CLK_IN signal name was added to mPCIe connectors (X10) pin 19. Also CLK_OUT signal name was changed to LMK_CLKOUT4, due to changes in clock network described in clock changes below.
 
 PCIE_PERST# signals pulldown resistor (R90) was removed from schematics.
 
@@ -849,38 +849,38 @@ All described mPCIe schematic changes are shown in Figure 12.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_mPCIe_changes.png
   :width: 600
-  
+
   Figure 12. mPCIe connector changes
 
 To make schematics easier to read mechanical components shown in Figure 13 were moved from 05_LMS7002M_RF sheet to 09_Misc sheet.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_Mech_changes.png
   :width: 600
-  
+
   Figure 13. Mechanical components
 
 Clock changes
 -------------
 
-LimeSDR XTRX v1.2 clock buffers were unreliable and caused issues for RF tranceiver. A more reliable clock buffer was added. Also XO DAC was changed to more accurate model. Resulting new clock diagram is shown in Figure 14.
+LimeSDR XTRX v1.2 clock buffers were unreliable and caused issues for RF transceiver. A more reliable clock buffer was added. Also XO DAC was changed to more accurate model. Resulting new clock diagram is shown in Figure 14.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_diagrams_clock.png
   :width: 600
-  
+
   Figure 14. LimeSDR XTRX v1.3 board clock block diagram
 
 The new clock buffer is LMK00105. It generates clock signals in 1.8V and 3.3V logic. LMK00105 schematics are given in Figure 15.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_buff_changes.png
   :width: 600
-  
+
   Figure 15. New clock buffer LMK00105 schematics
 
-Changed XO DAC from AD5693RACPZ-1RL7 (A grade, INL +-8LSB, internal reference, VLOGIC) to AD5693BCPZ-RL7 (B grade, INL +-3LSB, no internal reference, LDAC). Also removed R69, and populated R68 to tie LDAC pin low. This change make so DAC updates when new data is written to the input register. XO DAC schematic changes are shown in Figure 16.
+Changed XO DAC from AD5693RACPZ-1RL7 (A grade, INL +-8LSB, internal reference, VLOGIC) to AD5693BCPZ-RL7 (B grade, INL +-3LSB, no internal reference, LDAC). Also removed R69, and populated R68 to tie LDAC pin low. This change causes the DAC to update when new data is written to the input register. XO DAC schematic changes are shown in Figure 16.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_dac_changes.png
   :width: 600
-  
+
   Figure 16. XO DAC schematics changes
 
 Power changes
@@ -890,22 +890,22 @@ Sometimes PCIe 3.3 V power signal voltage is too low for switching regulators 3.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_diagrams_power.png
   :width: 600
-  
+
   Figure 17. LimeSDR XTRX v1.3 board clock power distribution diagram
 
-3.3 V Power signals generated by switching regulators were renamed from VCC3P3 to VCC3P3_SW and VCC_CLK to VCC_CLK_SW. And now can be discontented from main VCC3P3 and VCC_CLK power signals by removing R201 and R202. Also removed VCC1P8_CLK power net and inductor. All switching regulators schematic changes are shown in Figure 18.
+3.3 V Power signals generated by switching regulators were renamed from VCC3P3 to VCC3P3_SW and VCC_CLK to VCC_CLK_SW. And now can be disconnected from main VCC3P3 and VCC_CLK power signals by removing R201 and R202. Also removed VCC1P8_CLK power net and inductor. All switching regulators schematic changes are shown in Figure 18.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_swreg_changes.png
   :width: 600
-  
+
   Figure 18. Switching regulators schematics changes
 
 Added power rails source selection for VCC3P3 and VCC_CLK. By default switching regulator outputs are selected as source (R201, R202 are populated and R198, R199 are remove) as shown in Figure 19.
 
 .. figure:: images/LimeSDR-XTRX_v1.3_powsel_changes.png
   :width: 600
-  
-  Figure 19. Power source selection schematcs
+
+  Figure 19. Power source selection schematics
 
 PCB changes
 -----------
@@ -914,11 +914,11 @@ LimeSDR XTRX v1.3 is based on LimeSDR XTRX v1.2 layout. The new PCB 3D view is g
 
 .. figure:: images/LimeSDR-XTRX_v1.3_3D_top.png
   :width: 600
-  
+
   Figure 20: LimeSDR XTRX v1.3 board top view
 
 .. figure:: images/LimeSDR-XTRX_v1.3_3D_bot.png
   :width: 600
-  
+
   Figure 21: LimeSDR XTRX v1.3 board bottom view
 
