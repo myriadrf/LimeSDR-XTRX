@@ -1,6 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 #
-# MyriadRF conf.py v1.1.1
+# MyriadRF conf.py v1.2.0
 
 import sys
 import sphinx_rtd_theme
@@ -8,8 +8,9 @@ import requests
 import warnings
 from pathlib import Path
 from urllib.parse import urljoin
+import json
 
-# -- Setup and helper functions-----------------------------------------------
+# -- Setup and helper functions------------------------------------------------
 
 # Path to remote assets
 asset_base = 'https://assets.myriadrf.net/sphinx/'
@@ -39,7 +40,7 @@ def _read_local(path: Path) -> str:
     except Exception:
         return ""
 
-# -- Basic configuration -----------------------------------------------------
+# -- Basic configuration ------------------------------------------------------
 
 # Sphinx extensions
 extensions = [
@@ -64,7 +65,7 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['node_modules', 'venv', '_build', 'Thumbs.db', '.DS_Store']
 
-# -- Project config and MyriadRF styling -------------------------------------
+# -- Project config and MyriadRF styling --------------------------------------
 
 # Assign project config variables to local names
 project = project_cfg.project 
@@ -93,13 +94,13 @@ html_context = {
     'archived': project_cfg.archived
 }
 
-# -- RST epilog (used to define global external links and substitutions) -----
+# -- RST epilog (used to define project/global links and substitutions) -------
 
-# Get remote substitutions and external links
+# Get remote global substitutions and external links
 global_subs = _fetch_remote('substitutions.conf')
 global_extlinks = _fetch_remote('extlinks.conf')
 
-# Get local substitutions and external links
+# Get local project-wide substitutions and external links
 local_subs = _read_local(HERE / 'substitutions.conf')
 local_extlinks = _read_local(HERE / 'extlinks.conf')
 
@@ -129,14 +130,31 @@ else:
 
 intersphinx_mapping = {}
 
+# Get the global intersphinx mappings
+global_intersphinx = _fetch_remote('intersphinx.json')
+
+# Parse JSON and extract internal and external maps
+intersphinx_data = {}
+
+if global_intersphinx:
+    try:
+        intersphinx_data = json.loads(global_intersphinx)
+    except Exception as exc:
+        warnings.warn(f"Failed to parse intersphinx.json from remote assets host: {exc}")
+        intersphinx_data = {}
+
+internal_map = {}
+external_map = {}
+
+if isinstance(intersphinx_data, dict):
+    internal_map = intersphinx_data.get('internal', {}) or {}
+    external_map = intersphinx_data.get('external', {}) or {}
+
 # Determine MyriadRF projects host based on staging flag (default False)
 use_staging = bool(getattr(project_cfg, 'staging', False))
 host = 'stage.myriadrf.org' if use_staging else 'myriadrf.org'
 
-# Build intersphinx_mapping from project.py:
-# - intersphinx_myriadrf: list of single-word project names -> mapped to
-#     https://{host}/projects/<name>/  where host is stage.myriadrf.org or myriadrf.org
-# - intersphinx_external: dict of key -> full target URL (used as-is)
+# Build intersphinx_mapping according to project.py configuration
 
 # Process MyriadRF project list
 intersphinx_internal = getattr(project_cfg, 'intersphinx_internal', None)
@@ -144,20 +162,25 @@ if isinstance(intersphinx_internal, (list, tuple)):
     for name in intersphinx_internal:
         if not isinstance(name, str) or not name:
             continue
-        url = f'https://{host}/projects/{name}/'
-        intersphinx_mapping[name] = (url, None)
+        slug = internal_map.get(name)
+        if slug:
+            intersphinx_mapping[name] = (f'https://{host}/projects/{slug}/', None)
+        else:
+            warnings.warn(f"Intersphinx mapping for MyriadRF project '{name}' not found in intersphinx.json; skipping.")
 
-# Process external mappings (keyword -> full URL)
+# Process external project list
 intersphinx_external = getattr(project_cfg, 'intersphinx_external', None)
-if isinstance(intersphinx_external, dict):
-    for key, url in intersphinx_external.items():
-        if not isinstance(key, str) or not key:
+if isinstance(intersphinx_external, (list, tuple)):
+    for name in intersphinx_external:
+        if not isinstance(name, str) or not name:
             continue
-        if not isinstance(url, str) or not url:
-            continue
-        intersphinx_mapping[key] = (url, None)
+        url = external_map.get(name)
+        if url:
+            intersphinx_mapping[name] = (url, None)
+        else:
+            warnings.warn(f"Intersphinx mapping for external project '{name}' not found in intersphinx.json; skipping.")
 
-# -- Options for HTML output -------------------------------------------------
+# -- Options for HTML output --------------------------------------------------
 
 html_theme = "sphinx_rtd_theme"
 
