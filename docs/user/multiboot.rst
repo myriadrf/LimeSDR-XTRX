@@ -14,7 +14,7 @@ and instead proceeds to attempt to boot from the **user** image address provided
 image and boots from it, enabling JTAG-less recovery in case of a faulty **user** image. This process is summarised in the
 figure below.
 
-.. figure:: images/BootChart.svg
+.. figure:: /images/BootChart.svg
    :width: 600
 
    Figure 1: Multiboot procedure flowchart

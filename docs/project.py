@@ -1,7 +1,7 @@
 # Copyright date and release version should be updated accordingly!
 
 project = 'LimeSDR XTRX'
-copyright = '2024-2025 Lime Microsystems'
+copyright = '2024-2026 Lime Microsystems'
 author = 'Lime Microsystems'
 release = 'v1.3'
 
@@ -19,7 +19,9 @@ highlight_language = 'console'
 # Intersphinx mapping
 # To minimise build time only include projects that are referenced.
 intersphinx_internal = [
+    'quickstart',
     'sdrgw',
+    'suiteng',
 ]
 
 intersphinx_external = [
