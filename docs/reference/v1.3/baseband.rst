@@ -3,74 +3,108 @@ Baseband Connectors
 
 LMS7002M RF transceiver (IC1) baseband signals (RX ADC and TX DAC) can be accessed via 0.3mm pitch 15 pin FPC connectors (X13 and X8). TX DAC connector pinout is shown in Table 7. RX ADC connector pinout is shown in Table 8.
 
-.. table:: Table 7. LMS7002 baseband TX DAC connector (X13)
+.. list-table:: Table 7. LMS7002 baseband TX DAC connector (X13)
+   :header-rows: 1
+   :stub-columns: 1
 
-  +---------+---------------------------+---------------------------------------------------+
-  | **Pin** | **Schematic signal name** | **Description**                                   |
-  +=========+===========================+===================================================+
-  | 1       | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
-  | 2       | DAC1Q_P                   | Channel 1 quadrature signal differential positive |
-  +---------+---------------------------+---------------------------------------------------+
-  | 3       | DAC1Q_N                   | Channel 1 quadrature signal differential negative |
-  +---------+---------------------------+---------------------------------------------------+
-  | 4       | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
-  | 5       | DAC1I_P                   | Channel 1 in-phase signal differential positive   |
-  +---------+---------------------------+---------------------------------------------------+
-  | 6       | DAC1I_N                   | Channel 1 in-phase signal differential negative   |
-  +---------+---------------------------+---------------------------------------------------+
-  | 7       | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
-  | 8       | GPIO13                    | General purpose input/output (FPGA pin T17)       |
-  +---------+---------------------------+---------------------------------------------------+
-  | 9       | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
-  | 10      | DAC2Q_P                   | Channel 2 quadrature signal differential positive |
-  +---------+---------------------------+---------------------------------------------------+
-  | 11      | DAC2Q_N                   | Channel 2 quadrature signal differential negative |
-  +---------+---------------------------+---------------------------------------------------+
-  | 12      | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
-  | 13      | DAC2I_P                   | Channel 2 in-phase signal differential positive   |
-  +---------+---------------------------+---------------------------------------------------+
-  | 14      | DAC2I_N                   | Channel 2 in-phase signal differential negative   |
-  +---------+---------------------------+---------------------------------------------------+
-  | 15      | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
+   * - Pin
+     - Schematic signal name
+     - Description
+   * - 1
+     - GND
+     - Ground
+   * - 2
+     - DAC1Q_P
+     - Channel 1 quadrature signal differential positive
+   * - 3
+     - DAC1Q_N
+     - Channel 1 quadrature signal differential negative
+   * - 4
+     - GND
+     - Ground
+   * - 5
+     - DAC1I_P
+     - Channel 1 in-phase signal differential positive
+   * - 6
+     - DAC1I_N
+     - Channel 1 in-phase signal differential negative
+   * - 7
+     - GND
+     - Ground
+   * - 8
+     - GPIO13
+     - General purpose input/output (FPGA pin T17)
+   * - 9
+     - GND
+     - Ground
+   * - 10
+     - DAC2Q_P
+     - Channel 2 quadrature signal differential positive
+   * - 11
+     - DAC2Q_N
+     - Channel 2 quadrature signal differential negative
+   * - 12
+     - GND
+     - Ground
+   * - 13
+     - DAC2I_P
+     - Channel 2 in-phase signal differential positive
+   * - 14
+     - DAC2I_N
+     - Channel 2 in-phase signal differential negative
+   * - 15
+     - GND
+     - Ground
 
-.. table:: Table 8. LMS7002 baseband RX ADC connector (X8)
+.. list-table:: Table 8. LMS7002 baseband RX ADC connector (X8)
+   :header-rows: 1
+   :stub-columns: 1
 
-  +---------+---------------------------+---------------------------------------------------+
-  | **Pin** | **Schematic signal name** | **Description**                                   |
-  +=========+===========================+===================================================+
-  | 1       | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
-  | 2       | ADC1I_P                   | Channel 1 in-phase signal differential positive   |
-  +---------+---------------------------+---------------------------------------------------+
-  | 3       | ADC1I_N                   | Channel 1 in-phase signal differential negative   |
-  +---------+---------------------------+---------------------------------------------------+
-  | 4       | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
-  | 5       | DAC1Q_P                   | Channel 1 quadrature signal differential positive |
-  +---------+---------------------------+---------------------------------------------------+
-  | 6       | DAC1Q_N                   | Channel 1 quadrature signal differential negative |
-  +---------+---------------------------+---------------------------------------------------+
-  | 7       | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
-  | 8       | GPIO13                    | General purpose input/output (FPGA pin T17)       |
-  +---------+---------------------------+---------------------------------------------------+
-  | 9       | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
-  | 10      | ADC2I_P                   | Channel 2 in-phase signal differential positive   |
-  +---------+---------------------------+---------------------------------------------------+
-  | 11      | ADC2I_N                   | Channel 2 in-phase signal differential negative   |
-  +---------+---------------------------+---------------------------------------------------+
-  | 12      | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
-  | 13      | ADC2Q_P                   | Channel 2 quadrature signal differential positive |
-  +---------+---------------------------+---------------------------------------------------+
-  | 14      | ADC2Q_N                   | Channel 2 quadrature signal differential negative |
-  +---------+---------------------------+---------------------------------------------------+
-  | 15      | GND                       | Ground                                            |
-  +---------+---------------------------+---------------------------------------------------+
+   * - Pin
+     - Schematic signal name
+     - Description
+   * - 1
+     - GND
+     - Ground
+   * - 2
+     - ADC1I_P
+     - Channel 1 in-phase signal differential positive
+   * - 3
+     - ADC1I_N
+     - Channel 1 in-phase signal differential negative
+   * - 4
+     - GND
+     - Ground
+   * - 5
+     - DAC1Q_P
+     - Channel 1 quadrature signal differential positive
+   * - 6
+     - DAC1Q_N
+     - Channel 1 quadrature signal differential negative
+   * - 7
+     - GND
+     - Ground
+   * - 8
+     - GPIO13
+     - General purpose input/output (FPGA pin T17)
+   * - 9
+     - GND
+     - Ground
+   * - 10
+     - ADC2I_P
+     - Channel 2 in-phase signal differential positive
+   * - 11
+     - ADC2I_N
+     - Channel 2 in-phase signal differential negative
+   * - 12
+     - GND
+     - Ground
+   * - 13
+     - ADC2Q_P
+     - Channel 2 quadrature signal differential positive
+   * - 14
+     - ADC2Q_N
+     - Channel 2 quadrature signal differential negative
+   * - 15
+     - GND
+     - Ground

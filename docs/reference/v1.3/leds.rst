@@ -10,13 +10,22 @@ LimeSDR XTRX board comes with two green indicator LEDs. These LEDs are soldered 
 
 LEDs are connected to FPGA, hence their function may be programmed according to the user requirements. Default LED configuration and description are shown in Table 10.
 
-.. table:: Table 10. Default LEDs configuration
+.. list-table:: Table 10. Default LEDs configuration
+   :header-rows: 1
+   :stub-columns: 1
 
-  +---------------------+--------------------+-----------------+--------------+-----------------------+
-  | **Board Reference** | **Schematic name** | **Board label** | **FPGA pin** | **Description**       |
-  +=====================+====================+=================+==============+=======================+
-  | LED1                | FPGA_LED1          | LED1            | N18          | User defined          |
-  +---------------------+--------------------+-----------------+--------------+-----------------------+
-  | LED2                | FPGA_LED2          | LED2            | V19          | User defined          |
-  +---------------------+--------------------+-----------------+--------------+-----------------------+
-
+   * - Board Reference
+     - Schematic name
+     - Board label
+     - FPGA pin
+     - Description
+   * - LED1
+     - FPGA_LED1
+     - LED1
+     - N18
+     - User defined
+   * - LED2
+     - FPGA_LED2
+     - LED2
+     - V19
+     - User defined
