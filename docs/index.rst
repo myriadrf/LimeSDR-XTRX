@@ -23,62 +23,6 @@ LimeSDR XTRX FPGA gateware builds on the open source LiteX framework, which make
 
 A significant level of digital circuitry resides within the LMS7002M field-programmable RF (FPRF) transceiver and accompanying Xilinx Artix-7 FPGA, enabling the implementation of key physical layer radio functions, including filtering, decimation and interpolation, together with flexible interfaces such as PCIe and SerDes, to name but a few.
 
-Features
-********
-
-Devices
-=======
-
-* RF transceiver: Lime Microsystems LMS7002M
-* FPGA: Xilinx Artix-7 (XC7A50T-2CPG236I)
-
-  * 236-pin CSBGA package (10mm x 10mm, 0.5mm)
-  * 52160 LUTs logic capacity
-  * 2700 Kb Embedded Memory
-  * 600 Kb distributed RAM
-  * 120x 18x18-bit multipliers
-  * 5x PLLs and 4x DLLs
-  * FPGA configuration via JTAG
-
-* USB 2.0 controller: Microchip USB3333E-GL
-* Temperature sensor: TMP1075NDRLR
-
-
-Clock system
-============
-
-* 26.00MHz on board VCTCXO
-* VCTCXO may be tuned by GPSDO function or external PPS reference
-* Reference clock input and output connectors (U.FL and mPCIe)
-* 1PPS input (U.FL and mPCIe) and output (mPCIe) 
-
-.. Note::
-   Single U.FL connector (X7) is used for both reference clock input and output.
-
-Memory
-======
-
-* 128Kb EEPROM for LMS MCU firmware (optional)
-* 128Kb EEPROM for FPGA data (optional)
-* 256Mb Flash memory for FPGA configuration
-
-General user inputs/outputs:
-============================
-
-* 2x Green LEDs
-* 4x GPIOs 3.3V in GPIO connector
-* 1x GPIO in baseband connectors
-
-Connections
-===========
-
-* Mini PCIe edge connector
-* USB 2.0 (Micro-B) socket
-* Coaxial RF and clock (U.FL female) connectors
-* FPGA GPIO 8-pin FPC connector
-* FPGA JTAG connector
-* RF baseband 15-pin FPC connectors
-
 Specifications
 **************
 
@@ -183,7 +127,61 @@ Mechanical
 
 Mini PCIe (full size) form factor, 50.8 × 20.97 mm, <15g weight.
 
+Features
+********
 
+Devices
+=======
+
+* RF transceiver: Lime Microsystems LMS7002M
+* FPGA: Xilinx Artix-7 (XC7A50T-2CPG236I)
+
+  * 236-pin CSBGA package (10mm x 10mm, 0.5mm)
+  * 52160 LUTs logic capacity
+  * 2700 Kb Embedded Memory
+  * 600 Kb distributed RAM
+  * 120x 18x18-bit multipliers
+  * 5x PLLs and 4x DLLs
+  * FPGA configuration via JTAG
+
+* USB 2.0 controller: Microchip USB3333E-GL
+* Temperature sensor: TMP1075NDRLR
+
+
+Clock system
+============
+
+* 26.00MHz on board VCTCXO
+* VCTCXO may be tuned by GPSDO function or external PPS reference
+* Reference clock input and output connectors (U.FL and mPCIe)
+* 1PPS input (U.FL and mPCIe) and output (mPCIe) 
+
+.. Note::
+   Single U.FL connector (X7) is used for both reference clock input and output.
+
+Memory
+======
+
+* 128Kb EEPROM for LMS MCU firmware (optional)
+* 128Kb EEPROM for FPGA data (optional)
+* 256Mb Flash memory for FPGA configuration
+
+General user inputs/outputs:
+============================
+
+* 2x Green LEDs
+* 4x GPIOs 3.3V in GPIO connector
+* 1x GPIO in baseband connectors
+
+Connections
+===========
+
+* Mini PCIe edge connector
+* USB 2.0 (Micro-B) socket
+* Coaxial RF and clock (U.FL female) connectors
+* FPGA GPIO 8-pin FPC connector
+* FPGA JTAG connector
+* RF baseband 15-pin FPC connectors
 
 Purchasing
 **********
