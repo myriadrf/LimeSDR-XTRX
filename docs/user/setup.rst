@@ -23,7 +23,9 @@ Cooling
 
 Depending on the application, host system and ambient temperature, additional cooling may be required to ensure reliable operation of the LimeSDR XTRX board. This may be in the form of airflow through the host system, or a dedicated heatsink fitted to the board.
 
-When designing cooling for system with LimeSDR XTRX take into account that it can dissipate up to 4 Watts.
+
+
+When designing a cooling solution for a LimeSDR XTRX–based system, power dissipation should be evaluated based on the specific user configuration and use case. In general, the LimeSDR XTRX cooling solution should be designed to dissipate at least 4 W of power, providing sufficient thermal margin to ensure safe and reliable operation during peak loads.
 
 .. note::
    In the event of errors, instability or reduced performance, check the board temperature to ensure that it is within the specified operating range.
