@@ -12,7 +12,8 @@ v1.2
    baseband
    usb
    leds
-   lowspeed
+   peripheralinterfaces
+   jtag
    gpio
    mpcie
    power

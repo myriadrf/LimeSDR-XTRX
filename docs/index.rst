@@ -10,9 +10,10 @@ Introduction
    reference/index
    developer
 
-.. figure:: images/LimeSDR-XTRX_v1.0-TOP_ANGLE_1-800w.jpg
+.. figure:: images/LimeSDR-XTRX_v1.3_iso.jpg
    :alt: LimeSDR XTRX v1.0 board
    :align: center
+   :width: 600
 
 LimeSDR XTRX is a Mini PCIe expansion card software-defined radio (SDR), with a 2T2R MIMO capability and covering a frequency range from 30 MHz to 3.8 GHz, with up to 120 MHz bandwidth. It additionally may be used as a building block for Massive MIMO configurations, where multiple boards are employed and utilise a common frequency reference, for very high data rate applications.
 
@@ -29,36 +30,38 @@ RF
 ==
 
 .. list-table:: 
-    :header-rows: 1
-    :stub-columns: 1
+   :header-rows: 1
+   :stub-columns: 1
 
-    * - Parameter
-      - Value
-      - Notes
-    * - Frequency Range
-      - 30 MHz – 3.8 GHz
-      - Continuous coverage
-    * - RF Bandwidth
-      - 0.7 - 120 MHz
-      - Software configurable
-    * - Max Tx Power
-      - +10 dBm
-      - Frequency dependent
-    * - Rx Noise Figure
-      - 2.5 dB
-      - Typical @ 2 GHz
-    * - Tx EVM (64-QAM)
-      - < 2 %
-      - Typical
-    * - LO Leakage
-      - <-40 dBc
-      - After calibration
-    * - Max. Safe Rx Input Power
-      - +10 dBm
-      - Absolute maximum
-    * - Rx Gain Range
-      - > 70dB
-      - LNA + TIA + PGA combined
+   * - Parameter
+     - Value
+     - Notes
+   * - Configuration
+     - MIMO (2T2R)
+     - 2 Full-duplex channels
+   * - Frequency Range
+     - 30 MHz – 3.8 GHz
+     - Non-continuous coverage
+   * - Bandwidth
+     - up to 120 MHz
+     - Software configurable
+   * - Sample depth
+     - 12 bit
+     - 
+   * - Sample rate
+     - 30.72 MSPS
+     - 
+   * - LO Leakage
+     - <-40 dBc
+     - After calibration
+   * - Max. Safe Rx Input Power
+     - 10 dBm
+     - Absolute maximum
+   * - Rx Gain Range
+     - 89 dB
+     - LNA + TIA + PGA combined
+
+
 
 Digital Interface
 =================
@@ -70,10 +73,8 @@ Mini PCIe edge connector with PCIe Gen 2 x2.
    
    Single lane operation results in slightly reduced performance.
 
-**The USB 2.0 interface is for board programming only.**
-
-Power
-=====
+Power Supply
+============
 
 .. list-table:: 
    :header-rows: 1
@@ -88,18 +89,12 @@ Power
    * - Input Voltage (USB)
      - 5 V DC
      - Via Micro-B USB connector
-   * - Idle Power
-     - ~1.5 W
-     - Configured, no streaming
-   * - Rx-only (MIMO)
-     - ~2.5 W
-     - Both channels active
-   * - Full Tx+Rx (MIMO)
-     - ~3.5 W
-     - Full rate streaming
-   * - Maximum Power
-     - ~4.5 W
-     - Peak, full TX power 
+   * - Maximum Power (mPCIe)
+     - 3.3 W
+     - mPCIe limit
+
+.. note::
+   Power consumption depends on configuration.
 
 .. warning::
    Incorrect voltage or inadequate current capacity may cause damage or unstable operation.
@@ -115,17 +110,17 @@ Environmental
      - Value
      - Notes
    * - Operating Temperature
-     - 0°C to +70°C
-     - Commercial grade
+     - -40 °C to +85 °C
+     - Industrial-grade
    * - Storage Temperature
-     - -40°C to +85°C
+     - -40 °C to +85 °C
      - N/A
    * - Operating Humidity
      - 10% to 90% RH  
      - Non-condensing
-   * - Maximum Altitude
-     - 3000 m / 10,000 ft
-     - N/A 
+
+.. note::
+   USB micro connector (X11) operating temperature range -30 °C to +85 °C.
 
 Mechanical
 ==========
@@ -135,19 +130,11 @@ Mini PCIe (full size) form factor, 50.8 × 20.97 mm, <15g weight.
 Features
 ********
 
-LimeSDR XTRX features include:
-
-* RF and BB parameters:
-
-  * Configuration: MIMO (2xTX, 2xRX)
-  * Frequency range: 30 MHz – 3.8 GHz
-  * Bandwidth: up to 120 MHz
-  * Sample depth: 12 bit
-  * Sample rate: 30.72 MSPS [FIXME]
-  * Transmit power: max 10 dBm (depending on frequency)
+Devices
+=======
 
 * RF transceiver: Lime Microsystems LMS7002M
-* Xilinx Artix-7 (XC7A50T-2CPG236I) FPGA:
+* FPGA: Xilinx Artix-7 (XC7A50T-2CPG236I)
 
   * 236-pin CSBGA package (10mm x 10mm, 0.5mm)
   * 52160 LUTs logic capacity
@@ -157,44 +144,49 @@ LimeSDR XTRX features include:
   * 5x PLLs and 4x DLLs
   * FPGA configuration via JTAG
 
-* Host interface: PCIe Gen2 x2 
-
-  * A custom baseboard or adapter is required to use both PCIe lanes
-  * Single lane operation results in slightly reduced performance
-
-* Clock system:
-
-  * 26.00MHz on board VCTCXO
-  * VCTCXO may be tuned by GPSDO function or external PPS reference
-  * Reference clock input and output connectors (U.FL and mPCIe)
-  * 1PPS input and output (mPCIe) 
-
-* EEPROM Memory: 128Kb EEPROM for LMS MCU firmware (optional); 128Kb EEPROM for FPGA data (optional)
-* FLASH Memory: 256Mb Flash memory for FPGA configuration
 * USB 2.0 controller: Microchip USB3333E-GL
 * Temperature sensor: TMP1075NDRLR
-* General user inputs/outputs:
 
-  * 2x Green LEDs
-  * 4x GPIOs 3.3V in GPIO connector
-  * 1x GPIO in Baseband connectors
 
-* Connections:
+Clock system
+============
 
-  * USB 2.0 (Micro-B) socket
-  * Coaxial RF (U.FL female) connectors
-  * FPGA GPIO 8-pin FPC connector
-  * FPGA JTAG connector (unpopulated)
-  * Mini PCIe edge connector
-  * RF Baseband 15-pin FPC connectors
+* 26.00MHz on board VCTCXO
+* VCTCXO may be tuned by GPSDO function or external PPS reference
+* Reference clock input and output connectors (U.FL and mPCIe)
+* 1PPS input (U.FL and mPCIe) and output (mPCIe) 
 
-* Power sources: USB connector (5V) or mini PCIe (3.3V)
-* Size: 50.8mm x 29.7mm (Mini PCIe card form factor)
+.. Note::
+   Single U.FL connector (X7) is used for both reference clock input and output.
+
+Memory
+======
+
+* 128Kb EEPROM for LMS MCU firmware (optional)
+* 128Kb EEPROM for FPGA data (optional)
+* 256Mb Flash memory for FPGA configuration
+
+General user inputs/outputs:
+============================
+
+* 2x Green LEDs
+* 4x GPIOs 3.3V in GPIO connector
+* 1x GPIO in baseband connectors
+
+Connections
+===========
+
+* Mini PCIe edge connector
+* USB 2.0 (Micro-B) socket
+* Coaxial RF and clock (U.FL female) connectors
+* FPGA GPIO 8-pin FPC connector
+* FPGA JTAG connector
+* RF baseband 15-pin FPC connectors
 
 Purchasing
 **********
 
-Please see the `Lime Micro website`_ for purchasing options.
+Please see the  `Lime Micro website`_ for purchasing options.
 
 Regulatory
 **********
