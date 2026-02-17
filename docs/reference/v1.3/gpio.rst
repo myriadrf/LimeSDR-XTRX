@@ -1,9 +1,9 @@
 GPIO Connector
 ##############
 
-Four GPIOs from the FPGA are connected to an 8-pin FPC connector (X12). 
+Four GPIOs from the FPGA are connected to an 8-pin FPC connector (X12).
 
-GPIOs are separated by ground pins. 
+GPIOs are separated by ground pins.
 
 An additional pin is dedicated for power as shown in Table 15.
 
@@ -12,7 +12,7 @@ An additional pin is dedicated for power as shown in Table 15.
    :stub-columns: 1
 
    * - Connector pin
-     - Schematic signal name      
+     - Schematic signal name
      - FPGA pin
      - I/O standard
      - Comment

@@ -27,7 +27,6 @@ FPGA_SPI pins, schematic signal names, FPGA interconnections and I/O standards/l
      - 3.3V
      - IC1 (LMS7002 (IC1)) SPI slave select (FPGA output)
 
-
 FPGA_CFG_SPI pins, schematic signal names, FPGA interconnections and I/O standards are shown in Table 12.
 
 .. list-table:: Table 12. FPGA_CFG_SPI interface pins
@@ -62,7 +61,6 @@ FPGA_CFG_SPI pins, schematic signal names, FPGA interconnections and I/O standar
      - 3.3V
      - 
 
-
 FPGA_I2C1 (temperature sensor, EEPROM, CLK DAC, switching regulator) and FPGA_I2C2 (switching regulator) interface slave devices and related information are given in Table 13.
 
 .. table:: Table 13. FPGA_I2C1 and FPGA_I2C2 interfaces pins
@@ -80,4 +78,3 @@ FPGA_I2C1 (temperature sensor, EEPROM, CLK DAC, switching regulator) and FPGA_I2
   +----------------------+---------------------+--------------+------------------+------------------+----------------+
   | IC31                 | Switching regulator | FPGA_I2C2    | 1 1 0 0 0 0 0 RW | 3.3V             | LP8758A1E0YFFR |
   +----------------------+---------------------+--------------+------------------+------------------+----------------+
-

@@ -5,7 +5,7 @@ LimeSDR XTRX RF network contains matching networks, RF switches, loopback variab
 
 .. figure:: /images/LimeSDR-XTRX_v1.3_diagrams_RFFE.png
   :width: 600
-  
+
   Figure 6. LimeSDR XTRX v1.3 RF diagram
 
 LMS7002M RF transceiver TX and RX ports has dedicated matching network which determines the working frequency range. More detailed information on LMS7002M RF transceiver ports and matching network frequency ranges is listed in the Table 3.

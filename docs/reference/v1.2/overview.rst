@@ -5,19 +5,19 @@ One of the key elements of LimeSDR XTRX board is the Xilinx Artix-7 (`XC7A50T-2C
 
 .. figure:: /images/LimeSDR-XTRX_v1.2_diagrams_BD.png
   :width: 600
-  
+
   Figure 3: LimeSDR XTRX v1.2 board block diagram
 
-This section contains component location description on the board. LimeSDR XTRX board picture with highlighted connectors and main components are presented in Figure 4 and Figure 5, respectively. 
+This section contains component location description on the board. LimeSDR XTRX board picture with highlighted connectors and main components are presented in Figure 4 and Figure 5, respectively.
 
 .. figure:: /images/LimeSDR-XTRX_v1.2_components_top.png
   :width: 600
-  
+
   Figure 4: LimeSDR XTRX v1.2 board top connectors and main components
 
 .. figure:: /images/LimeSDR-XTRX_v1.2_components_bot.png
   :width: 600
-  
+
   Figure 5: LimeSDR XTRX v1.2 board bottom connectors and main components
 
 Description of board components is given in the Table 1.
@@ -105,4 +105,3 @@ Description of board components is given in the Table 1.
   +----------------------------------------------+-----------------------+--------------------------------------------------------------------------------+
 
 A more detailed description is provided in the following sections.
-

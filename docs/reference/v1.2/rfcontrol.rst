@@ -5,7 +5,7 @@ LimeSDR XTRX RF network contains matching networks, RF switches, loopback variab
 
 .. figure:: /images/LimeSDR-XTRX_v1.2_diagrams_RFFE.png
   :width: 600
-  
+
   Figure 6. LimeSDR XTRX v1.2 RF diagram
 
 LMS7002M RF transceiver TX and RX ports has dedicated matching network which determines the working frequency range. More detailed information on LMS7002M RF transceiver ports and matching network frequency ranges is listed in the Table 3.
@@ -25,7 +25,6 @@ LMS7002M RF transceiver TX and RX ports has dedicated matching network which det
      - 700 MHz – 2.6 GHz
    * - RX1_L, RX2_L
      - 300 MHz – 2.2 GHz
-
 
 RF network switches are controlled via 2.4V logic signals. This is achieved by resistor dividers connected between FPGA (TX_SW, RX_SW1, RX_SW2) and switch control pin (TX_SW_DIV, RX_SW1_DIV, RX_SW2_DIV). RF network control signals are described in the Table 4.
 

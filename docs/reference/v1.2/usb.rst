@@ -1,7 +1,7 @@
 USB 2.0 Controller
 ##################
 
-LimeSDR XTRX may be powered and programmed via USB 2.0, by connecting it to a Micro-B port or Mini PCIe connector. 
+LimeSDR XTRX may be powered and programmed via USB 2.0, by connecting it to a Micro-B port or Mini PCIe connector.
 
 .. note::
     Data transfer via USB 2.0 interface requires custom gateware.

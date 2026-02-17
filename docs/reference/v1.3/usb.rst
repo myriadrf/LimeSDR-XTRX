@@ -1,12 +1,10 @@
 USB 2.0 Controller
 ##################
 
-LimeSDR XTRX may be powered via USB 2.0, by connecting it to a Micro-B port. 
+LimeSDR XTRX may be powered via USB 2.0, by connecting it to a Micro-B port.
 
 .. note:: 
-  Data transfer via USB 2.0 interface requires custom gateware. 
-
-
+  Data transfer via USB 2.0 interface requires custom gateware.
 
 USB 2.0 is implemented using `Microchip USB3333E-GL`_ transceiver. The controller signals description are shown below:
 
@@ -96,6 +94,5 @@ USB 2.0 controller pins, schematic signal names, FPGA interconnections and I/O s
      - USB_26M
      - E19
      - 3.3V
-
 
 .. _Microchip USB3333E-GL: https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/00001880A.pdf
