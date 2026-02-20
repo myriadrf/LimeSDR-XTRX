@@ -1,7 +1,7 @@
 RF Network Control
 ##################
 
-LimeSDR XTRX RF network contains matching networks, RF switches, loopback variable attenuator and U.FL connectors (X1, X3 - TX and X2, X4 - RX) as shown in Figure 6.
+LimeSDR XTRX RF network contains matching networks, RF switches and U.FL connectors (X1, X3 - TX and X2, X4 - RX) as shown in Figure 6.
 
 .. figure:: /images/LimeSDR-XTRX_v1.2_diagrams_RFFE.png
   :width: 600
