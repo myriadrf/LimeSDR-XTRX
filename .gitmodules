@@ -4,3 +4,6 @@
 [submodule "hardware/1v3/LimeMicroAltiumLib"]
 	path = hardware/1v3/LimeMicroAltiumLib
 	url = https://github.com/myriadrf/LimeMicroAltiumLib
+[submodule "hardware/1v4/LimeMicroAltiumLib"]
+	path = hardware/1v4/LimeMicroAltiumLib
+	url = https://github.com/myriadrf/LimeMicroAltiumLib
