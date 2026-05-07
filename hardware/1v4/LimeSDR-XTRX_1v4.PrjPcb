@@ -484,7 +484,7 @@ UniqueID=5AE1C198-D408-42A4-B5FC-BD008E60CE0A
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=58
+VariationCount=59
 Variation1=Designator=MN9|UniqueId=\VRSHDKBJ|Kind=1|AlternatePart= 
 Variation2=Designator=MN7|UniqueId=\CYTXAKES|Kind=1|AlternatePart= 
 Variation3=Designator=MN31|UniqueId=\LJKPCPVN|Kind=1|AlternatePart= 
@@ -543,6 +543,7 @@ Variation55=Designator=C185|UniqueId=\KUGTHHNJ|Kind=0|AlternatePart=
 Variation56=Designator=R55|UniqueId=\VZMLFZSF|Kind=1|AlternatePart= 
 Variation57=Designator=R54|UniqueId=\BBTRYPEN|Kind=1|AlternatePart= 
 Variation58=Designator=R52|UniqueId=\SBGMHSNO|Kind=1|AlternatePart= 
+Variation59=Designator=FR55|UniqueId=\FOMUGDCP|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
