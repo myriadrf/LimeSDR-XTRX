@@ -214,7 +214,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -401,7 +401,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -484,7 +484,7 @@ UniqueID=5AE1C198-D408-42A4-B5FC-BD008E60CE0A
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=55
+VariationCount=58
 Variation1=Designator=MN9|UniqueId=\VRSHDKBJ|Kind=1|AlternatePart= 
 Variation2=Designator=MN7|UniqueId=\CYTXAKES|Kind=1|AlternatePart= 
 Variation3=Designator=MN31|UniqueId=\LJKPCPVN|Kind=1|AlternatePart= 
@@ -540,6 +540,9 @@ Variation52=Designator=R105|UniqueId=\OJJCGJST|Kind=1|AlternatePart=
 Variation53=Designator=R152|UniqueId=\DNUAHEWH|Kind=1|AlternatePart= 
 Variation54=Designator=C157|UniqueId=\VKOZRPZW|Kind=0|AlternatePart= 
 Variation55=Designator=C185|UniqueId=\KUGTHHNJ|Kind=0|AlternatePart= 
+Variation56=Designator=R55|UniqueId=\VZMLFZSF|Kind=1|AlternatePart= 
+Variation57=Designator=R54|UniqueId=\BBTRYPEN|Kind=1|AlternatePart= 
+Variation58=Designator=R52|UniqueId=\SBGMHSNO|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -602,7 +605,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP Laser 107w
+TargetPrinter=HP_LaserJet_M501 (HP LaserJet Pro M501dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -708,7 +711,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP Laser 107w
+TargetPrinter=HP_LaserJet_M501 (HP LaserJet Pro M501dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -790,7 +793,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP Laser 107w
+TargetPrinter=HP_LaserJet_M501 (HP LaserJet Pro M501dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -812,7 +815,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP Laser 107w
+TargetPrinter=HP_LaserJet_M501 (HP LaserJet Pro M501dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -884,7 +887,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP Laser 107w
+TargetPrinter=HP_LaserJet_M501 (HP LaserJet Pro M501dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -933,7 +936,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP Laser 107w
+TargetPrinter=HP_LaserJet_M501 (HP LaserJet Pro M501dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1113,7 +1116,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP Laser 107w
+TargetPrinter=HP_LaserJet_M501 (HP LaserJet Pro M501dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Configuration compliance
 OutputName1=Environment configuration compliance check
@@ -1157,7 +1160,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP Laser 107w
+TargetPrinter=HP_LaserJet_M501 (HP LaserJet Pro M501dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1214,41 +1217,11 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP Laser 107w
+TargetPrinter=HP_LaserJet_M501 (HP LaserJet Pro M501dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
