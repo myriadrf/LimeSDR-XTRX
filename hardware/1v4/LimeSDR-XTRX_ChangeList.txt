@@ -1,0 +1,15 @@
+Changes:
+LimeSDR-XTRX_1v4(_DB)_DFMr0 created from LimeSDR-XTRX_1v3(_DB)_DFMr1:
+ - Changed LMK buffer
+ - Change USB FIFO chip because of EOL
+ - Changed external CLK connectors from U.FL to MHF4
+ - Added LMS TSTAO and TSTDO pin connections
+ - Updated schematic template
+ - All DFM files refreshed
+
+LimeSDR-XTRX_1v3(_DB)_DFMr1:
+ - BOM and schematic refreshed because of IC17 comment update
+ - Other files (including DFM) left unchanged
+
+LimeSDR-XTRX_1v3(_DB)_DFMr0:
+ - Initial version
