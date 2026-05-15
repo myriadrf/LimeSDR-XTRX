@@ -1,15 +1,19 @@
-# Python, Node.js and general
-
-_build
-venv/
-__pycache__
-node_modules/
+# General
 *.DS_Store
 Thumbs.db
 *.swp
 ~*
 *~
+
+# Python & Node.js
+venv/
+__pycache__
+node_modules/
 package-lock.json
+.wrangler
+
+# Sphinx
+_build
 
 # Altium Designer 
 History/
@@ -17,4 +21,4 @@ Schematics/__Previews
 __Previews
 *.$$$
 *.PrjPcb.Zip
-*.log
+#*.log
