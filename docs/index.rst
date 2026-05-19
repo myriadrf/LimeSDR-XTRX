@@ -8,7 +8,7 @@ Introduction
    Introduction <self>
    user/index
    reference/index
-   developer
+   developer/index
 
 .. figure:: images/LimeSDR-XTRX_v1.3_iso.jpg
    :alt: LimeSDR XTRX v1.0 board
