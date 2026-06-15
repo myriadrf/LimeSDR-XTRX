@@ -8,6 +8,8 @@ It should usually be possible to program the LimeSDR XTRX board using software o
 To start with download a `pre-compiled programming file`_ in .bin format. Then proceed to use the pure software programming method described below, unless it has been determined that JTAG programming is necessary.
 
 .. note::
+   First, check the GW version using the ``limeDevice --full`` CLI command from Lime Suite NG, see :external+suiteng:ref:`limeDevice <limeDeviceUtilityRef>` for details.
+   
    - If GW version is **<1.13** then  **LimeSDR_XTRX_combined.bin** file and **FPGA/FLASH** programming mode should be used.
    - If GW version is **>1.13** then **LimeSDR_XTRX_user.bin** file and **FPGA/user-image** programming mode should be used. 
    - Other files are for advanced use cases only. 
