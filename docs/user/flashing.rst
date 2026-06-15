@@ -8,7 +8,9 @@ It should usually be possible to program the LimeSDR XTRX board using software o
 To start with download a `pre-compiled programming file`_ in .bin format. Then proceed to use the pure software programming method described below, unless it has been determined that JTAG programming is necessary.
 
 .. note::
-   In most case users should use **LimeSDR_XTRX_user.bin** file and **FPGA/user-image** programming mode, other files are for advanced use cases only.   
+   - If GW version is **<1.13** then  **LimeSDR_XTRX_combined.bin** file and **FPGA/FLASH** programming mode should be used.
+   - If GW version is **>1.13** then **LimeSDR_XTRX_user.bin** file and **FPGA/user-image** programming mode should be used. 
+   - Other files are for advanced use cases only. 
 
 Software Programming
 ********************
@@ -26,8 +28,8 @@ Programming Modes
 Lime Suite NG provides three modes of FPGA flash memory writing:
 
 * **FPGA/user-image**. Writes an image at the user image offset in configuration flash. This is the recommended mode for normal use. Use this mode with a user image, such as **LimeSDR_XTRX_user.bin**
-* **FPGA/gold-image**. Writes an image at the bottom of the configuration flash. This mode is intended for programming the fallback, or gold, image. Use this mode only when you specifically need to update the gold image.
-* **FPGA/FLASH**. In gateware versions 1.13 and newer, this functions like FPGA/user-image, whereas in gateware versions 1.12 and older this functions like FPGA/gold-image.
+* **FPGA/gold-image**. Writes an image at the bottom of the configuration flash. This mode is intended for programming the fallback, or gold, image **LimeSDR_XTRX_golden.bin**. Use this mode only when you specifically need to update the gold image.
+* **FPGA/FLASH**. This mode should be used for older GW versions <1.13 in combination with **LimeSDR_XTRX_combined.bin** file. 
 
 .. note::
    Options FPGA/user-image and FPGA/gold-image are not supported in gateware versions 1.12 and older.
