@@ -13,9 +13,9 @@ USB 2.0 is implemented using the `Microchip USB3333E-GL`_ transceiver. The contr
 * USB_CLK – interface clock. Clock from the transceiver is fed to the Xilinx FPGA.
 * USB_26M – interface clock. Clock from FPGA is fed to the USB transceiver (IC19).
 
-USB 2.0 controller pins, schematic signal names, FPGA interconnections and I/O standards are described in Table 9.
+USB 2.0 controller pins, schematic signal names, FPGA interconnections and I/O standards are described in Table 11.
 
-.. list-table:: Table 9. USB 2.0 controller interface
+.. list-table:: Table 11. USB 2.0 controller interface
    :header-rows: 1
    :stub-columns: 1
 

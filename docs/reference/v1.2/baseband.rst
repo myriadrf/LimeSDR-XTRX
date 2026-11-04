@@ -1,9 +1,9 @@
 Baseband Connectors
 ###################
 
-LMS7002M RF transceiver (IC1) baseband signals (RX ADC and TX DAC) can be accessed via 0.3 mm pitch 15-pin FPC connectors (X13 and X8). TX DAC connector pinout is shown in Table 7. RX ADC connector pinout is shown in Table 8.
+LMS7002M RF transceiver (IC1) baseband signals (RX ADC and TX DAC) can be accessed via 0.3 mm pitch 15-pin FPC connectors (X13 and X8). TX DAC connector pinout is shown in Table 9. RX ADC connector pinout is shown in Table 10.
 
-.. list-table:: Table 7. LMS7002M baseband TX DAC connector (X13)
+.. list-table:: Table 9. LMS7002M baseband TX DAC connector (X13)
    :header-rows: 1
    :stub-columns: 1
 
@@ -56,7 +56,7 @@ LMS7002M RF transceiver (IC1) baseband signals (RX ADC and TX DAC) can be access
      - GND
      - Ground
 
-.. list-table:: Table 8. LMS7002M baseband RX ADC connector (X8)
+.. list-table:: Table 10. LMS7002M baseband RX ADC connector (X8)
    :header-rows: 1
    :stub-columns: 1
 

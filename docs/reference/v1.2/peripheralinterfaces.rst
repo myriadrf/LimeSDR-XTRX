@@ -1,9 +1,9 @@
 Peripheral Interfaces
 #####################
 
-FPGA_SPI pins, schematic signal names, FPGA interconnections and I/O standards/levels are shown in Table 11.
+FPGA_SPI pins, schematic signal names, FPGA interconnections and I/O standards/levels are shown in Table 13.
 
-.. list-table:: Table 11. FPGA_SPI interface pins
+.. list-table:: Table 13. FPGA_SPI interface pins
    :header-rows: 1
 
    * - Schematic signal name
@@ -27,9 +27,9 @@ FPGA_SPI pins, schematic signal names, FPGA interconnections and I/O standards/l
      - 3.3 V
      - LMS7002M (IC1) SPI slave select (FPGA output)
 
-FPGA_CFG_SPI pins, schematic signal names, FPGA interconnections and I/O standards are shown in Table 12.
+FPGA_CFG_SPI pins, schematic signal names, FPGA interconnections and I/O standards are shown in Table 14.
 
-.. list-table:: Table 12. FPGA_CFG_SPI interface pins
+.. list-table:: Table 14. FPGA_CFG_SPI interface pins
    :header-rows: 1
 
    * - Schematic signal name
@@ -61,9 +61,9 @@ FPGA_CFG_SPI pins, schematic signal names, FPGA interconnections and I/O standar
      - 3.3 V
      - 
 
-FPGA_I2C1 (temperature sensor, EEPROM, CLK DAC, switching regulator) and FPGA_I2C2 (switching regulator) interface slave devices and related information are given in Table 13.
+FPGA_I2C1 (temperature sensor, EEPROM, CLK DAC, switching regulator) and FPGA_I2C2 (switching regulator) interface slave devices and related information are given in Table 15.
 
-.. table:: Table 13. FPGA_I2C1 and FPGA_I2C2 interface pins
+.. table:: Table 15. FPGA_I2C1 and FPGA_I2C2 interface pins
 
   +----------------------+---------------------+--------------+------------------+------------------+----------------+
   | **I²C slave device** | **Slave device**    | **Interface**| **I²C address**  | **I/O standard** | **Comment**    |

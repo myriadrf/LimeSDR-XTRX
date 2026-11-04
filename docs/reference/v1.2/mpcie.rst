@@ -3,9 +3,9 @@ mPCIe Connector
 
 LimeSDR XTRX communicates with the host system via the Mini PCIe connector.
 
-The mPCIe connector pinout and signals according to the specification are given in Table 16.
+The mPCIe connector pinout and signals according to the specification are given in Table 18.
 
-.. list-table:: Table 16. Mini PCIe edge connector pinout (PCIe x2)
+.. list-table:: Table 18. Mini PCIe edge connector pinout (PCIe x2)
    :header-rows: 1
    :stub-columns: 1
 

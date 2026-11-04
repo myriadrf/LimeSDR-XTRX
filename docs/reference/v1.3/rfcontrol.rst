@@ -11,12 +11,12 @@ The RF network contains matching networks, RF switches and U.FL connectors (X1, 
 Frequency Range
 ===============
 
-Each LMS7002M RF transceiver TX and RX port is connected to a dedicated RF path, and the appropriate path should be selected according to the operating frequency. On the receive side, the low-band path (RX_L) is recommended for frequencies below 1.5 GHz, the high-band path (RX_H) for frequencies of 2.2 GHz and above, and the wideband path (RX_W) for frequencies in between. On the transmit side, the TX1_2 and TX2_2 paths are recommended for frequencies below 2.6 GHz and the TX1_1 and TX2_1 paths for frequencies of 2.6 GHz and above. The recommended frequency ranges for all ports are summarised in Table 3.
+Each LMS7002M RF transceiver TX and RX port is connected to a dedicated RF path, and the appropriate path should be selected according to the operating frequency. On the receive side, the low-band path (RX_L) is recommended for frequencies below 1.5 GHz, the high-band path (RX_H) for frequencies of 2.2 GHz and above, and the wideband path (RX_W) for frequencies in between. On the transmit side, the TX1_2 and TX2_2 paths are recommended for frequencies below 2.6 GHz and the TX1_1 and TX2_1 paths for frequencies of 2.6 GHz and above. The recommended frequency ranges for all ports are summarised in Table 5.
 
 .. note::
    The recommended frequency ranges are approximate values that cover most use cases, not hard limits of the RF paths. The optimum path may vary depending on other factors, such as the antenna and RF front-end parameters.
 
-.. list-table:: Table 3. LMS7002M RF transceiver ports and recommended frequency ranges
+.. list-table:: Table 5. LMS7002M RF transceiver ports and recommended frequency ranges
    :header-rows: 1
 
    * - RF transceiver port
@@ -35,9 +35,9 @@ Each LMS7002M RF transceiver TX and RX port is connected to a dedicated RF path,
 Control
 =======
 
-The onboard RF switches are controlled by 2.4 V logic signals, derived by resistor dividers from FPGA 3.3 V outputs (TX_SW, RX_SW2, RX_SW3) to the switch control pins (TX_SW_DIV, RX_SW2_DIV, RX_SW3_DIV). RF network control signals are described in Table 4.
+The onboard RF switches are controlled by 2.4 V logic signals, derived by resistor dividers from FPGA 3.3 V outputs (TX_SW, RX_SW2, RX_SW3) to the switch control pins (TX_SW_DIV, RX_SW2_DIV, RX_SW3_DIV). RF network control signals are described in Table 6.
 
-.. table:: Table 4. RF network control signals
+.. table:: Table 6. RF network control signals
 
   +-----------------------------+---------------------------+------------------+--------------+-------------------------------------------------------------+
   | **Component**               | **Schematic signal name** | **I/O standard** | **FPGA pin** | **Description**                                             |
