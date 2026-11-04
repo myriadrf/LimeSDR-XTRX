@@ -5,7 +5,7 @@ The LimeSDR XTRX clock system is based on a high stability 26 MHz VCTCXO (Voltag
 
 The board provides reference clock and 1PPS input and output via Mini PCIe connector, as well as dedicated U.FL connectors for reference clock input/output (X7) and 1PPS input (X6).
 
-.. list-table:: Table 2. Clock Functions
+.. list-table:: Table 3. Clock Functions
    :header-rows: 1
    :stub-columns: 1
 
@@ -29,7 +29,8 @@ The board provides reference clock and 1PPS input and output via Mini PCIe conne
      - 3.3V CMOS
 
 .. note::
-      By default clock connectors (X7) function is an external clock input. It can be changed to a clock output by removing resistor R155 and populating resistor R156 (0-ohm).
+   By default, U.FL connector X7 is an external clock input. To use it as a clock output, remove R57 and fit R56 (0 |Omega|) on v1.2 boards, or remove R155 and fit R156 (0 |Omega|) on v1.3 boards.
+
 .. warning::
    When using external clock references, ensure signal levels and frequencies match specifications. 
    

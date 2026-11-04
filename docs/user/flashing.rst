@@ -5,12 +5,12 @@ From time to time it may be necessary to reprogram the FPGA configuration FLASH 
 
 It should usually be possible to program the LimeSDR XTRX board using software only, with the device connected via the PCIe interface. However, in case of corrupted FLASH memory or other issues, JTAG programming may be required.
 
-To start with download a `pre-compiled programming file`_ in .bin format. Then proceed to use the pure software programming method described below, unless it has been determined that JTAG programming is necessary.
+To start, download a `pre-compiled programming file`_ in .bin format. Then proceed to use the pure software programming method described below, unless it has been determined that JTAG programming is necessary.
 
 .. note::
    First, check the GW version using the ``limeDevice --full`` CLI command from Lime Suite NG, see :external+suiteng:ref:`limeDevice <limeDeviceUtilityRef>` for details.
    
-   - If GW version is **<1.13** then  **LimeSDR_XTRX_combined.bin** file and **FPGA/FLASH** programming mode should be used.
+   - If GW version is **<1.13** then **LimeSDR_XTRX_combined.bin** file and **FPGA/FLASH** programming mode should be used.
    - If GW version is **>1.13** then **LimeSDR_XTRX_user.bin** file and **FPGA/user-image** programming mode should be used. 
    - Other files are for advanced use cases only. 
 
@@ -48,47 +48,47 @@ To program, select the image .bin file you wish to use by pressing Open and init
 .. figure:: /images/FPGA_USER.png
   :width: 600
 
-  Figure 4: FPGA/user-image mode in GUI
+  Figure 4. FPGA/user-image mode in GUI
 
 .. figure:: /images/FPGA_GOLD.png
   :width: 600
 
-  Figure 5: FPGA/gold-image mode in GUI
+  Figure 5. FPGA/gold-image mode in GUI
 
 .. figure:: /images/FPGA_FLASH.png
   :width: 600
 
-  Figure 6: FPGA/FLASH mode in GUI
+  Figure 6. FPGA/FLASH mode in GUI
 
 
 Programming via the CLI
 =======================
 
-Programming can also be achived using the CLI application :code:`limeFLASH` that is built alongside limeGUI.
+Programming can also be achieved using the CLI application :code:`limeFLASH` that is built alongside limeGUI.
 
 For normal use, program the **user** image:
 
 ..  code-block:: shell
     :caption: Programming in FPGA/user-image mode
 
-    limeFlash --device XTRX --target FPGA/user-image path/to/LimeSDR_XTRX_user.bin
+    limeFLASH --device XTRX --target FPGA/user-image path/to/LimeSDR_XTRX_user.bin
 
 The following examples are for advanced use cases only:
 
 ..  code-block:: shell
     :caption: Programming in FPGA/gold-image mode
 
-    limeFlash --device XTRX --target FPGA/gold-image path/to/LimeSDR_XTRX_gold.bin
+    limeFLASH --device XTRX --target FPGA/gold-image path/to/LimeSDR_XTRX_golden.bin
 
 ..  code-block:: shell
     :caption: Programming in FPGA/FLASH mode
 
-    limeFlash --device XTRX --target FPGA/FLASH path/to/image.bin
+    limeFLASH --device XTRX --target FPGA/FLASH path/to/image.bin
 
 .. _pre-compiled programming file: https://github.com/myriadrf/LimeSDR_GW/tree/master/bitstream/LimeSDR_XTRX
 
 .. note::
-   path/to/LimeSDR_XTRX_*.bin should be replaced by the actual path to your chosen .bin file
+   path/to/LimeSDR_XTRX_*.bin should be replaced by the actual path to your chosen .bin file.
 
 
 
