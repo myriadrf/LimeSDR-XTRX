@@ -41,7 +41,7 @@ RF
      - 2 Full-duplex channels
    * - Frequency Range
      - 30 MHz – 3.8 GHz
-     - Non-continuous coverage
+     - Continuous coverage
    * - Bandwidth
      - up to 120 MHz
      - Software configurable

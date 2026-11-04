@@ -40,23 +40,22 @@ RF Connections
 
 .. table:: Table 1. RF Connectors
          
-   +--------------------+----------+--------------+----------+---------------------+
-   | **Connector**      | **Type** | **Function** | **Band** | **Frequency range** |
-   +====================+==========+==============+==========+=====================+
-   | X1 (Ch1), X3 (Ch2) | U.FL     | TX ouptut    | TX low   | 0.03 - 1.9 GHz      |
-   |                    |          |              +----------+---------------------+
-   |                    |          |              | TX high  | 3.3 - 3.8 GHz       |
-   +--------------------+----------+--------------+----------+---------------------+
-   | X2 (Ch1), X4 (Ch2) | U.FL     | RX input     | RX low   | 0.3 - 2.2 GHz       |
-   |                    |          |              +----------+---------------------+
-   |                    |          |              | RX wide  | 0.7 - 2.6 GHz       |
-   |                    |          |              +----------+---------------------+
-   |                    |          |              | RX high  | 3.3 - 3.8 GHz       |
-   +--------------------+----------+--------------+----------+---------------------+
-
+   +--------------------+----------+--------------+----------+-----------------------+
+   | **Connector**      | **Type** | **Function** | **Band** | **Recommended range** |
+   +====================+==========+==============+==========+=======================+
+   | X1 (Ch1), X3 (Ch2) | U.FL     | TX output    | TX low   | Below 2.6 GHz         |
+   |                    |          |              +----------+-----------------------+
+   |                    |          |              | TX high  | 2.6 GHz and above     |
+   +--------------------+----------+--------------+----------+-----------------------+
+   | X2 (Ch1), X4 (Ch2) | U.FL     | RX input     | RX low   | Below 1.5 GHz         |
+   |                    |          |              +----------+-----------------------+
+   |                    |          |              | RX wide  | 1.5 GHz to 2.2 GHz    |
+   |                    |          |              +----------+-----------------------+
+   |                    |          |              | RX high  | 2.2 GHz and above     |
+   +--------------------+----------+--------------+----------+-----------------------+
 
 .. note::
-   TX and RX bands frequency ranges are determined by matching networks. These bands frequency ranges can be changed by replacing their matching networks components.
+   The recommended frequency ranges are approximate values that cover most use cases, not hard limits of the RF paths. The optimum path may vary depending on other factors, such as the antenna and RF front-end parameters.
 
 .. warning::
    Care should be taken when connecting external RF signals to the RX inputs, to ensure that the maximum safe input power of +10 dBm is not exceeded, as this may cause permanent damage to the device.
