@@ -1,26 +1,26 @@
 Overview
 ########
 
-One of the key elements of LimeSDR XTRX board is the Xilinx Artix-7 (`XC7A50T-2CPG236I`_) FPGA, the main function of which is to transfer digital data between the LMS7002M RF transceiver and an attached host via PCIe, or via  connection to another FPGA board. The block diagram for LimeSDR XTRX board is presented in the Figure 3.
+One of the key elements of the LimeSDR XTRX board is the Xilinx Artix-7 (`XC7A50T-2CPG236I`_) FPGA, the main function of which is to transfer digital data between the LMS7002M RF transceiver and an attached host via PCIe, or via a connection to another FPGA board. The block diagram for LimeSDR XTRX board is presented in Figure 3.
 
 .. figure:: /images/LimeSDR-XTRX_v1.3_diagrams_BD.png
   :width: 600
 
-  Figure 3: LimeSDR XTRX v1.3 board block diagram
+  Figure 3. LimeSDR XTRX v1.3 board block diagram
 
-This section contains component location description on the board. LimeSDR XTRX board picture with highlighted connectors and main components are presented in Figure 4 and Figure 5, respectively.
+This section describes the location of components on the board. The top and bottom of the LimeSDR XTRX board, with connectors and main components highlighted, are shown in Figure 4 and Figure 5, respectively.
 
 .. figure:: /images/LimeSDR-XTRX_v1.3_components_top.png
   :width: 600
 
-  Figure 4: LimeSDR XTRX v1.3 board top connectors and main components
+  Figure 4. LimeSDR XTRX v1.3 board top connectors and main components
 
 .. figure:: /images/LimeSDR-XTRX_v1.3_components_bot.png
   :width: 600
 
-  Figure 5: LimeSDR XTRX v1.3 board bottom connectors and main components
+  Figure 5. LimeSDR XTRX v1.3 board bottom connectors and main components
 
-Description of board components is given in the Table 1.
+A description of the board components is given in Table 1.
 
 .. table:: Table 1. Board components
 
@@ -31,9 +31,9 @@ Description of board components is given in the Table 1.
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
   | IC1                 | RF transceiver          | Lime Microsystems LMS7002M                                                     |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
-  | IC7                 | FPGA                    | Xilinx Artix-7(XC7A50T-2CPG236I)                                               |
+  | IC7                 | FPGA                    | Xilinx Artix-7 (XC7A50T-2CPG236I)                                              |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
-  | IC19                | USB 3.0 microcontroller | Microchip USB 2.0 to transceiver chip USB3333E-GL                              |
+  | IC19                | USB 2.0 transceiver     | Microchip USB3333E-GL USB 2.0 ULPI transceiver                                 |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
   | **Miscellaneous devices**                                                                                                      |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
@@ -55,9 +55,9 @@ Description of board components is given in the Table 1.
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
   | **Memory Devices**                                                                                                             |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
-  | IC2                 | IC                      | I²C EEPROM Memory 128Kb (16 x 8), connected to LMS7002M RF transceiver I2C bus |
+  | IC2                 | IC                      | I²C EEPROM 128Kb (16K x 8), LMS7002M RF transceiver I²C bus                    |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
-  | IC13                | IC                      | I²C EEPROM Memory 128Kb (16K x 8), connected to FPGA I2C bus                   |
+  | IC13                | IC                      | I²C EEPROM Memory 128Kb (16K x 8), connected to FPGA I²C bus                   |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
   | IC18                | IC                      | SPI Flash Memory 256 Mb (32M x 8) connected to FPGA SPI                        |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
@@ -71,17 +71,17 @@ Description of board components is given in the Table 1.
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
   | XO1                 | VCTCXO                  | 26.00 MHz Voltage Controlled Temperature Compensated Crystal Oscillator        |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
-  | IC17                | IC                      | 16 bit DAC for VCTCXO (XO1) frequency tuning (default)                         |
+  | IC17                | IC                      | 16-bit DAC for VCTCXO (XO1) frequency tuning (default)                         |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
   | IC11                | IC                      | GNSS Receiver module                                                           |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
   | IC8                 | IC                      | Clock buffer LMK00105                                                          |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
-  | IC15                | IC                      | Analogue switch                                                                |
+  | IC15                | IC                      | Analogue switch 74LVC1G3157FZ4, reference clock source select                  |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
-  | IC20                | IC                      | Analogue switch                                                                |
+  | IC20                | IC                      | Analogue switch PI5A23157, mPCIe SMB_CLK/SMB_DATA routing                      |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
-  | X7                  | U.FL connector          | Reference clock input/output (CLK)                                             |
+  | X7                  | U.FL connector          | Reference clock input (output optional, fit R156)                              |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+
   | X6                  | U.FL connector          | 1PPS input                                                                     |
   +---------------------+-------------------------+--------------------------------------------------------------------------------+

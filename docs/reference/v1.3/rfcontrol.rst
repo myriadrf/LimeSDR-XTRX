@@ -35,16 +35,16 @@ Each LMS7002M RF transceiver TX and RX port is connected to a dedicated RF path,
 Control
 =======
 
-The on-board RF switches are controlled by 2.4 V logic signals, derived by resistor dividers from FPGA 3.3 V outputs (TX_SW, RX_SW2, RX_SW3) to the switch control pins (TX_SW_DIV, RX_SW2_DIV, RX_SW3_DIV). RF network control signals are described in Table 4.
+The onboard RF switches are controlled by 2.4 V logic signals, derived by resistor dividers from FPGA 3.3 V outputs (TX_SW, RX_SW2, RX_SW3) to the switch control pins (TX_SW_DIV, RX_SW2_DIV, RX_SW3_DIV). RF network control signals are described in Table 4.
 
 .. table:: Table 4. RF network control signals
 
-  +-----------------------------+---------------------------+------------------+--------------+-----------------------------------------------------------+
-  | **Component**               | **Schematic signal name** | **I/O standard** | **FPGA pin** | **Description**                                           |
-  +=============================+===========================+==================+==============+===========================================================+
-  | SKY13330-397LF(IC5 and IC6) | TX_SW/TX_SW_DIV           | 3.3V             | P1           | FPGA 3.3V logic level signal divided to 2.4V logic level. |
-  +-----------------------------+---------------------------+------------------+--------------+-----------------------------------------------------------+
-  | SKY13414-485LF(IC3 and IC4) | RX_SW2/RX_SW2_DIV         | 3.3V             | J3           | FPGA 3.3V logic level signal divided to 2.4V logic level. |
-  +                             +---------------------------+------------------+--------------+-----------------------------------------------------------+
-  |                             | RX_SW3/RX_SW3_DIV         | 3.3V             | K3           | FPGA 3.3V logic level signal divided to 2.4V logic level. |
-  +-----------------------------+---------------------------+------------------+--------------+-----------------------------------------------------------+
+  +-----------------------------+---------------------------+------------------+--------------+-------------------------------------------------------------+
+  | **Component**               | **Schematic signal name** | **I/O standard** | **FPGA pin** | **Description**                                             |
+  +=============================+===========================+==================+==============+=============================================================+
+  | SKY13330-397LF(IC5 and IC6) | TX_SW/TX_SW_DIV           | 3.3 V            | P1           | FPGA 3.3 V logic level signal divided to 2.4 V logic level. |
+  +-----------------------------+---------------------------+------------------+--------------+-------------------------------------------------------------+
+  | SKY13414-485LF(IC3 and IC4) | RX_SW2/RX_SW2_DIV         | 3.3 V            | J3           | FPGA 3.3 V logic level signal divided to 2.4 V logic level. |
+  +                             +---------------------------+------------------+--------------+-------------------------------------------------------------+
+  |                             | RX_SW3/RX_SW3_DIV         | 3.3 V            | K3           | FPGA 3.3 V logic level signal divided to 2.4 V logic level. |
+  +-----------------------------+---------------------------+------------------+--------------+-------------------------------------------------------------+

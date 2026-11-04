@@ -6,7 +6,7 @@ Host Interface
 
 LimeSDR XTRX should be plugged into a Mini PCIe slot on the host device. 
 
-The host must provide a PCIe Gen2 x1 or x2 interface, and supply power via the Mini PCIe connector.
+The host must provide a PCIe Gen 2 x1 or x2 interface, and supply power via the Mini PCIe connector.
 
 Typically, LimeSDR XTRX is connected to a PC's PCIe slot via a Mini PCIe adapter, such as the `LimeFEA mPCIe`_.
 
@@ -58,4 +58,4 @@ RF Connections
 .. warning::
    Care should be taken when connecting external RF signals to the RX inputs, to ensure that the maximum safe input power of +10 dBm is not exceeded, as this may cause permanent damage to the device.
 
-.. _LimeFEA mPCIE: https://www.crowdsupply.com/lime-micro/limefea-mpcie-carrier-board
+.. _LimeFEA mPCIe: https://www.crowdsupply.com/lime-micro/limefea-mpcie-carrier-board

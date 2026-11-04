@@ -3,9 +3,9 @@ mPCIe Connector
 
 LimeSDR XTRX communicates with the host system via the Mini PCIe connector.
 
-The mPCIe connector pinout and signals according to the specification is given in Table 16.
+The mPCIe connector pinout and signals according to the specification are given in Table 16.
 
-.. list-table:: Table 16. Mini PCIe x1 edge connector pinout
+.. list-table:: Table 16. Mini PCIe edge connector pinout (PCIe x2)
    :header-rows: 1
    :stub-columns: 1
    :widths: 5 25 30 40
@@ -19,9 +19,9 @@ The mPCIe connector pinout and signals according to the specification is given i
      - NC
      - Not connected
    * - 2
-     - 3.3 Vaux
+     - 3.3Vaux
      - VCC3P3_MPCIE
-     - Main power input 3.3V (VCC3P3_MPCIE)
+     - Main power input 3.3 V (VCC3P3_MPCIE)
    * - 3
      - COEX1
      - 1PPSI_GPIO1(1N)
@@ -35,13 +35,13 @@ The mPCIe connector pinout and signals according to the specification is given i
      - 1PPSO_GPIO2(1P)
      - GPS 1PPS output or GPIO2 or GPIO1P, CMOS 3.3 V
    * - 6
-     - GND
+     - 1.5Volt
      - NC
      - Not connected
    * - 7
      - CLKREQ#
      - CLK_REQUEST#
-     - Tied to GND through resistor 330 Ohm
+     - Tied to GND through a 330 |Omega| resistor
    * - 8
      - UIM PWR
      - UIM_VCC
@@ -56,7 +56,7 @@ The mPCIe connector pinout and signals according to the specification is given i
      - User Identity Module interface data 1.8 V or 3 V
    * - 11
      - REFCLK-
-     - PCI_REF_CLK_N
+     - PCIE_REF_CLK_N
      - PCI Express reference clock differential pair negative signal
    * - 12
      - UIM_CLK
@@ -64,7 +64,7 @@ The mPCIe connector pinout and signals according to the specification is given i
      - User Identity Module interface clock 1.8 V or 3 V
    * - 13
      - REFCLK+
-     - PCI_REF_CLK_P
+     - PCIE_REF_CLK_P
      - PCI Express reference clock differential pair positive signal
    * - 14
      - UIM_RESET
@@ -88,7 +88,7 @@ The mPCIe connector pinout and signals according to the specification is given i
      - Ground
    * - 19
      - Reserved
-     - CLK_IN
+     - PCIE_CLK_IN
      - External clock input 3.3 V
    * - 20
      - W_DISABLE#
@@ -104,7 +104,7 @@ The mPCIe connector pinout and signals according to the specification is given i
      - PCI Express interface reset
    * - 23
      - PERn0
-     - PCI_TX0_N
+     - PCIE_TX0_N
      - PCI Express output differential pair negative signal
    * - 24
      - 3.3Vaux
@@ -112,7 +112,7 @@ The mPCIe connector pinout and signals according to the specification is given i
      - Not connected
    * - 25
      - PERp0
-     - PCI_TX0_P
+     - PCIE_TX0_P
      - PCI Express output differential pair positive signal
    * - 26
      - GND
@@ -133,10 +133,10 @@ The mPCIe connector pinout and signals according to the specification is given i
    * - 30
      - SMB CLK
      - SMB_CLK
-     - Clock output (CLK_OUT)
+     - Clock output (LMK_CLKOUT4) via analogue switch IC20
    * - 31
      - PETn0
-     - PCI_RX0_N
+     - PCIE_RX0_N
      - PCI Express input differential pair negative signal
    * - 32
      - SMB Data
@@ -144,7 +144,7 @@ The mPCIe connector pinout and signals according to the specification is given i
      - GPIO8
    * - 33
      - PETp0
-     - PCI_RX0_P
+     - PCIE_RX0_P
      - PCI Express input differential pair positive signal
    * - 34
      - GND
@@ -168,7 +168,7 @@ The mPCIe connector pinout and signals according to the specification is given i
      - USB 2.0 data differential pair positive signal
    * - 39
      - 3.3Vaux
-     - PCI_TX1_N
+     - PCIE_TX1_N
      - PCI Express output differential pair negative signal
    * - 40
      - GND
@@ -176,7 +176,7 @@ The mPCIe connector pinout and signals according to the specification is given i
      - Ground
    * - 41
      - 3.3Vaux
-     - PCI_TX1_P
+     - PCIE_TX1_P
      - PCI Express output differential pair positive signal
    * - 42
      - LED_WWAN#
@@ -189,7 +189,7 @@ The mPCIe connector pinout and signals according to the specification is given i
    * - 44
      - LED_WLAN#
      - LED_WLAN#_GPIO6
-     - Jumper to GND, connected by default
+     - Output for LED WLAN (negative) or GPIO6, 3.3 V
    * - 45
      - Reserved
      - PCIE_RESERVED
@@ -200,7 +200,7 @@ The mPCIe connector pinout and signals according to the specification is given i
      - Output for LED WPAN (negative) or GPIO7, 3.3 V
    * - 47
      - Reserved
-     - PCI_RX1_N
+     - PCIE_RX1_N
      - PCI Express input differential pair negative signal
    * - 48
      - 1.5Volt
@@ -208,7 +208,7 @@ The mPCIe connector pinout and signals according to the specification is given i
      - Not connected
    * - 49
      - Reserved
-     - PCI_RX1_P
+     - PCIE_RX1_P
      - PCI Express input differential pair positive signal
    * - 50
      - GND
@@ -221,4 +221,4 @@ The mPCIe connector pinout and signals according to the specification is given i
    * - 52
      - 3.3Vaux
      - VCC3P3_MPCIE
-     - Main power input 3.3V (VCC3P3_MPCIE)
+     - Main power input 3.3 V (VCC3P3_MPCIE)
