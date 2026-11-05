@@ -3,9 +3,9 @@ Board Versions
 
 There are currently two production versions of the LimeSDR XTRX board: v1.2 and v1.3. 
 
-v1.2 and v1.3 boards should be treated the same in terms of hardware functionality and software support. The main features added in each new board version are listed in Table 1. For a full list of changes, see the :doc:`/reference/changelog`.
+v1.2 and v1.3 boards are supported by the same software. New hardware features added in each board version are listed in Table 1. For a full list of changes, see the :doc:`/reference/changelog`.
 
-.. list-table:: Table 1. Features added in each board version
+.. list-table:: Table 1. New features in each board version
    :header-rows: 1
    :stub-columns: 1
 
