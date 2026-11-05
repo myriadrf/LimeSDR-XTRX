@@ -12,11 +12,13 @@ v1.2 and v1.3 boards should be treated the same in terms of hardware functionali
    * - Version
      - New features
    * - v1.3
-     - * Dedicated clock buffer (LMK00105) for improved reference clock distribution
-       * Separate reference clocks for the LMS7002M TX and RX PLLs
-       * Option to supply the 3.3 V and clock power rails directly from an external supply, bypassing the switching regulators
+     - Dedicated clock buffer (LMK00105) for improved reference clock distribution.
+
+       Separate reference clocks for the LMS7002M TX and RX PLLs.
+
+       Option to supply the 3.3 V and clock power rails directly from an external supply, bypassing the switching regulators.
    * - v1.2
-     - First production version
+     - First production version.
 
 .. figure:: /images/LimeSDR-XTRX_v1.3_3D_top.png
   :width: 600
