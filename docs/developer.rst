@@ -32,9 +32,9 @@ These projects were developed by Fairwaves for their earlier XTRX board.
 
 * `FPGA image source code`_
 * `Linux PCIe driver`_
-* `libxtrx`_ (high level API)
-* `libxtrxll`_ (low level API)
-* `libxtrxdsp`_ (DSP specific functions for XTRX and SDR in general)
+* `libxtrx`_ (high-level API)
+* `libxtrxll`_ (low-level API)
+* `libxtrxdsp`_ (DSP-specific functions for XTRX and SDR in general)
 
 .. warning::
    Do not attempt to use these projects with LimeSDR XTRX hardware!
